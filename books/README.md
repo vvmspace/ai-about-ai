@@ -14,7 +14,7 @@ A compact map of this repository’s book universe.
 - The **full editions** are canonical: deep narratives, full frameworks, extended drills.
 - The **short editions** are tactical: fast reading, decision-ready checklists, quick refresh.
 - Chapter numbers are aligned (`01..25`) across all four books for frictionless hopping.
-- Every short chapter ends with links to the matching full chapter and the counterpart short chapter in the other language.
+- Short chapters always link to their matching full chapter; Russian short chapters also link to their English short counterparts.
 
 ## Shared group structure (all editions)
 
