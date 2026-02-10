@@ -26,4 +26,4 @@ Let’s make this practical.
 
 ---
 
-Continue in depth: [Full chapter 01](../ai_about_ai/01_prompt_engineering_why_prompts_are_products.md).
+Continue in depth: [Why Prompts Are Products](../ai_about_ai/01_prompt_engineering_why_prompts_are_products.md).

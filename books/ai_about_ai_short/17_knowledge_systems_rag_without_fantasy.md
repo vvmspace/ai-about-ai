@@ -30,4 +30,4 @@ Chunk size should match document semantics.
 
 ---
 
-Continue in depth: [Full chapter 17](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md).
+Continue in depth: [RAG Without Fantasy](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md).

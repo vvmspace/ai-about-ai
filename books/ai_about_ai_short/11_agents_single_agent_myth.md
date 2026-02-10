@@ -26,4 +26,4 @@ You do not need ten agents.
 
 ---
 
-Continue in depth: [Full chapter 11](../ai_about_ai/11_agents_single_agent_myth.md).
+Continue in depth: [Single-Agent Myth](../ai_about_ai/11_agents_single_agent_myth.md).

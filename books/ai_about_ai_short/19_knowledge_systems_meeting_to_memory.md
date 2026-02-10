@@ -29,4 +29,4 @@ Store decisions in a dedicated log, not buried in meeting notes.
 
 ---
 
-Continue in depth: [Full chapter 19](../ai_about_ai/19_knowledge_systems_meeting_to_memory.md).
+Continue in depth: [Meeting to Memory](../ai_about_ai/19_knowledge_systems_meeting_to_memory.md).

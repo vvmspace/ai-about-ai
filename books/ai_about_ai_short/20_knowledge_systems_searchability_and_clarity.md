@@ -34,4 +34,4 @@ Mandatory metadata for operational docs:
 
 ---
 
-Continue in depth: [Full chapter 20](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md).
+Continue in depth: [Searchability and Clarity](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md).

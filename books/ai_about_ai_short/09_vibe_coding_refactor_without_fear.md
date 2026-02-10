@@ -27,4 +27,4 @@ Weak prompt:
 
 ---
 
-Continue in depth: [Full chapter 09](../ai_about_ai/09_vibe_coding_refactor_without_fear.md).
+Continue in depth: [Refactor Without Fear](../ai_about_ai/09_vibe_coding_refactor_without_fear.md).

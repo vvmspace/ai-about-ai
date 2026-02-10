@@ -23,4 +23,4 @@ For recurring workflows, create a reusable context packet with:
 
 ---
 
-Continue in depth: [Full chapter 02](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md).
+Continue in depth: [Context Is the New Currency](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md).

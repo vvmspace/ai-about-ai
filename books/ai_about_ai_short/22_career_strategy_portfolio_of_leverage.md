@@ -29,4 +29,4 @@ Prefer concrete operational metrics:
 
 ---
 
-Continue in depth: [Full chapter 22](../ai_about_ai/22_career_strategy_portfolio_of_leverage.md).
+Continue in depth: [Portfolio of Leverage](../ai_about_ai/22_career_strategy_portfolio_of_leverage.md).

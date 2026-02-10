@@ -32,4 +32,4 @@ Free-form text is human-friendly but machine-ambiguous.
 
 ---
 
-Continue in depth: [Full chapter 12](../ai_about_ai/12_agents_multi_agent_workflows.md).
+Continue in depth: [Multi-Agent Workflows](../ai_about_ai/12_agents_multi_agent_workflows.md).

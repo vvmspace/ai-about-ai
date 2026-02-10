@@ -26,4 +26,4 @@ Conflicts everywhere.
 
 ---
 
-Continue in depth: [Full chapter 03](../ai_about_ai/03_prompt_engineering_instruction_stacks.md).
+Continue in depth: [Instruction Stacks](../ai_about_ai/03_prompt_engineering_instruction_stacks.md).

@@ -26,4 +26,4 @@ For high-risk outputs (legal, financial, health, policy):
 
 ---
 
-Continue in depth: [Full chapter 24](../ai_about_ai/24_career_strategy_ethics_and_trust.md).
+Continue in depth: [Ethics and Trust](../ai_about_ai/24_career_strategy_ethics_and_trust.md).

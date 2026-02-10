@@ -29,4 +29,4 @@ After each example, add short reviewer notes:
 
 ---
 
-Continue in depth: [Full chapter 04](../ai_about_ai/04_prompt_engineering_few_shot_patterns.md).
+Continue in depth: [Few-Shot Patterns](../ai_about_ai/04_prompt_engineering_few_shot_patterns.md).

@@ -30,4 +30,4 @@ A weak README says what the app is.
 
 ---
 
-Continue in depth: [Full chapter 06](../ai_about_ai/06_vibe_coding_from_idea_to_repo.md).
+Continue in depth: [From Idea to Repo](../ai_about_ai/06_vibe_coding_from_idea_to_repo.md).

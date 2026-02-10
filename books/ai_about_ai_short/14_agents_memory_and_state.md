@@ -31,4 +31,4 @@ Define checkpoints at fixed intervals or stage transitions.
 
 ---
 
-Continue in depth: [Full chapter 14](../ai_about_ai/14_agents_memory_and_state.md).
+Continue in depth: [Memory and State](../ai_about_ai/14_agents_memory_and_state.md).

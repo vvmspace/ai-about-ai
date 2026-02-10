@@ -30,4 +30,4 @@ High-performing teams track *why bad happened*.
 
 ---
 
-Continue in depth: [Full chapter 05](../ai_about_ai/05_prompt_engineering_evaluation_loops.md).
+Continue in depth: [Evaluation Loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md).

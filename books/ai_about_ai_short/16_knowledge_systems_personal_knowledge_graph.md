@@ -29,4 +29,4 @@ Start simple.
 
 ---
 
-Continue in depth: [Full chapter 16](../ai_about_ai/16_knowledge_systems_personal_knowledge_graph.md).
+Continue in depth: [Personal Knowledge Graph](../ai_about_ai/16_knowledge_systems_personal_knowledge_graph.md).
