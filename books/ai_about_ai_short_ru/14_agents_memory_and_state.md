@@ -30,5 +30,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 14](../ai_about_ai_ru/14_agents_memory_and_state.md).
-Короткая английская версия: [EN short chapter 14](../ai_about_ai_short/14_agents_memory_and_state.md).
+[Память и состояние AI-агентов](../ai_about_ai_ru/14_agents_memory_and_state.md) | [Memory and State](../ai_about_ai_short/14_agents_memory_and_state.md) |

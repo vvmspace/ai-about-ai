@@ -33,5 +33,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 10](../ai_about_ai_ru/10_vibe_coding_ship_small_daily.md).
-Короткая английская версия: [EN short chapter 10](../ai_about_ai_short/10_vibe_coding_ship_small_daily.md).
+[Ежедневные маленькие релизы](../ai_about_ai_ru/10_vibe_coding_ship_small_daily.md) | [Ship Small Daily](../ai_about_ai_short/10_vibe_coding_ship_small_daily.md) |

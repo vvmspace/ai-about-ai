@@ -27,5 +27,4 @@ retrieval деградирует, автоматизация фрагменти�
 
 ---
 
-Читать полную главу: [Полная глава 18](../ai_about_ai_ru/18_knowledge_systems_document_design.md).
-Короткая английская версия: [EN short chapter 18](../ai_about_ai_short/18_knowledge_systems_document_design.md).
+[Дизайн документов для ИИ](../ai_about_ai_ru/18_knowledge_systems_document_design.md) | [Document Design](../ai_about_ai_short/18_knowledge_systems_document_design.md) |

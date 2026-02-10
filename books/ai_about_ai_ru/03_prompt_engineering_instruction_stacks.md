@@ -30,7 +30,7 @@
 
 ## System prompt vs user prompt: практический разбор
 
-Когда ищут «<u>system prompt и user prompt</u>», обычно спрашивают: что куда класть?
+Когда ищут «***system prompt и user prompt***», обычно спрашивают: что куда класть?
 
 Простой принцип:
 

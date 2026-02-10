@@ -26,5 +26,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 08](../ai_about_ai_ru/08_vibe_coding_debugging_with_models.md).
-Короткая английская версия: [EN short chapter 08](../ai_about_ai_short/08_vibe_coding_debugging_with_models.md).
+[Дебаг с помощью ИИ-моделей](../ai_about_ai_ru/08_vibe_coding_debugging_with_models.md) | [Debugging with Models](../ai_about_ai_short/08_vibe_coding_debugging_with_models.md) |

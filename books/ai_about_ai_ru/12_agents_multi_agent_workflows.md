@@ -134,7 +134,7 @@ intake -> vendor research -> proposal summary -> recommendation.
 - кто отвечает за качество источников,
 - кто ведёт аудит инцидентов.
 
-Без этого orchestration уходит в «<u>племенное знание</u>».
+Без этого orchestration уходит в «***племенное знание***».
 
 ## Ключевая мысль
 

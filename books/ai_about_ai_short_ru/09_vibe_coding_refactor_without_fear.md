@@ -27,5 +27,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 09](../ai_about_ai_ru/09_vibe_coding_refactor_without_fear.md).
-Короткая английская версия: [EN short chapter 09](../ai_about_ai_short/09_vibe_coding_refactor_without_fear.md).
+[Безопасный рефакторинг с ИИ](../ai_about_ai_ru/09_vibe_coding_refactor_without_fear.md) | [Refactor Without Fear](../ai_about_ai_short/09_vibe_coding_refactor_without_fear.md) |

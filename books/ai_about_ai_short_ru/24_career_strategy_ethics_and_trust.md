@@ -27,5 +27,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 24](../ai_about_ai_ru/24_career_strategy_ethics_and_trust.md).
-Короткая английская версия: [EN short chapter 24](../ai_about_ai_short/24_career_strategy_ethics_and_trust.md).
+[Этика и доверие в работе с ИИ](../ai_about_ai_ru/24_career_strategy_ethics_and_trust.md) | [Ethics and Trust](../ai_about_ai_short/24_career_strategy_ethics_and_trust.md) |

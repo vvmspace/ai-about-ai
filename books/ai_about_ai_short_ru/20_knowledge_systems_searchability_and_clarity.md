@@ -34,5 +34,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 20](../ai_about_ai_ru/20_knowledge_systems_searchability_and_clarity.md).
-Короткая английская версия: [EN short chapter 20](../ai_about_ai_short/20_knowledge_systems_searchability_and_clarity.md).
+[Поисковая ясность и структура знаний](../ai_about_ai_ru/20_knowledge_systems_searchability_and_clarity.md) | [Searchability and Clarity](../ai_about_ai_short/20_knowledge_systems_searchability_and_clarity.md) |

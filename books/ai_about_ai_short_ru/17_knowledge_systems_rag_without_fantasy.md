@@ -30,5 +30,4 @@ RAG помогает привязать ответы к источникам,
 
 ---
 
-Читать полную главу: [Полная глава 17](../ai_about_ai_ru/17_knowledge_systems_rag_without_fantasy.md).
-Короткая английская версия: [EN short chapter 17](../ai_about_ai_short/17_knowledge_systems_rag_without_fantasy.md).
+[Практичный RAG без фантазий](../ai_about_ai_ru/17_knowledge_systems_rag_without_fantasy.md) | [RAG Without Fantasy](../ai_about_ai_short/17_knowledge_systems_rag_without_fantasy.md) |

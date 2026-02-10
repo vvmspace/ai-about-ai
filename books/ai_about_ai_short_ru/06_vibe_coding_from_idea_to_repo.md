@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 06](../ai_about_ai_ru/06_vibe_coding_from_idea_to_repo.md).
-Короткая английская версия: [EN short chapter 06](../ai_about_ai_short/06_vibe_coding_from_idea_to_repo.md).
+[От идеи до репозитория с ИИ](../ai_about_ai_ru/06_vibe_coding_from_idea_to_repo.md) | [From Idea to Repo](../ai_about_ai_short/06_vibe_coding_from_idea_to_repo.md) |

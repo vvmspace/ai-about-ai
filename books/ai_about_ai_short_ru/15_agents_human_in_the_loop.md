@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 15](../ai_about_ai_ru/15_agents_human_in_the_loop.md).
-Короткая английская версия: [EN short chapter 15](../ai_about_ai_short/15_agents_human_in_the_loop.md).
+[Human-in-the-loop в AI-системах](../ai_about_ai_ru/15_agents_human_in_the_loop.md) | [Human in the Loop](../ai_about_ai_short/15_agents_human_in_the_loop.md) |

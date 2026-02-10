@@ -23,5 +23,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 02](../ai_about_ai_ru/02_prompt_engineering_context_is_the_new_currency.md).
-Короткая английская версия: [EN short chapter 02](../ai_about_ai_short/02_prompt_engineering_context_is_the_new_currency.md).
+[Контекст — новая валюта prompt engineering](../ai_about_ai_ru/02_prompt_engineering_context_is_the_new_currency.md) | [Context Is the New Currency](../ai_about_ai_short/02_prompt_engineering_context_is_the_new_currency.md) |

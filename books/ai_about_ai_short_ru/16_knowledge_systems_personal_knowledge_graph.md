@@ -30,5 +30,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 16](../ai_about_ai_ru/16_knowledge_systems_personal_knowledge_graph.md).
-Короткая английская версия: [EN short chapter 16](../ai_about_ai_short/16_knowledge_systems_personal_knowledge_graph.md).
+[Персональный граф знаний](../ai_about_ai_ru/16_knowledge_systems_personal_knowledge_graph.md) | [Personal Knowledge Graph](../ai_about_ai_short/16_knowledge_systems_personal_knowledge_graph.md) |
