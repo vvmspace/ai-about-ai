@@ -1,5 +1,10 @@
 # Few-Shot Patterns That Actually Transfer
 
+<<<<<<< HEAD
+=======
+Search keyword: **prompt engineering few shot patterns**
+
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Examples are where tacit knowledge becomes operational.
 
 Everyone says “add examples.”
@@ -46,7 +51,11 @@ These micro-notes often improve consistency more than adding five extra examples
 
 ## Few-shot for fuzzy tasks
 
+<<<<<<< HEAD
 **Few-shot** patterns are especially valuable for tasks where quality is subjective:
+=======
+Few-shot patterns are especially valuable for tasks where quality is subjective:
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 - tone-sensitive communication,
 - nuanced classification,

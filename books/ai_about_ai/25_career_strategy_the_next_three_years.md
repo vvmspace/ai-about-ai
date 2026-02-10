@@ -1,5 +1,10 @@
 # Your Next Three Years
 
+<<<<<<< HEAD
+=======
+Search keyword: **career strategy the next three years**
+
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Three years is enough time to change your professional trajectory,
 and short enough to waste by drifting.
 

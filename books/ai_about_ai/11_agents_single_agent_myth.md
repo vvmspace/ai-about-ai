@@ -1,5 +1,10 @@
 # The Myth of the Single Agent
 
+<<<<<<< HEAD
+=======
+Search keyword: **agents single agent myth**
+
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Every era has a favourite fantasy.
 
 In early software, it was “one platform to solve everything.”

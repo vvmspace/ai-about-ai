@@ -1,5 +1,10 @@
 # AI-Native Skills for 2026
 
+<<<<<<< HEAD
+=======
+Search keyword: **career strategy ai native skills**
+
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 There is a polite myth still circulating in professional circles:
 
 > “I use AI sometimes, so I’m future-ready.”
@@ -8,7 +13,11 @@ That statement is now equivalent to saying,
 “I use spreadsheets sometimes, so I understand finance.”
 
 In 2026, occasional usage is not a competitive advantage.
+<<<<<<< HEAD
 **AI-native** execution is.
+=======
+AI-native execution is.
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 ## The real divide
 

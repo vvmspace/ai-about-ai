@@ -1,5 +1,10 @@
 # From Vibe to Repository in One Evening
 
+<<<<<<< HEAD
+=======
+Search keyword: **vibe coding from idea to repo**
+
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 There is a romantic lie that kills more good products than bad code ever could:
 
 > “I’ll start properly when I have the full architecture figured out.”
@@ -8,7 +13,11 @@ No, you won’t.
 You’ll over-design a future nobody has validated.
 Then momentum dies, confidence declines, and the idea joins a museum of almosts.
 
+<<<<<<< HEAD
 **Vibe** coding, when done well, is not chaos. It is disciplined speed.
+=======
+Vibe coding, when done well, is not chaos. It is disciplined speed.
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 It is the art of converting energy into evidence before doubt arrives.
 
 ## The real objective of one-evening builds
