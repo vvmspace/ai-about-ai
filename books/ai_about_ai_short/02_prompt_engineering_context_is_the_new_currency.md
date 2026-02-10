@@ -1,25 +1,54 @@
 # Context Is the New Currency
 
-If you remember one thing from this chapter, let it be this.
+If output quality is low, the root cause is usually context, not model IQ.
 
-## Why teams misdiagnose AI quality
+Teams often ask, “Should we switch models?”
+A better question is, “What critical information did we fail to provide?”
 
-When an answer feels generic, the default reaction is to blame intelligence.
+## The four-layer context architecture
 
-## Context architecture: four layers that matter
+Strong teams structure context in layers:
 
-Great teams design context in layers, not dumps.
+1. **Mission context** — business objective of the task.
+2. **Domain context** — definitions, policies, non-negotiable facts.
+3. **Situational context** — this specific case, customer, exception, deadline.
+4. **Quality context** — rubric, examples, known failure patterns.
 
-## “Context window strategy” is not about cramming
+Without layer 4, teams reward eloquence instead of usefulness.
 
-Many people searching “AI context window strategy” or “how to provide context to ChatGPT” assume bigger context equals better quality.
+## Bigger context windows are not the strategy
+
+More tokens do not guarantee better output.
+What works is **relevant, prioritised, contradiction-free context**.
+Signal beats volume.
 
 ## The context packet pattern
 
-For recurring workflows, create a reusable context packet with the essentials below.
+For recurring workflows, create a reusable packet:
 
-- Objective in one sentence
+- One-line objective
 - Mandatory constraints
+- Preferred/forbidden terminology
+- 2–3 strong examples
+- 1–2 failure examples with reasons
+- Freshness note
+- Escalation rule for ambiguity
+
+## Common anti-patterns
+
+- Pasting entire docs “just in case”
+- Outdated policies left in packets
+- Conflicting instructions with no source priority
+- No owner for context maintenance
+
+## Practical rollout
+
+Assign a context owner per workflow and run a monthly cleanup:
+remove stale content, resolve conflicts, refresh examples, log changes.
+
+The key idea:
+
+**In AI systems, context quality is execution quality.**
 
 ---
 

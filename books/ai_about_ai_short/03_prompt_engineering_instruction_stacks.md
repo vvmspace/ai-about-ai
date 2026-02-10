@@ -1,28 +1,55 @@
 # Instruction Stacks That Don’t Collapse
 
-Most failed prompts do not fail because they are too short.
+Most prompts fail because instruction hierarchy is unclear, not because prompts are short.
 
-## Think like an architect, not a copywriter
+When hard rules, style preferences, and output requirements are mixed together, models produce unstable results.
 
-Prompt writing in professional settings is architecture.
+## Build prompts as ordered stacks
 
-## System vs user instruction design
+A reliable stack has five layers:
 
-Teams searching “system prompt vs user prompt” usually ask the same practical question:
+1. **Role and objective**
+2. **Hard constraints** (legal/compliance/technical)
+3. **Process requirements**
+4. **Output contract** (explicit schema)
+5. **Style guidance**
 
-- **System level**: stable rules and non-negotiable policies.
-- **User level**: task-specific variables and changing details.
+If style appears above constraints, risk increases immediately.
 
-## The conflict line that saves money
+## System vs user responsibilities
 
-Add this behaviour explicitly.
+- **System level**: stable policies and non-negotiable rules.
+- **User level**: case-specific inputs and changing details.
 
-## Example: brittle stack vs stable stack
+This separation prevents accidental policy overwrite.
 
-Conflicts everywhere.
+## The conflict line you should always include
 
-- Objective: produce executive risk summary for internal leadership.
-- Must: include top 3 material risks and evidence.
+Add explicit behaviour for uncertainty:
+
+> If constraints conflict or required data is missing, explain the conflict and request clarification.
+
+Without this, models often invent confident answers.
+
+## Common anti-patterns
+
+- “Instruction soup” in one paragraph
+- Critical rules hidden in narrative text
+- “Try to” used where “must” is required
+- No explicit output format
+
+## Fast review checklist
+
+Before shipping, confirm:
+
+- Constraints are explicit and prioritised
+- Output schema is unambiguous
+- Conflict handling is defined
+- Pass/fail can be evaluated objectively
+
+The key idea:
+
+**A prompt without hierarchy is a policy without governance.**
 
 ---
 

@@ -1,28 +1,56 @@
 # Why Prompts Are Products
 
-You can spot the old world in one sentence.
+The old approach sounds like this: “just send me a quick prompt.”
+That mindset creates fragile results.
 
-## The expensive illusion
+A throwaway prompt is text.
+A product prompt is an operational asset with owner, version, tests, and rollback.
 
-Early AI adoption gave everyone a dopamine rush: type a question, receive an answer, feel productive.
+## What changed in 2026
 
-## Prompt engineering in 2026: what actually changed
+Teams no longer want lucky outputs; they need predictable outcomes under pressure.
+For high-impact workflows, prompts need five elements:
 
-Search demand says it plainly: people ask for “best prompt engineering techniques 2026” and “how to write better AI **prompts**” because they no longer want lucky outputs.
+- **Task contract** (what, for whom, why)
+- **Input schema** (required fields and format)
+- **Constraint layer** (legal, brand, technical boundaries)
+- **Quality rubric** (pass/fail criteria)
+- **Fallback behaviour** (what to do with missing/conflicting context)
 
-- **Task contract**: what must be produced, for whom, and why.
-- **Input schema**: exactly which fields are required and what format they use.
+## Why this matters in practice
 
-## A field story from a very normal Friday
+Most incidents are not “model failures.”
+They are process failures: untracked edits, no ownership, no release discipline.
+A small prompt tweak can create legal or reputational risk if constraints are removed.
 
-A B2B support team rolled out a new AI assistant for customer emails.
-
-## The anatomy of a prompt product
-
-Let’s make this practical.
+## Prompt Product Card (minimum)
 
 - Name and owner
-- Business workflow it supports
+- Workflow supported
+- Inputs and validation
+- Non-negotiable constraints
+- Output format example
+- Rubric thresholds
+- Known failure modes
+- Version + rollback version
+
+## Common anti-patterns
+
+1. **Hero prompting**: one person holds “magic prompts.”
+2. **Polishing without measurement**: style debates, no outcome metrics.
+3. **Prompt sprawl**: many similar versions, no single source of truth.
+4. **No failure language**: model is not told how to respond under uncertainty.
+
+## A better operating rhythm
+
+- Review top failures weekly.
+- Ship one targeted prompt change at a time.
+- Re-test against real cases.
+- Keep only changes that improve rubric scores.
+
+The key idea:
+
+**Prompting is not copywriting. It is workflow engineering.**
 
 ---
 
