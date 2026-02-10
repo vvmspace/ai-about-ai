@@ -1,32 +1,59 @@
 # Evaluation Loops Beat Clever Prompts
 
-The AI world has a favourite hobby: composing beautiful prompts.
+Prompt edits without evaluation are mostly guesswork.
 
-## The central mistake
+The core mistake: teams optimise wording before they optimise measurement.
 
-Teams optimise text before they optimise measurement.
+## What an evaluation loop is
 
-- “Can we make this prompt smarter?”
-- “Can we detect failure reliably, quickly, and cheaply?”
+A practical weekly cycle:
 
-## What an evaluation loop actually is
+1. Define a small rubric (3–5 criteria)
+2. Sample real production-like tasks
+3. Score outputs consistently
+4. Tag failure categories
+5. Ship one targeted change
+6. Re-score and compare against baseline
 
-A practical evaluation loop is not heavy research machinery; it is an operating routine.
+Repeat.
 
-## Rubrics that map to business outcomes
+## Rubrics must map to business impact
 
-A good rubric includes both output quality and business consequence.
+Beyond text quality, include operational risk:
 
 - factual accuracy,
 - policy compliance,
+- decision clarity,
+- escalation correctness (if applicable).
 
-## Failure taxonomy: your secret weapon
+## Track why failures happen
 
-Most teams track “good vs bad.”
-High-performing teams track *why bad happened*.
+“Good vs bad” is too coarse.
+Use a failure taxonomy, e.g.:
 
 - missing context,
 - ambiguous instruction,
+- stale source,
+- schema violation,
+- hallucinated claim,
+- tone mismatch.
+
+Once causes are visible, fixes become surgical.
+
+## Common anti-patterns
+
+- “Looks good to me” scoring
+- No historical baseline
+- Many edits shipped at once
+- Testing only easy cases
+
+## 7-day sprint template
+
+Day 1 rubric → Day 2 sample set → Day 3 scoring → Day 4 pick top failure → Day 5 one fix → Day 6 re-test → Day 7 keep/revert.
+
+The key idea:
+
+**Prompting creates possibilities; evaluation creates reliability.**
 
 ---
 
