@@ -1,6 +1,6 @@
 # Why Prompts Are Products
 
-You can spot the old world in one sentence:
+You can spot the old world in one sentence.
 
 ## The expensive illusion
 

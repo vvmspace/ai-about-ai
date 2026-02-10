@@ -1,6 +1,6 @@
 # Context Is the New Currency
 
-If you remember one thing from this chapter, let it be this:
+If you remember one thing from this chapter, let it be this.
 
 ## Why teams misdiagnose AI quality
 
@@ -16,7 +16,7 @@ Many people searching “AI context window strategy” or “how to provide cont
 
 ## The context packet pattern
 
-For recurring workflows, create a reusable context packet with:
+For recurring workflows, create a reusable context packet with the essentials below.
 
 - Objective in one sentence
 - Mandatory constraints

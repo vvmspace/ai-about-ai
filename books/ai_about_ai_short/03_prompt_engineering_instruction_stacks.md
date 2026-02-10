@@ -15,7 +15,7 @@ Teams searching “system prompt vs user prompt” usually ask the same practica
 
 ## The conflict line that saves money
 
-Add this behaviour explicitly:
+Add this behaviour explicitly.
 
 ## Example: brittle stack vs stable stack
 

@@ -4,14 +4,14 @@ Examples are where tacit knowledge becomes operational.
 
 ## Why few-shot prompting often disappoints
 
-A common pattern:
+A common pattern appears in teams that overfit examples.
 
 - team adds two polished examples,
 - model behaves well in rehearsed cases,
 
 ## The boundary-teaching framework
 
-Use at least three example types:
+Use at least three example types.
 
 ## Reviewer notes are force multipliers
 
