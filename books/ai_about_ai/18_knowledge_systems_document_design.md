@@ -1,10 +1,5 @@
 # Write Documents AI Can Actually Use
 
-<<<<<<< HEAD
-=======
-Search keyword: **knowledge systems document design**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 A document can be well written for humans and still be unusable for AI workflows.
 
 That is the uncomfortable reality many teams discover too late.

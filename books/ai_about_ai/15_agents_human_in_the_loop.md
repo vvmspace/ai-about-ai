@@ -1,10 +1,5 @@
 # Human-in-the-Loop as a Superpower
 
-<<<<<<< HEAD
-=======
-Search keyword: **agents human in the loop**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 In immature AI discussions, human oversight is framed as a temporary crutch.
 
 In mature AI operations, human oversight is designed as a strategic control surface.
@@ -54,11 +49,7 @@ When triggers are pre-defined, teams respond faster and with less drama.
 
 ## Oversight data is training data
 
-<<<<<<< HEAD
 **Human-in-the-loop** is not only a safety measure.
-=======
-Human-in-the-loop is not only a safety measure.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 It is also a learning system.
 
 Each human correction can feed:

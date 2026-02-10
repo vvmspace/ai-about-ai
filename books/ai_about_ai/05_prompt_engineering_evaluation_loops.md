@@ -1,20 +1,11 @@
 # Evaluation Loops Beat Clever Prompts
 
-<<<<<<< HEAD
-=======
-Search keyword: **prompt engineering evaluation loops**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 The AI world has a favourite hobby: composing beautiful prompts.
 
 Useful, yes.
 Sufficient, no.
 
-<<<<<<< HEAD
 Without **evaluation**, prompt improvement is mostly theatre.
-=======
-Without evaluation, prompt improvement is mostly theatre.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 You are not engineering outcomes.
 You are curating impressions.

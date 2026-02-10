@@ -1,14 +1,7 @@
 # Trust, Ethics, and Professional Gravity
 
-<<<<<<< HEAD
 Speed gets attention.
 **Trust** gets responsibility.
-=======
-Search keyword: **career strategy ethics and trust**
-
-Speed gets attention.
-Trust gets responsibility.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 In AI-enabled work,
 many professionals optimise the first and underestimate the second.

@@ -1,10 +1,5 @@
 # Searchability Is a Leadership Skill
 
-<<<<<<< HEAD
-=======
-Search keyword: **knowledge systems searchability and clarity**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 When teams cannot find trusted information quickly,
 they do not have a search problem.
 They have a leadership systems problem.
@@ -78,11 +73,7 @@ Run monthly:
 4. taxonomy cleanup,
 5. owner reassignment for orphaned docs.
 
-<<<<<<< HEAD
 **Searchability** decays unless actively governed.
-=======
-Searchability decays unless actively governed.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 ## Field example: enterprise onboarding delays
 

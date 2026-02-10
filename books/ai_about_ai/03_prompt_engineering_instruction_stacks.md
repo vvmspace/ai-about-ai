@@ -1,10 +1,5 @@
 # Instruction Stacks That Don’t Collapse
 
-<<<<<<< HEAD
-=======
-Search keyword: **prompt engineering instruction stacks**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Most failed prompts do not fail because they are too short.
 They fail because they are structurally confused.
 
@@ -19,11 +14,7 @@ It did not ignore them. It encountered a tangled hierarchy.
 ## Think like an architect, not a copywriter
 
 Prompt writing in professional settings is architecture.
-<<<<<<< HEAD
 Your goal is to build an **instruction** stack that remains stable when input gets messy.
-=======
-Your goal is to build an instruction stack that remains stable when input gets messy.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 A robust stack typically follows this order:
 
