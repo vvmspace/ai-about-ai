@@ -1,5 +1,7 @@
 # From Vibe to Repository in One Evening
 
+Search keyword: **vibe coding from idea to repo**
+
 There is a romantic lie that kills more good products than bad code ever could:
 
 > “I’ll start properly when I have the full architecture figured out.”

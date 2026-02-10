@@ -1,5 +1,7 @@
 # Debugging with Models, Not Against Them
 
+Search keyword: **vibe coding debugging with models**
+
 Debugging has always been a psychological game disguised as a technical one.
 
 The stack trace looks hostile.

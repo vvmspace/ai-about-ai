@@ -1,5 +1,7 @@
 # Refactor Without Fear
 
+Search keyword: **vibe coding refactor without fear**
+
 Fear in refactoring is rarely irrational.
 It is usually memory.
 

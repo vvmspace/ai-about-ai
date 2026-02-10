@@ -1,5 +1,7 @@
 # Evaluation Loops Beat Clever Prompts
 
+Search keyword: **prompt engineering evaluation loops**
+
 The AI world has a favourite hobby: composing beautiful prompts.
 
 Useful, yes.

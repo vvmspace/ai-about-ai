@@ -1,5 +1,7 @@
 # Human-in-the-Loop as a Superpower
 
+Search keyword: **agents human in the loop**
+
 In immature AI discussions, human oversight is framed as a temporary crutch.
 
 In mature AI operations, human oversight is designed as a strategic control surface.

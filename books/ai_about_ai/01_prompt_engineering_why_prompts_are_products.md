@@ -1,5 +1,7 @@
 # Why Prompts Are Products
 
+Search keyword: **prompt engineering why prompts are products**
+
 You can spot the old world in one sentence:
 
 > “Can you just throw me a prompt for this?”

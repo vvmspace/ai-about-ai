@@ -1,5 +1,7 @@
 # Tools, Permissions, and Safe Autonomy
 
+Search keyword: **agents tools permissions safety**
+
 The moment an agent can do something in the world,
 it stops being a chat interface and becomes an operational actor.
 

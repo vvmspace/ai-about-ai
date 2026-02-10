@@ -1,5 +1,7 @@
 # Personal Brand with AI, Not Hype
 
+Search keyword: **career strategy personal brand with ai**
+
 Personal brand used to be treated as self-promotion.
 In 2026, the useful version is different:
 

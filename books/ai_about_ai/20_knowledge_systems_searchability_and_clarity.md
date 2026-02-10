@@ -1,5 +1,7 @@
 # Searchability Is a Leadership Skill
 
+Search keyword: **knowledge systems searchability and clarity**
+
 When teams cannot find trusted information quickly,
 they do not have a search problem.
 They have a leadership systems problem.

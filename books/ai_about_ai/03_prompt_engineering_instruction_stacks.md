@@ -1,5 +1,7 @@
 # Instruction Stacks That Don’t Collapse
 
+Search keyword: **prompt engineering instruction stacks**
+
 Most failed prompts do not fail because they are too short.
 They fail because they are structurally confused.
 

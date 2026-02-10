@@ -1,5 +1,7 @@
 # From Meetings to Machine Memory
 
+Search keyword: **knowledge systems meeting to memory**
+
 Meetings are expensive twice:
 
 - once in calendar time,

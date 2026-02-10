@@ -1,5 +1,7 @@
 # Memory, State, and Long Tasks
 
+Search keyword: **agents memory and state**
+
 Most agent systems do not fail long-running tasks because models are “not smart enough.”
 They fail because memory is treated like a bucket.
 

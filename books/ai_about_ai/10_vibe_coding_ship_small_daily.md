@@ -1,5 +1,7 @@
 # Ship Small, Daily, and Public
 
+Search keyword: **vibe coding ship small daily**
+
 Most people overestimate what they can ship in one heroic weekend,
 and underestimate what they can build in 90 focused minutes every day.
 

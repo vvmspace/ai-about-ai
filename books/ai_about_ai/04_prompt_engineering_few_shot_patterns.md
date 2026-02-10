@@ -1,5 +1,7 @@
 # Few-Shot Patterns That Actually Transfer
 
+Search keyword: **prompt engineering few shot patterns**
+
 Examples are where tacit knowledge becomes operational.
 
 Everyone says “add examples.”

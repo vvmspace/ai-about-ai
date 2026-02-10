@@ -1,5 +1,7 @@
 # Build a Portfolio of Leverage
 
+Search keyword: **career strategy portfolio of leverage**
+
 A traditional CV answers one question:
 
 “What did you do?”

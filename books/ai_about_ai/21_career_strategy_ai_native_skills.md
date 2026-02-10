@@ -1,5 +1,7 @@
 # AI-Native Skills for 2026
 
+Search keyword: **career strategy ai native skills**
+
 There is a polite myth still circulating in professional circles:
 
 > “I use AI sometimes, so I’m future-ready.”

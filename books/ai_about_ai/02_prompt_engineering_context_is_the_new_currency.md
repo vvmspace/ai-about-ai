@@ -1,5 +1,7 @@
 # Context Is the New Currency
 
+Search keyword: **prompt engineering context is the new currency**
+
 If you remember one thing from this chapter, let it be this:
 
 **Bad output is usually a context failure, not a model failure.**

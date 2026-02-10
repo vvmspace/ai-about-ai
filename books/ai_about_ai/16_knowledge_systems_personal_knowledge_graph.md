@@ -1,5 +1,7 @@
 # Build Your Personal Knowledge Graph
 
+Search keyword: **knowledge systems personal knowledge graph**
+
 Most professionals have a note problem disguised as a productivity system.
 
 Thousands of notes.

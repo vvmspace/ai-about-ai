@@ -1,5 +1,7 @@
 # How to Treat AI Like a Pair Programmer
 
+Search keyword: **vibe coding ai pair programmer**
+
 Most disappointing AI coding sessions begin with a category error.
 
 People open a chat and unconsciously assign one of two roles:

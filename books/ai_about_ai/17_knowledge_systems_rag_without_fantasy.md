@@ -1,5 +1,7 @@
 # RAG Without Fantasy
 
+Search keyword: **knowledge systems rag without fantasy**
+
 RAG has been marketed as magic for years:
 
 “Connect your documents and get perfect answers.”

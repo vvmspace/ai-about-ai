@@ -1,5 +1,7 @@
 # Trust, Ethics, and Professional Gravity
 
+Search keyword: **career strategy ethics and trust**
+
 Speed gets attention.
 Trust gets responsibility.
 
