@@ -26,4 +26,4 @@ Weak: “Implement user auth.”
 
 ---
 
-Continue in depth: [Full chapter 07](../ai_about_ai/07_vibe_coding_ai_pair_programmer.md).
+Continue in depth: [AI Pair Programmer](../ai_about_ai/07_vibe_coding_ai_pair_programmer.md).

@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 22](../ai_about_ai_ru/22_career_strategy_portfolio_of_leverage.md).
-Короткая английская версия: [EN short chapter 22](../ai_about_ai_short/22_career_strategy_portfolio_of_leverage.md).
+[Портфель рычагов с ИИ](../ai_about_ai_ru/22_career_strategy_portfolio_of_leverage.md) | [Portfolio of Leverage](../ai_about_ai_short/22_career_strategy_portfolio_of_leverage.md) |

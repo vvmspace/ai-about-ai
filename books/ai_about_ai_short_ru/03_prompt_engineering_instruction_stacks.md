@@ -26,5 +26,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 03](../ai_about_ai_ru/03_prompt_engineering_instruction_stacks.md).
-Короткая английская версия: [EN short chapter 03](../ai_about_ai_short/03_prompt_engineering_instruction_stacks.md).
+[Стек инструкций для ИИ](../ai_about_ai_ru/03_prompt_engineering_instruction_stacks.md) | [Instruction Stacks](../ai_about_ai_short/03_prompt_engineering_instruction_stacks.md) |

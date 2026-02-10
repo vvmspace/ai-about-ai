@@ -27,5 +27,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 21](../ai_about_ai_ru/21_career_strategy_ai_native_skills.md).
-Короткая английская версия: [EN short chapter 21](../ai_about_ai_short/21_career_strategy_ai_native_skills.md).
+[AI-native навыки в карьере](../ai_about_ai_ru/21_career_strategy_ai_native_skills.md) | [AI-Native Skills](../ai_about_ai_short/21_career_strategy_ai_native_skills.md) |

@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 05](../ai_about_ai_ru/05_prompt_engineering_evaluation_loops.md).
-Короткая английская версия: [EN short chapter 05](../ai_about_ai_short/05_prompt_engineering_evaluation_loops.md).
+[Циклы оценки качества LLM](../ai_about_ai_ru/05_prompt_engineering_evaluation_loops.md) | [Evaluation Loops](../ai_about_ai_short/05_prompt_engineering_evaluation_loops.md) |

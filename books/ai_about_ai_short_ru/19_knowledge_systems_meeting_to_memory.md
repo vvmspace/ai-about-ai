@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 19](../ai_about_ai_ru/19_knowledge_systems_meeting_to_memory.md).
-Короткая английская версия: [EN short chapter 19](../ai_about_ai_short/19_knowledge_systems_meeting_to_memory.md).
+[От встречи к рабочей памяти](../ai_about_ai_ru/19_knowledge_systems_meeting_to_memory.md) | [Meeting to Memory](../ai_about_ai_short/19_knowledge_systems_meeting_to_memory.md) |

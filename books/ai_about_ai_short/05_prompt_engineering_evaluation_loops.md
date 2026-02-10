@@ -11,7 +11,7 @@ Teams optimise text before they optimise measurement.
 
 ## What an evaluation loop actually is
 
-A practical evaluation loop is not heavy research machinery.
+A practical evaluation loop is not heavy research machinery; it is an operating routine.
 
 ## Rubrics that map to business outcomes
 
@@ -30,4 +30,4 @@ High-performing teams track *why bad happened*.
 
 ---
 
-Continue in depth: [Full chapter 05](../ai_about_ai/05_prompt_engineering_evaluation_loops.md).
+Continue in depth: [Evaluation Loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md).

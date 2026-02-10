@@ -30,4 +30,4 @@ Run a simple cadence:
 
 ---
 
-Continue in depth: [Full chapter 23](../ai_about_ai/23_career_strategy_personal_brand_with_ai.md).
+Continue in depth: [Personal Brand with AI](../ai_about_ai/23_career_strategy_personal_brand_with_ai.md).

@@ -27,4 +27,4 @@ Track indicators that reflect compounding ability:
 
 ---
 
-Continue in depth: [Full chapter 25](../ai_about_ai/25_career_strategy_the_next_three_years.md).
+Continue in depth: [The Next Three Years](../ai_about_ai/25_career_strategy_the_next_three_years.md).

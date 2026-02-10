@@ -26,5 +26,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 01](../ai_about_ai_ru/01_prompt_engineering_why_prompts_are_products.md).
-Короткая английская версия: [EN short chapter 01](../ai_about_ai_short/01_prompt_engineering_why_prompts_are_products.md).
+[Почему промпты — это продукт](../ai_about_ai_ru/01_prompt_engineering_why_prompts_are_products.md) | [Why Prompts Are Products](../ai_about_ai_short/01_prompt_engineering_why_prompts_are_products.md) |

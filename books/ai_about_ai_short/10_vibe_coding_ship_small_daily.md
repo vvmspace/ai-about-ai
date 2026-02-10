@@ -33,4 +33,4 @@ Many people avoid publishing because output feels incomplete.
 
 ---
 
-Continue in depth: [Full chapter 10](../ai_about_ai/10_vibe_coding_ship_small_daily.md).
+Continue in depth: [Ship Small Daily](../ai_about_ai/10_vibe_coding_ship_small_daily.md).

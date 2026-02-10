@@ -27,4 +27,4 @@ Weak framing:
 
 ---
 
-Continue in depth: [Full chapter 21](../ai_about_ai/21_career_strategy_ai_native_skills.md).
+Continue in depth: [AI-Native Skills](../ai_about_ai/21_career_strategy_ai_native_skills.md).

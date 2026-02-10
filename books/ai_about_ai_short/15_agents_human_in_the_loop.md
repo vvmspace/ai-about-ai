@@ -29,4 +29,4 @@ Examples of explicit triggers:
 
 ---
 
-Continue in depth: [Full chapter 15](../ai_about_ai/15_agents_human_in_the_loop.md).
+Continue in depth: [Human in the Loop](../ai_about_ai/15_agents_human_in_the_loop.md).

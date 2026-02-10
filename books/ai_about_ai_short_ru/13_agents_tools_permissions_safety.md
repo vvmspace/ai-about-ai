@@ -30,5 +30,4 @@ Least privilege любят цитировать, но редко внедряю�
 
 ---
 
-Читать полную главу: [Полная глава 13](../ai_about_ai_ru/13_agents_tools_permissions_safety.md).
-Короткая английская версия: [EN short chapter 13](../ai_about_ai_short/13_agents_tools_permissions_safety.md).
+[Инструменты, права и безопасность агентов](../ai_about_ai_ru/13_agents_tools_permissions_safety.md) | [Tools, Permissions, Safety](../ai_about_ai_short/13_agents_tools_permissions_safety.md) |

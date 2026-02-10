@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 23](../ai_about_ai_ru/23_career_strategy_personal_brand_with_ai.md).
-Короткая английская версия: [EN short chapter 23](../ai_about_ai_short/23_career_strategy_personal_brand_with_ai.md).
+[Личный бренд с помощью ИИ](../ai_about_ai_ru/23_career_strategy_personal_brand_with_ai.md) | [Personal Brand with AI](../ai_about_ai_short/23_career_strategy_personal_brand_with_ai.md) |

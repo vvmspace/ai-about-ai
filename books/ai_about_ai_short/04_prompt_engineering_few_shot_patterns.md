@@ -4,14 +4,14 @@ Examples are where tacit knowledge becomes operational.
 
 ## Why few-shot prompting often disappoints
 
-A common pattern:
+A common pattern appears in teams that overfit examples.
 
 - team adds two polished examples,
 - model behaves well in rehearsed cases,
 
 ## The boundary-teaching framework
 
-Use at least three example types:
+Use at least three example types.
 
 ## Reviewer notes are force multipliers
 
@@ -29,4 +29,4 @@ After each example, add short reviewer notes:
 
 ---
 
-Continue in depth: [Full chapter 04](../ai_about_ai/04_prompt_engineering_few_shot_patterns.md).
+Continue in depth: [Few-Shot Patterns](../ai_about_ai/04_prompt_engineering_few_shot_patterns.md).

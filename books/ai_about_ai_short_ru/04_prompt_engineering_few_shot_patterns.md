@@ -29,5 +29,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 04](../ai_about_ai_ru/04_prompt_engineering_few_shot_patterns.md).
-Короткая английская версия: [EN short chapter 04](../ai_about_ai_short/04_prompt_engineering_few_shot_patterns.md).
+[Few-shot паттерны и in-context learning](../ai_about_ai_ru/04_prompt_engineering_few_shot_patterns.md) | [Few-Shot Patterns](../ai_about_ai_short/04_prompt_engineering_few_shot_patterns.md) |

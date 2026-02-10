@@ -26,5 +26,4 @@ Single-agent архитектура кажется простой: меньше 
 
 ---
 
-Читать полную главу: [Полная глава 11](../ai_about_ai_ru/11_agents_single_agent_myth.md).
-Короткая английская версия: [EN short chapter 11](../ai_about_ai_short/11_agents_single_agent_myth.md).
+[Миф об одном AI-агенте](../ai_about_ai_ru/11_agents_single_agent_myth.md) | [Single-Agent Myth](../ai_about_ai_short/11_agents_single_agent_myth.md) |

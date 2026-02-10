@@ -1,10 +1,5 @@
 # Tools, Permissions, and Safe Autonomy
 
-<<<<<<< HEAD
-=======
-Search keyword: **agents tools permissions safety**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 The moment an agent can do something in the world,
 it stops being a chat interface and becomes an operational actor.
 
@@ -67,11 +62,7 @@ If logs are mutable, trust is impossible.
 
 ## Common high-risk tool classes
 
-<<<<<<< HEAD
 - email/send-message **tools**,
-=======
-- email/send-message tools,
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 - payment or billing APIs,
 - database write access,
 - filesystem mutation,

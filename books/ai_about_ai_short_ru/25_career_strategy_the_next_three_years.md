@@ -27,5 +27,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 25](../ai_about_ai_ru/25_career_strategy_the_next_three_years.md).
-Короткая английская версия: [EN short chapter 25](../ai_about_ai_short/25_career_strategy_the_next_three_years.md).
+[Стратегия карьеры на 3 года](../ai_about_ai_ru/25_career_strategy_the_next_three_years.md) | [The Next Three Years](../ai_about_ai_short/25_career_strategy_the_next_three_years.md) |

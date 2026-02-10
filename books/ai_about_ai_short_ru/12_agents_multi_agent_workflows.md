@@ -31,5 +31,4 @@ Multi-agent система — не «несколько чатов».
 
 ---
 
-Читать полную главу: [Полная глава 12](../ai_about_ai_ru/12_agents_multi_agent_workflows.md).
-Короткая английская версия: [EN short chapter 12](../ai_about_ai_short/12_agents_multi_agent_workflows.md).
+[Многоагентные workflow](../ai_about_ai_ru/12_agents_multi_agent_workflows.md) | [Multi-Agent Workflows](../ai_about_ai_short/12_agents_multi_agent_workflows.md) |

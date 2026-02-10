@@ -26,4 +26,4 @@ Prompt pattern that works:
 
 ---
 
-Continue in depth: [Full chapter 08](../ai_about_ai/08_vibe_coding_debugging_with_models.md).
+Continue in depth: [Debugging with Models](../ai_about_ai/08_vibe_coding_debugging_with_models.md).

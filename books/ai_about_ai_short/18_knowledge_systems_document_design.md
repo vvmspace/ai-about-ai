@@ -27,4 +27,4 @@ Many documents describe process but hide decision logic in paragraphs.
 
 ---
 
-Continue in depth: [Full chapter 18](../ai_about_ai/18_knowledge_systems_document_design.md).
+Continue in depth: [Document Design](../ai_about_ai/18_knowledge_systems_document_design.md).

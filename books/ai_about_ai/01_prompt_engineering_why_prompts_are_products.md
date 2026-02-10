@@ -1,10 +1,5 @@
 # Why Prompts Are Products
 
-<<<<<<< HEAD
-=======
-Search keyword: **prompt engineering why prompts are products**
-
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 You can spot the old world in one sentence:
 
 > “Can you just throw me a prompt for this?”
@@ -29,11 +24,7 @@ If that sounds suspiciously like software discipline, excellent. You are beginni
 
 ## Prompt engineering in 2026: what actually changed
 
-<<<<<<< HEAD
 Search demand says it plainly: people ask for “best prompt engineering techniques 2026” and “how to write better AI **prompts**” because they no longer want lucky outputs. They want predictable outcomes under pressure.
-=======
-Search demand says it plainly: people ask for “best prompt engineering techniques 2026” and “how to write better AI prompts” because they no longer want lucky outputs. They want predictable outcomes under pressure.
->>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 The shift is from creativity-first to reliability-first.
 

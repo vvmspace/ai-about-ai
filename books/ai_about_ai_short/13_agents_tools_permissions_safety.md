@@ -30,4 +30,4 @@ Every tool call should log:
 
 ---
 
-Continue in depth: [Full chapter 13](../ai_about_ai/13_agents_tools_permissions_safety.md).
+Continue in depth: [Tools, Permissions, Safety](../ai_about_ai/13_agents_tools_permissions_safety.md).

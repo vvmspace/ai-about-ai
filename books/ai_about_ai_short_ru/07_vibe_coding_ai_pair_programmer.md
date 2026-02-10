@@ -26,5 +26,4 @@
 
 ---
 
-Читать полную главу: [Полная глава 07](../ai_about_ai_ru/07_vibe_coding_ai_pair_programmer.md).
-Короткая английская версия: [EN short chapter 07](../ai_about_ai_short/07_vibe_coding_ai_pair_programmer.md).
+[ИИ как парный программист](../ai_about_ai_ru/07_vibe_coding_ai_pair_programmer.md) | [AI Pair Programmer](../ai_about_ai_short/07_vibe_coding_ai_pair_programmer.md) |
