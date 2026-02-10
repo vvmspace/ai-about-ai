@@ -1,7 +1,10 @@
 # Build a Portfolio of Leverage
 
+<<<<<<< HEAD
+=======
 Search keyword: **career strategy portfolio of leverage**
 
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 A traditional CV answers one question:
 
 “What did you do?”
@@ -42,7 +45,11 @@ People trust reflective operators more than flawless storytellers.
 
 ## Portfolio categories that signal AI-native value
 
+<<<<<<< HEAD
+**Build** diverse evidence across categories:
+=======
 Build diverse evidence across categories:
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 - prompt system with evaluation logs,
 - automation workflow reducing repetitive effort,

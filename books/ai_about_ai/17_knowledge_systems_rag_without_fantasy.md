@@ -1,7 +1,10 @@
 # RAG Without Fantasy
 
+<<<<<<< HEAD
+=======
 Search keyword: **knowledge systems rag without fantasy**
 
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 RAG has been marketed as magic for years:
 
 “Connect your documents and get perfect answers.”

@@ -1,8 +1,12 @@
 # Debugging with Models, Not Against Them
 
+<<<<<<< HEAD
+**Debugging** has always been a psychological game disguised as a technical one.
+=======
 Search keyword: **vibe coding debugging with models**
 
 Debugging has always been a psychological game disguised as a technical one.
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 The stack trace looks hostile.
 The deadline looks personal.

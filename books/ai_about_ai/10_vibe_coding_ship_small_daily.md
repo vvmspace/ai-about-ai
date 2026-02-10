@@ -1,8 +1,12 @@
 # Ship Small, Daily, and Public
 
+<<<<<<< HEAD
+Most people overestimate what they can **ship** in one heroic weekend,
+=======
 Search keyword: **vibe coding ship small daily**
 
 Most people overestimate what they can ship in one heroic weekend,
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 and underestimate what they can build in 90 focused minutes every day.
 
 The difference is not talent.

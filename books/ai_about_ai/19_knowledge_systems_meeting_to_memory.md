@@ -1,8 +1,12 @@
 # From Meetings to Machine Memory
 
+<<<<<<< HEAD
+**Meetings** are expensive twice:
+=======
 Search keyword: **knowledge systems meeting to memory**
 
 Meetings are expensive twice:
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 - once in calendar time,
 - once when decisions evaporate afterwards.

@@ -1,7 +1,10 @@
 # Refactor Without Fear
 
+<<<<<<< HEAD
+=======
 Search keyword: **vibe coding refactor without fear**
 
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Fear in refactoring is rarely irrational.
 It is usually memory.
 
@@ -16,7 +19,11 @@ Refactoring with AI in 2026 offers a way out—if you treat it as controlled ris
 
 ## Refactor goals must be explicit
 
+<<<<<<< HEAD
+A dangerous **refactor** starts with vague intent:
+=======
 A dangerous refactor starts with vague intent:
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 
 “Let’s clean this up.”
 

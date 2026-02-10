@@ -1,7 +1,10 @@
 # Designing Multi-Agent Workflows
 
+<<<<<<< HEAD
+=======
 Search keyword: **agents multi agent workflows**
 
+>>>>>>> a7227369ce6b294db51167685317b0179637a8d9
 Most multi-agent projects fail in the same way:
 not because models are weak,
 but because handoffs are vague.
