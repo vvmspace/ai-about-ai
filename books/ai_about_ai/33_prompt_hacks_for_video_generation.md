@@ -1,29 +1,32 @@
 # Prompt Hacks for Video Generation
 
-Video prompts fail for one boring reason:
-people describe images,
-not motion.
+Video prompting fails for a simple reason:
+people describe a still image,
+then hope motion appears by magic.
 
-Motion is the product.
-Everything else is support.
+It will not.
+In **AI video generation**,
+motion is the product.
+Everything else supports it.
 
-## The motion-first template
+## Apply a motion-first template
 
-Structure your prompt as:
+Use this order when writing prompts:
 
 1. scene and subject,
 2. action over time,
 3. camera movement,
 4. mood and lighting,
 5. duration and pacing,
-6. quality and negatives.
+6. quality constraints and negatives.
 
 If action is vague,
-video becomes animated wallpaper.
+you get animated wallpaper,
+not a usable clip.
 
-## Write with timeline verbs
+## Write timeline verbs, not static adjectives
 
-Use verbs tied to sequence:
+Sequence verbs create choreography:
 
 - enters,
 - pauses,
@@ -32,18 +35,19 @@ Use verbs tied to sequence:
 - exits.
 
 Example:
-“Close shot of barista pouring latte art,
+“Close shot of a barista pouring latte art,
 camera slowly dollies in,
 steam rises then catches warm side light,
 barista looks up and smiles at second 4,
 background crowd remains soft bokeh,
 6 seconds, cinematic realism.”
 
-Now the model has choreography.
+Now the model has timing,
+not just aesthetics.
 
-## Camera language that works
+## Keep camera language singular and clear
 
-Add one clear camera directive, not five:
+Use one dominant camera directive:
 
 - slow push-in,
 - locked tripod,
@@ -51,35 +55,38 @@ Add one clear camera directive, not five:
 - aerial reveal,
 - lateral tracking shot.
 
-Conflicting camera instructions create jitter and incoherence.
+Multiple competing directives create jitter and incoherence.
 
-## Continuity safeguards
+## Protect continuity on purpose
 
 To reduce flicker and identity drift:
 
-- keep wardrobe/props explicit,
-- limit scene transitions,
-- maintain one lighting setup,
-- avoid unnecessary object count.
+- keep wardrobe and props explicit,
+- minimise scene transitions,
+- hold one lighting setup,
+- cap object count,
+- avoid unnecessary background chaos.
 
-Complexity is seductive.
-Consistency pays.
+Complexity feels impressive.
+Continuity converts.
 
-## Style and tempo control
+## Control style through tempo cues
 
-Specify tempo words:
+Add tempo words with intent:
 
 - deliberate,
 - urgent,
 - dreamy,
-- staccato cuts,
+- staccato,
 - smooth cinematic flow.
 
-Then pair with shot length and frame rate guidance when supported.
+Pair tempo with shot length and frame-rate guidance where supported.
+That combination gives the model rhythm.
 
-## Negative prompt essentials
+## Use tight, high-value negatives
 
-For video, high-value negatives include:
+For video,
+these negatives usually matter most:
 
 - warped limbs,
 - face morphing,
@@ -87,21 +94,25 @@ For video, high-value negatives include:
 - random text overlays,
 - abrupt exposure shifts.
 
-Keep your negative block tight and relevant.
+Keep the negative block short and relevant.
+Overloaded negatives can destabilise style.
 
-## Production loop for usable clips
+## Production loop for deliverable clips
 
-- Generate 6–10 micro-variants.
-- Select top 2 by motion coherence.
-- Upscale or extend only finalists.
-- Edit with captions/music externally.
+A practical workflow:
 
-Generation is not the final product.
-Packaging is where value appears.
+- generate 6–10 micro-variants,
+- shortlist top 2 for motion coherence,
+- upscale or extend finalists only,
+- finish with captions/music externally.
 
-## Quick monetisation angles
+Generation is draft creation.
+Packaging is product value.
 
-Sell outcomes, not raw clips:
+## Monetisation angles that stay realistic
+
+Sell outcomes,
+not raw generations:
 
 - short-form ad creatives,
 - social reel packs,
@@ -111,10 +122,11 @@ Sell outcomes, not raw clips:
 Clients buy conversion potential,
 not your prompt archive.
 
-## The core idea
+## Direction takeaway
 
-Video prompting is direction under constraints.
+Strong **video prompts** read like production direction under constraints.
 
 Think in movement.
-Edit for purpose.
-Ship for business impact.
+Edit with purpose.
+Ship clips tied to business goals,
+not to novelty.
