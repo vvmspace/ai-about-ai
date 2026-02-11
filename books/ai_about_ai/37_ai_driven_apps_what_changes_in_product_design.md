@@ -4,19 +4,21 @@ Most products add AI as a feature.
 Strong products become AI-native in behaviour.
 
 That shift is subtle.
-And commercially decisive.
+Commercially, it is decisive.
 
-## From static flows to probabilistic flows
+## Deterministic UX is no longer enough
 
-Classic apps assume deterministic paths:
+Classic apps assume stable paths:
 click button -> get expected result.
 
 AI-driven apps are different:
-input quality varies,
-output quality varies,
-user intent is partially hidden.
 
-So product design must include:
+- input quality varies,
+- output quality varies,
+- user intent is partly hidden,
+- confidence changes by context.
+
+So product design needs:
 
 - confidence-aware UI,
 - verification steps,
@@ -27,7 +29,7 @@ your support queue will explain the mistake.
 
 ## The new product loop
 
-AI-driven apps live on this loop:
+AI-native products live on this loop:
 
 1. user intent capture,
 2. generation,
@@ -35,25 +37,25 @@ AI-driven apps live on this loop:
 4. user correction,
 5. memory update.
 
-The app improves through interaction,
+The product improves through interaction,
 not only through release cycles.
 
-## Interfaces need “uncertainty ergonomics”
+## Interfaces need uncertainty ergonomics
 
-Let’s be clear:
-certainty theatre kills trust.
+Certainty theatre kills trust.
 
 Your interface should expose:
 
 - confidence hints,
 - source visibility,
-- “why this output” short rationale,
-- one-click correction path.
+- short “why this output” rationale,
+- one-click correction path,
+- a safe regenerate option with constraint controls.
 
 Users forgive imperfection.
 They do not forgive opaque confidence.
 
-## Value moves to orchestration
+## Where the moat actually moves
 
 In many categories, raw model capability is commoditising.
 Sustainable differentiation comes from:
@@ -64,9 +66,8 @@ Sustainable differentiation comes from:
 - feedback loops,
 - domain-specific guardrails.
 
-In other words:
-your moat is not the model.
-It is the system around it.
+Your moat is rarely the model itself.
+It is the surrounding system.
 
 ## Common failure pattern
 
@@ -76,7 +77,8 @@ Symptoms:
 
 - low week-2 retention,
 - inconsistent output quality,
-- no clear user habit formed.
+- no clear user habit,
+- high manual correction burden.
 
 Reason:
 no task-specific scaffolding.
@@ -84,16 +86,17 @@ No outcome architecture.
 
 ## Practical build sequence
 
-For a new AI-driven feature:
+For a new **AI product design** feature:
 
 - define one high-frequency user pain,
 - narrow to one repeatable output format,
-- add one correction action users can do in under 10 seconds,
-- track acceptance rate and rewrite rate.
+- add one correction action users can complete in under 10 seconds,
+- track acceptance rate and rewrite rate,
+- add a visible fallback path when generation fails.
 
-Do this before building broad capability.
+Do this before broad capability expansion.
 
-## Metrics that actually matter
+## Metrics that predict real usefulness
 
 Do not obsess over session length.
 Track:
@@ -101,11 +104,24 @@ Track:
 - output acceptance rate,
 - correction-to-success ratio,
 - time-to-useful-result,
-- repeat usage in 7 days.
+- repeat usage in 7 days,
+- trust recovery rate after bad outputs.
 
-These are leading signals of product usefulness.
+These are leading indicators of durable value.
 
-## The core idea
+## Implementation note for teams
+
+Split ownership explicitly:
+
+- product owns task definition and success metrics,
+- design owns transparency and correction UX,
+- engineering owns reliability and observability,
+- applied AI owns prompt/model evaluation.
+
+If ownership is vague,
+quality drifts and blame spreads.
+
+For continuation, pair this chapter with [User Engagement Mechanics in AI-Driven Apps](./38_user_engagement_mechanics_in_ai_driven_apps.md) and [Skills as Reusable Capability Units](./39_skills_as_reusable_capability_units.md).
 
 AI-driven apps are not “apps with AI tabs.”
 They are adaptive systems with human correction built in.

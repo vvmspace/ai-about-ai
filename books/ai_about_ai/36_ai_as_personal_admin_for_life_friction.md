@@ -7,7 +7,7 @@ removing tiny recurring frictions that drain your week.
 Not glamorous.
 Wildly effective.
 
-## The hidden pain
+## The real drain is coordination overhead
 
 You lose energy to admin fog:
 
@@ -20,13 +20,13 @@ You lose energy to admin fog:
 Each item is small.
 Together they tax attention all day.
 
-## The simple model: AI as an admin operator
+## The operating model: AI as admin operator
 
 Give AI one role:
 
 "Turn messy errands into clear, low-friction action lists."
 
-Then feed it raw inputs:
+Then feed raw inputs:
 
 - screenshots,
 - email snippets,
@@ -34,6 +34,7 @@ Then feed it raw inputs:
 - voice transcripts.
 
 Ask for outputs in a fixed format.
+Consistency is the superpower.
 
 ## Output format that actually helps
 
@@ -64,13 +65,13 @@ Just decisive structure.
 
 ## High-impact use cases
 
-- visa/travel prep,
+- visa or travel prep,
 - medical appointment coordination,
 - tax or invoice chasing,
-- moving house logistics,
+- moving-house logistics,
 - event planning with multiple dependencies.
 
-These are perfect AI tasks:
+These are ideal **AI productivity** tasks:
 high coordination,
 low creativity,
 high cognitive drag.
@@ -82,27 +83,45 @@ Once per week:
 - dump all loose tasks into AI,
 - get one ranked plan,
 - send two pre-drafted messages immediately,
-- calendar-block the top three actions.
+- calendar-block the top three actions,
+- archive completed items into one reference note.
 
-This single ritual can remove background anxiety fast.
+This single ritual removes background anxiety quickly.
 
-## Boundaries (important)
+## Friction score: a simple metric
+
+For each task, rate friction from 1 to 5.
+
+- 1 = easy, no avoidance,
+- 5 = repeatedly postponed.
+
+Ask AI to prioritise all 4–5 tasks first.
+Then split each into actions under 10 minutes.
+
+Completion speed goes up because resistance goes down.
+
+## Boundaries that protect you
 
 AI can organise.
-It should not make legal/medical/financial decisions for you.
+It should not make legal, medical, or financial decisions for you.
 
 Use it to structure options,
 then apply human judgement.
 
+For privacy:
+
+- remove sensitive IDs before pasting,
+- avoid full medical history unless required,
+- store critical documents in your own system.
+
 Calm tool.
 Human accountability.
 
-## The core idea
+For a broader stack of practical AI workflows, see [Top MCP Servers for Everyday Life](./41_top_mcp_servers_for_everyday_life.md).
 
 The unobvious superpower is not “AI thinks for me.”
 It is “AI clears the admin noise so I can think.”
 
-Here’s what’s going to happen when you use it this way:
-less cognitive clutter,
-faster follow-through,
-and fewer life tasks leaking into work focus.
+Less cognitive clutter.
+Faster follow-through.
+Fewer life tasks leaking into work focus.
