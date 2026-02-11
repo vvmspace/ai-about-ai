@@ -1,121 +1,184 @@
 # Top MCP Servers for Development Work
 
-For developers, MCP value is straightforward:
-less context switching,
-more reliable execution.
+A surprising number of engineering teams do not have a coding problem.
+They have a coordination problem.
 
-The best servers reduce cycle time on common bottlenecks.
+Developers had already known how to build features.
+What slowed delivery was the invisible tax:
+searching,
+switching tabs,
+chasing logs,
+and guessing which source of truth was still valid.
 
-## How to evaluate development MCPs
+That is where **MCP servers** earn their keep.
+A good server cuts decision latency.
+A bad one adds polished confusion.
 
-Use four filters:
+If you are choosing an **MCP stack for developers**,
+keep it brutally practical.
 
-- workflow frequency,
-- integration depth,
-- failure transparency,
-- security posture.
+## A tight evaluation lens for engineering teams
+
+Use four filters before you integrate anything:
+
+- frequency: does this remove a daily bottleneck,
+- depth: does it connect to real systems, not toy endpoints,
+- transparency: can you inspect why it answered the way it did,
+- security: can you enforce least privilege without heroics.
 
 If a server is clever but opaque,
-skip it.
+leave it alone.
+Reliability beats novelty.
 
 ## 1) Repository intelligence MCP
 
 Pain solved:
-slow codebase orientation.
+slow orientation in unfamiliar codebases.
 
-Core capabilities:
+Useful capabilities:
 
-- semantic code search,
-- dependency path lookup,
-- change-impact summaries.
+- semantic code search across modules,
+- dependency and ownership traces,
+- change-impact summaries before edits.
 
-Why it matters:
-new tasks start faster,
-reviews become more grounded.
+Why this matters:
+
+- onboarding accelerates,
+- code review quality rises,
+- refactors become less reckless.
+
+A decent benchmark:
+new contributors should find the right file in minutes, not hours.
 
 ## 2) CI/CD observability MCP
 
 Pain solved:
-build failures with scattered diagnostics.
+pipeline failures with fragmented diagnostics.
 
-Core capabilities:
+Useful capabilities:
 
-- aggregate pipeline logs,
-- classify failure patterns,
-- propose likely fix paths.
+- unified build and deploy logs,
+- failure clustering by pattern,
+- probable fix paths with confidence scoring.
 
-Why it matters:
-shorter mean time to recovery.
+Why this matters:
+mean time to recovery drops,
+and incident handoffs become cleaner.
+
+This is one of the fastest wins in real teams.
 
 ## 3) Incident and runbook MCP
 
 Pain solved:
-incident response relying on memory.
+response quality depending on who is currently awake.
 
-Core capabilities:
+Useful capabilities:
 
-- pull relevant runbooks by signal,
-- checklist generation,
-- postmortem draft with timeline.
+- context-aware runbook retrieval,
+- live checklist generation from current signals,
+- post-incident timeline drafts.
 
-Why it matters:
-calmer response under pressure.
+Why this matters:
+pressure stays lower,
+and responders follow procedure instead of memory.
+
+Calm systems outperform heroic systems.
 
 ## 4) API contract MCP
 
 Pain solved:
-drift between docs, code, and clients.
+spec drift between docs, services, and clients.
 
-Core capabilities:
+Useful capabilities:
 
-- compare OpenAPI/spec versions,
-- detect breaking changes,
-- generate migration notes.
+- OpenAPI diff and break detection,
+- release-note generation focused on migration,
+- compatibility alerts by consumer.
 
-Why it matters:
-fewer integration surprises.
+Why this matters:
+integration surprises reduce before they reach production.
+
+If your platform has many internal APIs,
+this server pays for itself quickly.
 
 ## 5) Issue tracker MCP
 
 Pain solved:
-ticket noise and weak prioritisation.
+backlog noise masquerading as product signal.
 
-Core capabilities:
+Useful capabilities:
 
-- cluster duplicate issues,
-- enrich tickets with reproduction context,
-- map tickets to service ownership.
+- duplicate cluster detection,
+- ticket enrichment with logs and reproduction context,
+- ownership routing by service boundary.
 
-Why it matters:
-cleaner backlog, faster triage.
+Why this matters:
+triage quality improves,
+and priority discussions become evidence-based.
 
-## 6) Security/compliance MCP
+A cleaner queue is a faster queue.
+
+## 6) Security and compliance MCP
 
 Pain solved:
-late discovery of policy violations.
+risk detection happening too late.
 
-Core capabilities:
+Useful capabilities:
 
-- dependency risk checks,
-- secret exposure scans,
+- dependency and CVE correlation,
+- secret and token exposure scans,
 - policy-aware release gates.
 
-Why it matters:
-catch expensive problems earlier.
+Why this matters:
+teams catch expensive mistakes earlier,
+without paralysing normal delivery.
 
-## Adoption order (practical)
+For regulated teams,
+this is not optional.
 
-Start with one read-only MCP.
-Then one diagnostics MCP.
-Only then add write-capable automation.
+## Recommended adoption order
+
+Keep the rollout disciplined:
+
+1. one read-only intelligence server,
+2. one diagnostics server,
+3. one guarded write-capable automation.
 
 Control first.
-Power second.
+Then speed.
+Then scale.
 
-## The core idea
+If write actions arrive too early,
+trust collapses and the programme stalls.
 
-Top development MCPs are not the most feature-rich.
-They are the ones that remove repeated engineering friction safely.
+## Practical checklist before production rollout
 
-I’m curious what your team would ship this quarter
-if context-switch cost dropped by 30%.
+- define who owns each MCP integration,
+- enforce scoped credentials per environment,
+- log every tool invocation with actor context,
+- test fallback behaviour when the server is unavailable,
+- write a simple "disable in 5 minutes" runbook.
+
+The final point is often missed.
+It should not be.
+
+## What good looks like after 60 days
+
+You should see:
+
+- shorter cycle time for small and medium tasks,
+- fewer repeated diagnostic questions in stand-ups,
+- cleaner postmortems with less blame language,
+- better confidence in cross-team changes.
+
+If these signals are absent,
+you have tooling activity,
+not tooling value.
+
+For adjacent context, see [Build Your Own MCP Server](./40_build_your_own_mcp_server.md)
+and [Top MCP Servers for Everyday Life](./41_top_mcp_servers_for_everyday_life.md).
+
+The headline is simple:
+the best **developer MCP servers** are not feature museums.
+They are quiet systems that remove repeated friction safely,
+so teams can ship without drama.
