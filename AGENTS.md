@@ -60,6 +60,8 @@ This should not be explicitly written in the text, but should be natural for the
 
 It should be intext without creating any additional titles or subtitles.
 
+Avoid titles and subtitles duplication in different chapters files. Like ("The core idea", "Conclusion", "Practical application", "Dopamine hit", ...) You don't need to highlight them. User should feel them as a part of the text.
+
 ## SEO
 
 <hidden-seo-guide>
@@ -71,3 +73,5 @@ It should be intext without creating any additional titles or subtitles.
 6. Chapters in books groups like "AI about AI" should have links to same chapters in other books and 0-2 of native links to other chapters in the same book.
 7. Russian books should have links to English books, but English books should not have links to Russian books.
 <hidden-seo-guide>
+
+Don't mention SEO in text, it should be natural for user.
