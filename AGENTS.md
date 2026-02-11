@@ -57,3 +57,15 @@ Style should not interfere with reading, and chapters should not be oversaturate
 </hidden-user-involvement-guide>
 
 This should not be explicitly written in the text, but should be natural for the user.
+
+## SEO
+
+<hidden-seo-guide>
+1. SEO is not a main goal, but it should be taken into account.
+2. Use keywords naturally, without overoptimization.
+3. Use bold and italic for keywords naturally.
+4. Use SEO in titles and subtitles.
+5. Links should have anchor text that is relevant to the content.
+6. Chapters in books groups like "AI about AI" should have links to same chapters in other books and 0-2 of native links to other chapters in the same book.
+7. Russian books should have links to English books, but English books should not have links to Russian books.
+<hidden-seo-guide>
