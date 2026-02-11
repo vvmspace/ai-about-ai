@@ -38,7 +38,8 @@ A pragmatic starter includes:
 2. 2–3 focused tools,
 3. 1 resource endpoint,
 4. structured error responses,
-5. request/response logging.
+5. request/response logging,
+6. lightweight observability dashboard.
 
 That is enough to deliver value.
 
@@ -49,7 +50,8 @@ For each tool, define:
 - clear name and purpose,
 - strict input schema,
 - deterministic output structure,
-- known failure codes.
+- known failure codes,
+- explicit timeout behaviour.
 
 Loose schemas create expensive debugging loops.
 
@@ -64,7 +66,8 @@ Add:
 - allow-list operations,
 - rate limits,
 - audit logs,
-- human confirmation for high-risk actions.
+- human confirmation for high-risk actions,
+- scoped service identities.
 
 Speed without control is rework in advance.
 
@@ -75,7 +78,8 @@ Use a fast loop:
 - mock external dependencies,
 - test tool contracts with sample payloads,
 - run against one real agent workflow,
-- review logs for schema friction.
+- review logs for schema friction,
+- fail intentionally to test recovery paths.
 
 Do not optimise infra before interaction quality is stable.
 
@@ -87,17 +91,28 @@ Before rollout:
 - usage examples,
 - failure handling notes,
 - versioning policy,
-- ownership assignment.
+- ownership assignment,
+- rollback runbook.
 
 An unowned MCP server decays quickly.
 
-## The core idea
+## Common failure pattern
 
-Your first MCP server should be boring, focused, and reliable.
+Teams often ship a server that can do everything,
+then discover nobody trusts it for anything critical.
+
+Read-only capability first.
+Write actions second.
+Autonomous mutations last.
+
+For reusable execution layers, pair this with [Skills as Reusable Capability Units](./39_skills_as_reusable_capability_units.md).
+For domain-specific rollout ideas, continue with [Top MCP Servers for Everyday Life](./41_top_mcp_servers_for_everyday_life.md).
+
+## First MCP success condition
+
+A strong **MCP server implementation** is boring,
+focused,
+and reliably observable.
 
 Solve one painful task well.
 Then expand.
-
-Here’s what’s going to happen:
-agent workflows become less improvisational,
-and far more operational.
