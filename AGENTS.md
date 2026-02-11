@@ -58,6 +58,8 @@ Style should not interfere with reading, and chapters should not be oversaturate
 
 This should not be explicitly written in the text, but should be natural for the user.
 
+It should be intext without creating any additional titles or subtitles.
+
 ## SEO
 
 <hidden-seo-guide>
