@@ -150,4 +150,4 @@ and you get more predictable runs,
 cleaner handoffs,
 and fewer expensive surprises disguised as intelligence limits.
 
-If you want to continue this arc, read the tactical follow-up on patterns and anti-patterns in [Chapter 27](./27_agentsmd_patterns_and_antipatterns.md).
+If you want to continue this arc, read [AGENTS.md Patterns for Real Repositories](./27_agentsmd_patterns_and_antipatterns.md) for tactical patterns and anti-patterns.

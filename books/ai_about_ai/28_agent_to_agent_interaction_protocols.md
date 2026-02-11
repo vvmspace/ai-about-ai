@@ -129,4 +129,4 @@ Not model branding.
 Protocol first.
 Performance follows.
 
-For organisational design on top of these protocols, continue to [Chapter 29](./29_agent_societies_roles_incentives_and_control.md).
+For organisational design on top of these protocols, continue to [Agent Societies: Roles, Incentives, and Control](./29_agent_societies_roles_incentives_and_control.md).

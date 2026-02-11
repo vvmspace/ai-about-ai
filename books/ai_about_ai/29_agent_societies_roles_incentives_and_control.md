@@ -147,4 +147,4 @@ A multi-agent stack is an operating model.
 Design it like an organisation,
 or it will behave like one by accident.
 
-Then move to [Chapter 30](./30_project_start_prompt_setup_operator_view.md) to set project-start control surfaces that keep this organisation aligned from day one.
+Then move to [Project-Start Prompt Setup (Operator View)](./30_project_start_prompt_setup_operator_view.md) to set control surfaces that keep this organisation aligned from day one.

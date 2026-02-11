@@ -154,4 +154,4 @@ Not louder prompts.
 Better local instructions,
 better local outcomes.
 
-Continue with [Chapter 28](./28_agent_to_agent_interaction_protocols.md) to design cleaner agent-to-agent handoffs on top of these instruction patterns.
+Continue with [Agent-to-Agent Interaction Protocols](./28_agent_to_agent_interaction_protocols.md) to design cleaner handoffs on top of these instruction patterns.
