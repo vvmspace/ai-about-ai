@@ -6,7 +6,7 @@ You need one paid micro-outcome.
 First money is not about scale.
 It is about proof.
 
-## The fastest model: service, not product
+## Service first, product later
 
 Building tools takes time.
 Selling a tight service can pay this week.
@@ -20,9 +20,13 @@ Examples:
 - landing page rewrite + hero images,
 - outreach email pack + ICP research.
 
-Small scope. Clear result. Fixed price.
+Small scope.
+Clear result.
+Fixed price.
 
-## Offer formula that converts
+If you need fast production assets, borrow one repeatable process from [Prompt Hacks for Image Generation](./32_prompt_hacks_for_image_generation.md) or [Prompt Hacks for Video Generation](./33_prompt_hacks_for_video_generation.md).
+
+## Offer line that converts
 
 Use this line:
 
@@ -48,22 +52,39 @@ You are buying market signal.
 
 ## 48-hour execution playbook
 
-### Hour 1–2: pick niche + offer
+### Hour 1–2: choose niche and pain
 
 Choose one market you can understand quickly.
 Fitness studios, local dentists, real estate agents, small ecommerce.
 
-### Hour 3–4: create 3 sample assets
+Define the pain in one sentence:
+“Leads are expensive, and creative quality is inconsistent.”
+
+If you cannot state the pain,
+you are not ready to pitch.
+
+### Hour 3–4: build three concrete samples
 
 Not a portfolio site.
-Just proof you can execute.
+Just proof that you can execute.
 
-### Hour 5–8: direct outreach to 30 prospects
+Use real-looking inputs.
+Name files clearly.
+Package samples in one folder.
+
+### Hour 5–8: message 30 prospects
 
 Use short personalised messages.
 Ask for one paid pilot, not “partnership.”
 
-### Day 2: close 1 client and deliver fast
+Distribution channels:
+
+- local business Instagram,
+- LinkedIn direct messages,
+- founder communities,
+- warm contacts with business owners.
+
+### Day 2: close one client and deliver
 
 Underpromise slightly.
 Overdeliver visibly.
@@ -79,12 +100,26 @@ Would you like a paid pilot for [$X]? I can send 1 sample concept today.”
 
 Calm, direct, no begging.
 
-## Where people lose a week
+## Delivery checklist for the first client
+
+Before you send final files:
+
+- confirm target platform and dimensions,
+- confirm brand style references,
+- include one optional variation,
+- include one plain-language usage note,
+- include one revision window (for example, 24 hours).
+
+This removes ambiguity.
+It also prevents scope drift.
+
+## Where beginners lose a full week
 
 - building logos and websites first,
 - learning five tools instead of one workflow,
 - sending generic outreach,
-- offering “anything AI-related.”
+- offering “anything AI-related,”
+- delaying the ask for payment.
 
 Broad offer means vague buyer trust.
 Vague trust means no payment.
@@ -100,21 +135,19 @@ For first $100, you only need:
 
 Complex stack is procrastination wearing a blazer.
 
-## After first $100: immediate compounding
+## After first $100: deliberate compounding
 
 Do this next:
 
 - productise the exact offer,
 - raise price 20–30%,
 - collect before/after examples,
-- ask every client for referral.
+- ask every client for referral,
+- define one weekly outreach quota.
 
 Momentum is your real asset.
 
-## The core idea
-
-Fast money with AI comes from fast, specific utility.
-
+Fast money with **AI freelancing** comes from fast, specific utility.
 Pick one painful problem.
 Solve it this week.
 Charge clearly.

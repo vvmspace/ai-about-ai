@@ -6,9 +6,9 @@ They avoid them because wording feels dangerous.
 One wrong sentence,
 and a small issue becomes a week of stress.
 
-AI can solve this pain in minutes.
+AI can reduce that risk in minutes.
 
-## The hidden pain
+## The communication trap
 
 You need to write one message:
 
@@ -20,9 +20,10 @@ You need to write one message:
 You know what must be said.
 You do not know how to say it without causing collateral damage.
 
-## The simple pattern: draft -> de-risk -> send
+## The practical pattern: draft -> de-risk -> send
 
-Use AI as a communication safety layer, not as a ghostwriter.
+Use AI as a communication safety layer,
+not as a ghostwriter.
 
 Three passes:
 
@@ -30,7 +31,7 @@ Three passes:
 2. **Risk mode** — ask AI to flag blame words, ambiguity, escalation triggers.
 3. **Delivery mode** — generate calm, firm version with boundary + next step.
 
-That’s it.
+That is enough for most difficult messages.
 
 ## Prompt template (copy-paste)
 
@@ -49,17 +50,20 @@ Tasks:
 Short prompt.
 High leverage.
 
-## Why this works
+## Why this works in real life
 
-AI is better than your stressed brain at:
+AI is usually better than your stressed brain at:
 
 - reducing emotional noise,
 - preserving intent,
 - tightening structure,
 - neutralising accidental aggression.
 
-You stay the decision-maker.
+You remain the decision-maker.
 AI handles phrasing risk.
+
+This is especially useful when trust is already fragile.
+If trust matters, language precision matters.
 
 ## Example transformation
 
@@ -75,31 +79,45 @@ Same boundary.
 Less heat.
 Better outcome odds.
 
-## Micro-routine for daily use
+## Three tone settings worth saving
+
+Create reusable prompts for:
+
+- **Professional firm** (work conflicts),
+- **Warm boundary** (personal relationships),
+- **Crisp legal-safe** (payment, scope, compliance).
+
+You can also add:
+"Avoid sarcasm. Avoid absolute words like always/never."
+
+Small instruction.
+Big quality jump.
+
+## Ten-minute daily micro-routine
 
 - Keep a folder: `difficult_messages/`.
 - Save before/after versions.
 - Track response quality for 2 weeks.
+- Note phrases that consistently trigger pushback.
 
 You will learn your own trigger phrases,
 and gradually need less assistance.
 
-## Where this is surprisingly valuable
+## Where this gives unusually high ROI
 
 - customer support escalation replies,
 - payment reminders,
 - performance feedback,
-- “no” to scope creep,
+- saying no to scope creep,
 - relationship boundary messages.
 
 In all of these, clarity is kindness.
 Vagueness is expensive.
 
-## The core idea
+If you are rebuilding trust systems more broadly, this chapter pairs well with [Career Strategy: Ethics and Trust](./24_career_strategy_ethics_and_trust.md).
 
 Use AI as a **Message Doctor** for emotionally loaded communication.
-
 Not to sound clever.
 To reduce avoidable damage.
 
-I’m curious how many conflicts in your week are really just unedited sentences.
+In difficult conversations, edited sentences often decide the outcome.
