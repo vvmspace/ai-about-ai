@@ -1,142 +1,146 @@
-# AGENTS.md Patterns and Anti-Patterns
+# AGENTS.md Patterns for Real Repositories
 
-You do not need a perfect `AGENTS.md`.
-You need one that survives contact with deadlines.
+You do not need a perfect instruction system.
+You need one that survives deadlines and new contributors.
 
-This chapter is the field version.
-What works. What breaks. Why.
+This chapter is about practical patterns for `AGENTS.md` in active repos.
 
-## Pattern 1: layered governance
+## Pattern 1: layered files, limited depth
 
-Use three levels:
+Use at most three layers in most projects:
 
-- **root**: universal repo rules,
-- **domain folder**: workflow and quality for a subsystem,
-- **feature folder**: narrow exceptions.
+- root defaults,
+- domain overrides,
+- local feature exceptions.
 
-More layers are usually ego.
-Fewer layers are usually chaos.
+Too flat: no local precision.
+Too deep: nobody can reason about precedence.
 
-## Pattern 2: command-level precision
+## Pattern 2: command-level checks
 
-“Run checks” is weak.
+If quality gates are vague, they will be skipped.
 
-Better:
+Prefer:
 
-- `pnpm lint`
-- `pnpm test --filter api`
-- `pnpm build`
-
-Precision removes negotiation.
-Negotiation is where drift starts.
-
-## Pattern 3: explicit fallback logic
-
-When a tool fails, say what to do.
+- exact command,
+- expected pass signal,
+- where it applies.
 
 Example:
 
-- If end-to-end tests are unavailable,
-  run unit + integration and mark release as conditional.
+- in `frontend/`: run `pnpm lint && pnpm test`,
+- in `infra/`: run `terraform validate`,
+- in `docs/`: run link check script.
 
-This keeps delivery moving without pretending everything is fine.
+This turns quality from intention into execution.
 
-## Pattern 4: output contracts
+## Pattern 3: explicit no-touch zones
 
-Most agent failures happen at output boundaries.
+Agents are fast.
+They are also literal.
 
-Specify:
+Declare protected areas:
 
-- final response template,
-- citation format,
-- required summary sections,
-- expected change log granularity.
+- generated code,
+- migration history,
+- vendor snapshots,
+- legal text blocks.
 
-The cleaner the exit format,
-the easier the human sign-off.
+If files are fragile, say so directly.
 
-## Anti-pattern 1: legal essay mode
+## Pattern 4: fallback rules under tool failure
 
-If your file reads like policy fiction,
-people stop reading after line 20.
+Tooling fails.
+That’s normal.
+Silence is not.
 
-Rule of thumb:
-if a sentence cannot change behaviour,
-cut it.
+Define fallback behaviour:
 
-## Anti-pattern 2: contradictory urgency
+- if e2e is unavailable, run unit + integration,
+- mark result as conditional,
+- include warning in final report.
 
-“Move fast” and “never skip any full-system check”
-in every directory,
-for every task,
-is not discipline.
-It is self-sabotage.
+Controlled degradation beats fake green builds.
 
-Match gate cost to risk.
-Always.
+## Pattern 5: output template contracts
 
-## Anti-pattern 3: no incident feedback loop
+Many teams constrain coding,
+but forget to constrain reporting.
 
-A bad release happens.
-Team discusses it.
-Nobody updates instructions.
+Specify response format:
 
-That is institutional amnesia.
+- summary bullets,
+- changed files,
+- tests run,
+- known risks,
+- citations or evidence format.
 
-Your incident retro should end with an instruction diff,
-or the same failure returns wearing a different hat.
+Clear output contracts reduce review friction.
 
-## Anti-pattern 4: fake autonomy
+## Anti-pattern 1: policy novel mode
 
-Teams say, “the agent can decide.”
-Then punish every unexpected decision.
+Long files with motivational language are ignored.
 
-Autonomy without decision boundaries is a trap.
+Rule:
+if a line cannot be tested or observed,
+it probably does not belong.
 
-If you want delegation,
-define the decision envelope.
+## Anti-pattern 2: contradictory instructions
 
-## Lightweight template you can steal
+“Move fast” plus “always run full monorepo checks” for every tiny edit
+is not rigor.
+It is latency theatre.
 
-- **Intent**: outcome and user impact.
-- **Must**: non-negotiable requirements.
-- **Must not**: hard prohibitions.
-- **Checks**: commands + thresholds.
-- **Delivery**: commit, PR, report format.
-- **Escalate when**: uncertainty triggers.
+Match checks to risk and scope.
+
+## Anti-pattern 3: hidden precedence
+
+If nested overrides exist but are undocumented,
+agents and humans will apply rules inconsistently.
+
+State overrides plainly:
+
+“Rules in this folder replace root test requirements for local doc-only changes.”
+
+## Anti-pattern 4: no feedback from incidents
+
+A defect occurs.
+A retro happens.
+`AGENTS.md` remains unchanged.
+
+That’s not continuous improvement.
+That is managed amnesia.
+
+## Quick audit checklist
+
+For each `AGENTS.md` layer, ask:
+
+- Is scope obvious from location?
+- Are commands executable as written?
+- Are protected paths explicit?
+- Are overrides documented?
+- Are escalation triggers present?
+
+If two or more answers are “no,”
+expect inconsistent agent behaviour.
+
+## Minimal template you can reuse
+
+- **Scope**: this directory tree.
+- **Must do**: required checks and sequence.
+- **Must not do**: explicit prohibitions.
+- **When unsure**: escalation conditions.
+- **Deliver as**: final output format.
 
 One page. High signal.
-
-## Maturity curve (quick diagnostic)
-
-### Level 1 — improvised
-
-Rules live in chat messages and memory.
-Quality varies by who is online.
-
-### Level 2 — documented
-
-Rules exist but are broad.
-Some checks are automated.
-
-### Level 3 — operational
-
-Rules are scoped, testable, versioned,
-and updated after incidents.
-
-### Level 4 — compounding
-
-Instructions become a strategic asset:
-new contributors ship faster,
-quality stays predictable,
-and context switching becomes cheap.
+No decorative language.
 
 ## The core idea
 
-Good `AGENTS.md` files reduce managerial drama.
+In agentic repos, `AGENTS.md` quality determines execution quality.
 
-Bad ones create it.
+Not model branding.
+Not louder prompts.
 
-I’m curious which pain you’d prefer:
-20 minutes writing constraints now,
-or 20 hours cleaning ambiguity later.
+Better local instructions,
+better local outcomes.

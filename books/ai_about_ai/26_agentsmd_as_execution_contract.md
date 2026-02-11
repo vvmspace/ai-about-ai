@@ -1,132 +1,134 @@
-# AGENTS.md as an Execution Contract
+# AGENTS.md in Agentic Repos: Scope, Precedence, and Control
 
-Most teams treat `AGENTS.md` as a note.
-Then they wonder why the agent behaves like a tourist.
+Most teams discover `AGENTS.md` in the worst possible way:
+after an agent confidently edits the wrong thing.
+
+I’m curious how many “model mistakes” are actually instruction mistakes.
 
 Let’s be clear:
-if your agent has no local contract,
-it improvises policy from vibes.
+`AGENTS.md` is not team documentation.
+It is runtime control.
 
-That is not an option.
+## What this file is (and is not)
 
-## What `AGENTS.md` really is
+In agentic coding workflows, `AGENTS.md` defines local operating rules for an AI agent.
 
-`AGENTS.md` is operational law for a directory scope.
-Not philosophy. Not aspiration.
+Think of it as:
 
-A strong file answers five things, quickly:
+- a scoped instruction layer,
+- loaded during task execution,
+- designed to constrain behaviour in that subtree.
 
-- what outcomes matter,
-- what is forbidden,
-- how quality is verified,
-- how changes are documented,
-- how escalation works.
+It is **not** a wiki note.
+It is executable governance in plain text.
 
-If one of these is missing,
-you have ambiguity.
-Ambiguity becomes cost.
+## The key mechanic: directory scope
 
-## Scope first, then style
+The file governs the directory where it lives,
+and everything beneath it.
 
-The useful move is not “write better prose.”
-It is scope control.
+This means you can design policy layers:
 
-Define which tree the file governs.
-Then define local standards for that tree only.
+- repo root: universal defaults,
+- subsystem folder: domain-specific constraints,
+- feature folder: narrow exceptions.
 
-Why this matters:
+Short version:
+location is policy.
 
-- broad rules become noise,
-- local rules become executable,
-- nested rules resolve edge cases.
+## Precedence rules that actually matter
 
-You are building jurisdiction, not literature.
+A robust stack usually behaves like this:
 
-## The minimum contract skeleton
+1. system/developer/user instructions,
+2. nearest applicable `AGENTS.md`,
+3. broader parent `AGENTS.md` files,
+4. agent defaults.
 
-Use this baseline:
+More deeply nested files override broader ones when they conflict.
 
-1. **Mission** — one paragraph, concrete business outcome.
-2. **Boundaries** — explicit “never do” list.
-3. **Workflow** — preferred sequence for edits, checks, and delivery.
-4. **Tests and gates** — required commands and pass criteria.
-5. **Output format** — commit style, PR style, reporting style.
+That’s not optional bookkeeping.
+That is the difference between reproducible output and chaos.
 
-Anything longer must earn its keep.
+## What to put inside (minimum viable contract)
 
-## A practical pattern: status -> boundary -> consequence
+A high-signal `AGENTS.md` should define:
 
-When writing constraints, avoid fluffy warnings.
-Use hard lines.
+- **mission**: what success looks like here,
+- **boundaries**: what must never happen,
+- **workflow**: preferred order of work,
+- **validation**: exact checks/commands,
+- **delivery rules**: commit/PR/report format,
+- **escalation triggers**: when to stop and surface risk.
 
-Example:
+No prose theatre.
+Only behaviour-changing instructions.
 
-- Status: `docs/` is customer-facing.
-- Boundary: no speculative claims without source.
+## Bad vs good instruction style
+
+Weak:
+“Please keep code clean and well-tested.”
+
+Strong:
+
+- run `pnpm test --filter api` after edits in `services/api/`,
+- do not edit generated files under `src/gen/`,
+- if schema changes, run migration check and include output in PR.
+
+Specificity gives the agent less room to hallucinate process.
+
+## Real failure pattern: instruction shadowing
+
+A common incident:
+
+- root file says “run full test suite,”
+- nested file says “run package-local tests only,”
+- no explicit override language.
+
+Result: inconsistent behaviour across tasks,
+and endless “but it passed for me” conversations.
+
+Fix:
+state override intent explicitly.
+
+## Design pattern: status -> boundary -> consequence
+
+Use crisp control lines:
+
+- Status: `docs/public/` is customer-facing.
+- Boundary: no unverifiable claims.
 - Consequence: remove claim or block commit.
 
-Short, decisive, and machine-followable.
+Calm language.
+Hard edge.
+Clear outcome.
 
-## Failure modes you can predict
+## AGENTS.md as incident memory
 
-### 1) Policy in people’s heads
-
-If rules live only in senior engineers,
-new contributors and agents produce random quality.
-
-### 2) Conflicting instruction layers
-
-Root says “run full tests.”
-Subfolder says “run smoke only.”
-No precedence rule means guaranteed friction.
-
-### 3) Unverifiable quality
-
-“Write clearly” is not a gate.
-“Run `npm test` and no failing snapshots” is a gate.
-
-### 4) Process theatre
-
-A giant `AGENTS.md` that nobody reads is not governance.
-It is décor.
-
-## What high-performing teams do differently
-
-They version control operational behaviour.
-
-When incidents happen, they patch instructions,
+When a failure happens, update instructions,
 not just code.
 
-When onboarding happens, they point to the file,
-not a 45-minute oral tradition.
+If incidents do not produce instruction diffs,
+your system does not learn.
+It merely forgets politely.
 
-When velocity drops, they remove stale rules,
-not pile on new ones.
+## 20-minute hardening pass
 
-## A 30-minute upgrade exercise
+For one active repository:
 
-Pick one active directory.
+1. map current instruction layers,
+2. remove contradictory commands,
+3. add explicit override notes for nested scopes,
+4. replace vague quality lines with exact checks,
+5. add one clear escalation trigger.
 
-- Write a 12-line `AGENTS.md` draft.
-- Add two hard boundaries.
-- Add two mandatory checks.
-- Add one escalation trigger.
-- Run three real tasks through it.
-
-Then trim anything no one used.
-
-I’m curious how often this reveals the real issue:
-not model quality,
-but missing local law.
+Then run three tasks and compare rework.
 
 ## The core idea
 
-Treat `AGENTS.md` as an execution contract.
+`AGENTS.md` is a control surface for agent execution.
 
-Not “nice to have.”
-Not later.
-
-Here’s what’s going to happen when you do:
-less rework,
-faster handoffs,
-and far fewer polite disasters.
+Here’s what’s going to happen when you treat it seriously:
+more predictable runs,
+cleaner handoffs,
+and fewer expensive surprises disguised as intelligence limits.
