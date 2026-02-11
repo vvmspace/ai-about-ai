@@ -3,19 +3,19 @@
 Engagement in AI apps is not magic.
 It is mechanism design.
 
-The goal is simple:
+Objective is simple:
 first value fast,
 repeat value predictably.
 
 ## Mechanic 1: time-to-first-win under 60 seconds
 
-Your onboarding should produce a visible useful outcome in one minute.
+Onboarding should produce a useful outcome in under one minute.
 
 Examples:
 
 - drafted reply,
 - cleaned summary,
-- generated visual concept,
+- visual concept,
 - ranked action plan.
 
 No first win,
@@ -23,53 +23,54 @@ no second session.
 
 ## Mechanic 2: progressive commitment
 
-Do not ask for full setup upfront.
+Do not demand full setup on first touch.
 
 Sequence:
 
 - minimal input,
-- useful result,
+- useful output,
 - optional refinement,
-- then profile/context enrichment.
+- then profile enrichment.
 
 Earn data gradually.
-Do not demand it before trust exists.
+Trust first, permissions second.
 
 ## Mechanic 3: editable output, not black-box output
 
-Users return when they feel control.
+Users return when control feels tangible.
 
-Always provide:
+Always offer:
 
 - quick edit handles,
 - regenerate variants,
-- tone/style toggles,
+- tone or style toggles,
 - “explain changes” view.
 
-Control increases retention more than raw model quality at the margin.
+Control often beats raw model quality at the retention margin.
 
-## Mechanic 4: memory with consent
+## Mechanic 4: memory with explicit consent
 
-Personalisation can be a superpower or a liability.
+Personalisation is either superpower or liability.
 
 Rules:
 
 - show what is remembered,
-- let users delete memory quickly,
-- separate temporary context from persistent profile.
+- allow one-click delete,
+- separate temporary context from persistent profile,
+- confirm memory writes for sensitive domains.
 
-Transparent memory creates comfort.
-Hidden memory creates churn.
+Transparent memory builds comfort.
+Hidden memory builds churn.
 
 ## Mechanic 5: streaks for outcomes, not activity
 
 Avoid vanity gamification.
 
-Reward users for completed value events:
+Reward completed value events:
 
-- “shipped 3 posts,”
-- “closed 2 support tickets,”
-- “reduced inbox by 40%.”
+- shipped three posts,
+- closed two tickets,
+- reduced inbox by 40%.
 
 Outcome streaks feel meaningful.
 Activity streaks feel childish.
@@ -79,16 +80,15 @@ Activity streaks feel childish.
 When users do not know what to ask,
 engagement dies in the input box.
 
-Provide templates anchored in real jobs-to-be-done,
+Provide templates mapped to real jobs-to-be-done,
 with one-click execution.
 
-Blank canvas is elegant for designers.
-It is abandonment for most users.
+Blank canvas is elegant in design critiques.
+In production, it is abandonment risk.
 
-## Mechanic 7: confidence and fallback routing
+## Mechanic 7: confidence-aware fallback routing
 
-If model confidence is low,
-route to:
+If confidence is low, route to:
 
 - clarifying question,
 - alternate workflow,
@@ -96,22 +96,36 @@ route to:
 
 Dead-end output is retention poison.
 
-## Engagement scorecard (weekly)
+## Mechanic 8: closure loops after each session
 
-Track per cohort:
+After each output, give one next step:
+
+- refine,
+- export,
+- schedule,
+- share,
+- automate.
+
+Without closure, users drift away even after good output.
+
+## Weekly engagement scorecard
+
+Track by cohort:
 
 - first-win rate,
-- week-1 repeat rate,
+- week-one repeat rate,
 - average edits before acceptance,
 - memory opt-in rate,
-- failed session recovery rate.
+- failed-session recovery rate,
+- session closure completion rate.
 
-If these improve, your mechanics are working.
+If these move up together,
+your mechanics are coherent.
 
 ## The core idea
 
 Engagement in AI-driven apps is engineered through feedback-rich control.
 
-Status -> value fast.
-Boundary -> user control stays explicit.
-Consequence -> retention compounds.
+Status: value appears fast.
+Boundary: user agency stays explicit.
+Consequence: retention compounds.

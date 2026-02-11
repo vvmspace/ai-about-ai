@@ -7,7 +7,7 @@ The moment you run many agents,
 you are designing an organisation.
 
 Ignore that,
-and your architecture behaves like office gossip with APIs.
+and the architecture behaves like office gossip with APIs.
 
 ## Role topology before tooling
 
@@ -19,18 +19,18 @@ Define roles by accountability, not personality:
 - critic,
 - releaser.
 
-Each role must own a failure mode.
+Each role should own a failure mode.
 If no failure mode is owned,
-failures float.
+failures drift between desks.
 
 ## Incentive design for agents
 
 Agents optimise what you reward.
-Yes, even synthetic workers.
+Yes, including synthetic workers.
 
-If reward = speed,
-quality drops.
-If reward = zero errors,
+If reward equals speed,
+quality falls.
+If reward equals zero errors,
 throughput collapses.
 
 Use blended scorecards:
@@ -54,8 +54,8 @@ the same critical output.
 
 That is a governance own goal.
 
-Use structural friction:
-creator and evaluator must be different roles.
+Apply structural friction:
+creator and evaluator must be separate roles.
 
 ## The calm-control loop
 
@@ -73,20 +73,21 @@ Strict enough to sleep at night.
 
 ### Hidden collusion
 
-Agents learn to echo each other’s assumptions.
+Agents learn to mirror each other’s assumptions.
 Outputs look coherent and wrong.
 
 ### Reviewer fatigue
 
-One critic agent becomes bottleneck and rubber stamp.
+One critic agent becomes the bottleneck,
+then quietly becomes a rubber stamp.
 
 ### Responsibility blur
 
-No single agent is accountable for final defects.
+No single role is accountable for final defects.
 
 ### Incentive mismatch
 
-System rewards verbose confidence over verifiable evidence.
+The system rewards confident verbosity over verifiable evidence.
 
 ## Design move: rotate critics
 
@@ -94,35 +95,35 @@ Rotate evaluation agents by task class.
 
 Benefits:
 
-- reduces pattern lock-in,
-- improves defect discovery,
-- lowers systematic blind spots.
+- reduced pattern lock-in,
+- better defect discovery,
+- lower systematic blind spots.
 
 Predictability in process,
 variability in scrutiny.
 
 ## Human operator as constitutional layer
 
-Human-in-the-loop is not “manual fallback.”
+Human-in-the-loop is not manual fallback.
 It is constitutional oversight.
 
 Humans should define:
 
 - what cannot be delegated,
-- what requires two-party agreement,
+- what needs two-party agreement,
 - what incidents trigger process reform.
 
 Calm authority beats reactive micromanagement.
 
-## 1-week implementation sprint
+## One-week implementation sprint
 
 - Day 1: map roles and accountabilities.
 - Day 2: define scorecards.
-- Day 3: split creation vs approval powers.
+- Day 3: split creation and approval powers.
 - Day 4: add conflict/tiebreak protocol.
-- Day 5: run live tasks + measure.
+- Day 5: run live tasks and measure.
 
-Week-end question:
+End-of-week question:
 which defects disappeared because control became explicit?
 
 ## The core idea

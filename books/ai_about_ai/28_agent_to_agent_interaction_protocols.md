@@ -4,8 +4,8 @@ When two agents collaborate without protocol,
 you do not get teamwork.
 You get polite entropy.
 
-Agents sounding confident is easy.
-Agents transferring responsibility cleanly is rare.
+Confident tone is easy.
+Clean responsibility transfer is rare.
 
 ## The handshake model
 
@@ -24,23 +24,23 @@ No handshake, no handoff.
 Keep messages dual-format:
 
 - brief human summary,
-- strict machine block.
+- strict machine-readable block.
 
 The summary keeps operators fast.
-The structured block keeps pipelines reliable.
+The structure keeps pipelines reliable.
 
 ## Clarification budget
 
 Let’s be clear:
-“ask unlimited follow-ups” kills throughput.
+“ask unlimited follow-ups” destroys throughput.
 
 Give each receiver a clarification budget, for example:
 
-- up to 3 questions,
+- up to three questions,
 - then proceed with explicit assumptions,
 - or escalate if mandatory fields are missing.
 
-This avoids infinite loops disguised as diligence.
+That prevents infinite loops disguised as diligence.
 
 ## Trust is computed, not assumed
 
@@ -53,27 +53,27 @@ Assign reliability scores per sender based on:
 
 Then route work accordingly.
 
-High-risk tasks should not depend on low-reliability agents,
-no matter how elegant their prose looks.
+High-risk tasks should not depend on low-reliability senders,
+no matter how elegant their prose appears.
 
 ## Conflict resolution protocol
 
 Agent A says “ship.”
 Agent B says “block.”
 
-Here’s what’s going to happen in mature systems:
+Here is how this works in mature systems:
 
 - compare against rubric,
 - score evidence strength,
 - trigger tiebreak agent or human reviewer,
-- log the decision and rationale.
+- log decision and rationale.
 
-Without this, teams resolve conflicts by charisma.
+Without this, teams resolve conflict by charisma.
 That is not governance.
 
 ## Observability signals that matter
 
-Track these metrics:
+Track metrics that reveal coordination quality:
 
 - handoff rejection rate,
 - clarification count per task,
@@ -81,8 +81,39 @@ Track these metrics:
 - escalation frequency,
 - cost per accepted artefact.
 
-If those are invisible,
+If these stay invisible,
 optimisation is theatre.
+
+## Failure-first protocol testing
+
+Before production, run deliberately broken handoffs:
+
+- missing required fields,
+- contradictory confidence markers,
+- stale references,
+- unsupported policy claims.
+
+Then verify receiver behaviour:
+
+- asks within clarification budget,
+- applies safe assumptions when allowed,
+- escalates when boundaries are crossed.
+
+If the protocol only works on tidy examples,
+it is not ready.
+
+## Operator override language
+
+When a human intervenes,
+the override message should be explicit:
+
+- what decision changed,
+- why it changed,
+- how long the override remains valid,
+- which future cases it should affect.
+
+Quiet overrides create policy drift.
+Structured overrides create institutional memory.
 
 ## Practical protocol card
 
@@ -96,8 +127,8 @@ For your next workflow, define:
 Run 20 tasks.
 Then audit where protocol prevented failure.
 
-You will usually discover this uncomfortable truth:
-the bottleneck was never “intelligence.”
+The uncomfortable conclusion is usually the same:
+the bottleneck was not intelligence.
 It was interface hygiene.
 
 ## The core idea

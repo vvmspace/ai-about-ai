@@ -4,11 +4,11 @@ In agentic systems, prompts alone do not scale.
 Reusable skills do.
 
 A skill is a packaged workflow:
-context + instructions + tools + output contract.
+context, instructions, tools, and output contract.
 
 ## Why skills matter
 
-Without skills, each task is re-invented.
+Without skills, each task is partially reinvented.
 
 Symptoms:
 
@@ -17,7 +17,7 @@ Symptoms:
 - brittle handoffs,
 - slow onboarding.
 
-Skills convert best practice into reusable operations.
+Skills turn best practice into reusable operations.
 
 ## Anatomy of a strong skill
 
@@ -28,9 +28,10 @@ A useful skill defines:
 - required inputs,
 - tool calls and sequence,
 - output schema,
-- fallback path.
+- fallback path,
+- escalation boundary.
 
-If one is missing,
+If one element is missing,
 execution drift appears.
 
 ## Skill lifecycle
@@ -43,14 +44,14 @@ Treat skills as product assets:
 4. validate on live tasks,
 5. version and improve.
 
-No lifecycle, no reliability.
+No lifecycle means no reliability.
 
 ## Design principle: narrow first
 
-A broad “do anything” skill feels powerful,
-but fails under pressure.
+A broad “do anything” skill sounds powerful.
+Under pressure, it fails.
 
-Better:
+Better pattern:
 
 - one job,
 - one clear entry point,
@@ -58,19 +59,31 @@ Better:
 
 Specialisation increases trust.
 
+## Contracts before cleverness
+
+For each skill, define contracts explicitly:
+
+- input contract,
+- execution contract,
+- output contract.
+
+If contracts are vague,
+review time explodes.
+
 ## Governance and discoverability
 
 Skill libraries fail when people cannot find the right unit.
 
-Keep an index with:
+Maintain an index with:
 
 - skill name,
-- use-case sentence,
+- one-line use case,
 - required permissions,
-- examples,
-- known limits.
+- example invocation,
+- known limits,
+- owner.
 
-Discovery is part of performance.
+Discovery is part of system performance.
 
 ## Metrics for a skill library
 
@@ -83,22 +96,32 @@ Track:
 - incidents per skill version.
 
 If reuse is low,
-either discoverability or fit is broken.
+fit or discoverability is broken.
 
 ## Anti-patterns
 
-- Skills that require hidden tribal context.
-- Skills with no output contract.
-- Skills that call too many tools by default.
-- Skills never updated after failures.
+- skills requiring hidden tribal context,
+- skills with no output contract,
+- skills calling too many tools by default,
+- skills never updated after failures.
 
 That is not a library.
 That is a museum.
 
+## Practical adoption sequence
+
+- Week 1: package top three repeated workflows.
+- Week 2: add contracts and examples.
+- Week 3: instrument metrics.
+- Week 4: retire low-performing versions.
+
+Small cadence.
+Steady reliability gains.
+
 ## The core idea
 
-Skills are the missing layer between raw model ability and dependable execution.
+Skills are the layer between raw model ability and dependable execution.
 
-Build them narrowly.
-Version them deliberately.
-Measure them honestly.
+Build narrowly.
+Version deliberately.
+Measure honestly.

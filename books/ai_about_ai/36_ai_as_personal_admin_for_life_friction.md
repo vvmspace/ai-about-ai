@@ -1,76 +1,79 @@
 # Unobvious AI Use #2: Personal Admin to Remove Life Friction
 
-People think AI is for big strategy.
-Often, its highest ROI is smaller:
-removing tiny recurring frictions that drain your week.
+People assume AI is for strategy decks and big decisions.
+In practice, one of the highest-ROI uses is smaller:
+remove recurring frictions that quietly drain your week.
 
 Not glamorous.
-Wildly effective.
+Operationally transformative.
 
-## The hidden pain
+## The hidden drain
 
-You lose energy to admin fog:
+Most people do not lose time in one dramatic failure.
+They lose it in admin residue:
 
 - forgotten renewals,
-- messy booking logistics,
+- booking coordination loops,
 - repetitive form filling,
-- unclear to-do priorities,
-- “where did I put that document?” moments.
+- unclear task priorities,
+- “where is that document?” searches.
 
-Each item is small.
-Together they tax attention all day.
+Each task is minor.
+Together they fragment attention all day.
 
-## The simple model: AI as an admin operator
+## The working model: AI as admin operator
 
-Give AI one role:
+Give AI one clear role:
 
-"Turn messy errands into clear, low-friction action lists."
+"Turn messy errands into clear, low-friction execution plans."
 
-Then feed it raw inputs:
+Then feed raw inputs without over-curating:
 
 - screenshots,
 - email snippets,
 - notes,
-- voice transcripts.
+- voice transcripts,
+- calendar exports.
 
-Ask for outputs in a fixed format.
+Ask for output in one fixed structure every time.
+Consistency is what gives you compounding.
 
 ## Output format that actually helps
 
-Use this structure every time:
+Use this format:
 
-1. **Next 3 actions** (do today),
-2. **Deadline map** (date + consequence),
-3. **Pre-written messages** (email/SMS templates),
-4. **Documents needed** (checklist),
-5. **If delayed** (fallback plan).
+1. **Top 3 actions for today**,
+2. **Deadline map** (date + risk if missed),
+3. **Prewritten messages** (email/SMS),
+4. **Required documents** (checklist),
+5. **Fallback plan if delayed**.
 
-This converts chaos into execution.
+That converts cognitive fog into executable sequence.
 
-## Prompt template (copy-paste)
+## Prompt template (copy and adapt)
 
 "Act as my personal admin.
 Input: [paste notes/emails/tasks].
 
 Return:
-- Top 3 actions in priority order,
-- Deadlines with risk if missed,
-- Draft messages I can send immediately,
-- Required docs/resources,
-- 15-minute quick-start plan."
+- top 3 actions in priority order,
+- deadlines with risk if missed,
+- draft messages I can send immediately,
+- required docs/resources,
+- a 15-minute quick-start plan."
 
-No fancy prompt engineering.
-Just decisive structure.
+No theatrical prompting required.
+Just structure and constraints.
 
 ## High-impact use cases
 
-- visa/travel prep,
+- travel and visa prep,
 - medical appointment coordination,
-- tax or invoice chasing,
-- moving house logistics,
-- event planning with multiple dependencies.
+- tax and invoice chasing,
+- house move logistics,
+- event planning with many dependencies.
 
-These are perfect AI tasks:
+These tasks are ideal:
 high coordination,
 low creativity,
 high cognitive drag.
@@ -80,29 +83,50 @@ high cognitive drag.
 Once per week:
 
 - dump all loose tasks into AI,
-- get one ranked plan,
+- generate one ranked execution plan,
 - send two pre-drafted messages immediately,
 - calendar-block the top three actions.
 
-This single ritual can remove background anxiety fast.
+This single ritual often removes background anxiety within days.
 
-## Boundaries (important)
+## Escalation boundaries
 
-AI can organise.
-It should not make legal/medical/financial decisions for you.
+For the avoidance of doubt,
+AI can organise options.
+It should not make legal, medical, or financial decisions for you.
 
-Use it to structure options,
-then apply human judgement.
+Use AI for structure.
+Keep judgement human.
 
-Calm tool.
-Human accountability.
+If stakes are high,
+verify facts before acting.
+
+## Measurement: prove it is working
+
+Track two weeks of signals:
+
+- overdue task count,
+- average response delay,
+- number of tasks closed per week,
+- mental load rating (self-score 1–10).
+
+If these do not improve,
+change the format before changing the model.
+
+## Common failure pattern
+
+People ask AI for “a better plan,”
+then never convert it into calendar actions.
+
+Plan without scheduling is decoration.
+Execution requires time blocks.
 
 ## The core idea
 
-The unobvious superpower is not “AI thinks for me.”
-It is “AI clears the admin noise so I can think.”
+The superpower is not “AI thinks for me.”
+It is “AI clears admin noise so I can think where it matters.”
 
-Here’s what’s going to happen when you use it this way:
-less cognitive clutter,
+Use it this way and the likely outcome is simple:
+less clutter,
 faster follow-through,
 and fewer life tasks leaking into work focus.

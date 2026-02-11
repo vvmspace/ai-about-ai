@@ -4,12 +4,12 @@ Day one of a project is not for inspiration.
 It is for reducing future chaos.
 
 Prompt setup at launch is operational architecture.
-Do it once, correctly,
+Do it once, do it correctly,
 and you buy back weeks.
 
 ## The operator’s objective
 
-An operator cares about three things:
+An operator cares about three outcomes:
 
 - predictable output,
 - controllable risk,
@@ -18,9 +18,9 @@ An operator cares about three things:
 Prompt setup should be judged on these,
 not on how clever it sounds.
 
-## Start packet: the non-negotiable five
+## Start packet: five non-negotiables
 
-Before any generation sprint, build a start packet:
+Before any generation sprint, prepare a start packet:
 
 1. **Mission brief** — outcome, user, deadline.
 2. **Constraints ledger** — legal, technical, brand, policy.
@@ -28,11 +28,11 @@ Before any generation sprint, build a start packet:
 4. **Output schemas** — what “done” physically looks like.
 5. **Evaluation rubric** — pass/fail dimensions.
 
-Missing packet = drifting scope by lunch.
+No packet means scope drift before lunch.
 
 ## Environment assumptions block
 
-Force explicit assumptions early:
+Force assumptions into the open early:
 
 - stack and versions,
 - deployment context,
@@ -40,7 +40,8 @@ Force explicit assumptions early:
 - available tools,
 - excluded dependencies.
 
-I’m curious how many project delays are simply unstated environment reality.
+Most delays are not mysterious.
+They start as unstated environment reality.
 
 ## Prompt architecture for launch week
 
@@ -50,18 +51,18 @@ Use a three-layer stack:
 - **Task layer**: current objective and acceptance criteria.
 - **State layer**: known decisions and open questions.
 
-Lock system layer.
+Lock the system layer.
 Version task and state layers daily.
 
 ## Gate prompts, not only outputs
 
 Most teams review outputs.
-Smarter teams also review prompts.
+Stronger teams review prompts as well.
 
 Add two checks:
 
 - ambiguity score (how many interpretations remain),
-- dependency score (what external facts can break this).
+- dependency score (which external facts can break this).
 
 If either score is high,
 revise the prompt before scaling execution.
@@ -70,12 +71,12 @@ revise the prompt before scaling execution.
 
 Set calm defaults from day one:
 
-- ask for citations on factual claims,
+- require citations for factual claims,
 - surface uncertainty explicitly,
 - decline unsupported legal/medical/financial certainty,
 - escalate when constraints conflict.
 
-This prevents “confident nonsense” from becoming process debt.
+This prevents confident nonsense from becoming process debt.
 
 ## Launch checklist (15 minutes)
 
@@ -89,8 +90,8 @@ Then proceed.
 
 ## The core idea
 
-Project-start prompt setup is not writing prompts.
-It is setting control surfaces.
+Project-start prompt setup is not prompt writing.
+It is control-surface design.
 
-Get control surfaces right,
+Get the control surfaces right,
 and delivery stops feeling lucky.

@@ -1,25 +1,25 @@
 # Build Your Own MCP Server (Without Overengineering)
 
-Most teams wait too long to build their first MCP server.
-They imagine a platform project.
+Most teams delay their first MCP server for too long.
+They imagine a platform programme.
 
-It is usually a one-week utility build.
+In many cases, it is a one-week utility build.
 
-## What an MCP server gives you
+## What an MCP server actually gives you
 
-MCP (Model Context Protocol) lets agents access structured capabilities:
+MCP (Model Context Protocol) standardises capability access for agents:
 
 - resources,
 - tools,
 - templates,
 - system-specific context.
 
-In practice, it standardises how your agents read and act.
+In practice, it makes agent behaviour less improvisational.
 
 ## Start with one painful workflow
 
-Do not begin with “enterprise architecture.”
-Begin with one repeated pain:
+Do not start with enterprise architecture diagrams.
+Start with one repeated pain:
 
 - searching internal docs,
 - querying ticket systems,
@@ -34,13 +34,13 @@ One success metric.
 
 A pragmatic starter includes:
 
-1. auth layer (token or service identity),
-2. 2–3 focused tools,
-3. 1 resource endpoint,
+1. authentication layer,
+2. two or three focused tools,
+3. one high-value resource endpoint,
 4. structured error responses,
-5. request/response logging.
+5. request and response logging.
 
-That is enough to deliver value.
+That is enough for first value.
 
 ## Tool design rules
 
@@ -49,55 +49,73 @@ For each tool, define:
 - clear name and purpose,
 - strict input schema,
 - deterministic output structure,
-- known failure codes.
+- known failure codes,
+- latency expectation.
 
-Loose schemas create expensive debugging loops.
+Loose schemas produce expensive debugging loops.
 
 ## Safety boundaries from day one
 
-Let’s be clear:
-if the server can mutate systems,
-you need policy controls immediately.
+If the server can mutate systems,
+policy controls are mandatory immediately.
 
 Add:
 
 - allow-list operations,
 - rate limits,
 - audit logs,
-- human confirmation for high-risk actions.
+- human confirmation for high-risk actions,
+- scoped credentials per tool.
 
 Speed without control is rework in advance.
 
 ## Local development loop
 
-Use a fast loop:
+Use a short loop:
 
 - mock external dependencies,
-- test tool contracts with sample payloads,
-- run against one real agent workflow,
-- review logs for schema friction.
+- test contracts with sample payloads,
+- run one real agent workflow,
+- inspect logs for schema friction.
 
-Do not optimise infra before interaction quality is stable.
+Do not optimise infrastructure before interaction quality is stable.
 
-## Adoption checklist
-
-Before rollout:
+## Adoption checklist before rollout
 
 - docs for each tool contract,
 - usage examples,
-- failure handling notes,
+- failure-handling notes,
 - versioning policy,
-- ownership assignment.
+- ownership assignment,
+- on-call escalation path.
 
 An unowned MCP server decays quickly.
+
+## Versioning and deprecation discipline
+
+When changing tool schemas:
+
+- version explicitly,
+- support overlap window,
+- announce deprecation date,
+- track client migration.
+
+Silent breaking changes destroy trust rapidly.
+
+## One-week execution plan
+
+- Day 1: pick workflow and success metric.
+- Day 2: implement first tool and schema tests.
+- Day 3: add resource endpoint and logging.
+- Day 4: add safety controls.
+- Day 5: run with one real agent flow and review failures.
+
+Ship narrow.
+Then expand.
 
 ## The core idea
 
 Your first MCP server should be boring, focused, and reliable.
 
 Solve one painful task well.
-Then expand.
-
-Here’s what’s going to happen:
-agent workflows become less improvisational,
-and far more operational.
+Then scale by evidence, not ambition.

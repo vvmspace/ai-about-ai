@@ -1,16 +1,16 @@
 # Unobvious AI Use #1: The Message Doctor for Difficult Conversations
 
-Most people do not avoid hard conversations because they are lazy.
+People rarely avoid difficult conversations because they are lazy.
 They avoid them because wording feels dangerous.
 
-One wrong sentence,
+One bad sentence,
 and a small issue becomes a week of stress.
 
-AI can solve this pain in minutes.
+AI can reduce this risk in minutes.
 
 ## The hidden pain
 
-You need to write one message:
+You need to send one message:
 
 - to a client who is late on payment,
 - to a colleague who keeps missing deadlines,
@@ -18,21 +18,22 @@ You need to write one message:
 - to a friend when a boundary was crossed.
 
 You know what must be said.
-You do not know how to say it without causing collateral damage.
+You do not want unnecessary collateral damage.
 
 ## The simple pattern: draft -> de-risk -> send
 
-Use AI as a communication safety layer, not as a ghostwriter.
+Use AI as a communication safety layer,
+not as a personality replacement.
 
 Three passes:
 
-1. **Dump mode** — write your raw emotional draft.
-2. **Risk mode** — ask AI to flag blame words, ambiguity, escalation triggers.
-3. **Delivery mode** — generate calm, firm version with boundary + next step.
+1. **Dump mode** — write the raw emotional draft.
+2. **Risk mode** — flag blame words, ambiguity, escalation triggers.
+3. **Delivery mode** — produce calm, firm message with boundary and next step.
 
-That’s it.
+That is enough for most cases.
 
-## Prompt template (copy-paste)
+## Prompt template (copy and adapt)
 
 "You are a communication editor.
 Goal: keep message calm, firm, and clear.
@@ -51,14 +52,14 @@ High leverage.
 
 ## Why this works
 
-AI is better than your stressed brain at:
+AI is often better than a stressed mind at:
 
 - reducing emotional noise,
 - preserving intent,
 - tightening structure,
 - neutralising accidental aggression.
 
-You stay the decision-maker.
+You remain the decision-maker.
 AI handles phrasing risk.
 
 ## Example transformation
@@ -73,26 +74,41 @@ If timing shifts, we should move deadlines accordingly."
 
 Same boundary.
 Less heat.
-Better outcome odds.
+Better probability of progress.
+
+## Escalation boundaries you must set
+
+For the avoidance of doubt,
+AI should not decide your intent.
+
+Do not outsource:
+
+- legal admissions,
+- HR-sensitive claims,
+- relationship ultimatums,
+- irreversible commitments.
+
+If stakes are high,
+review with a human before sending.
 
 ## Micro-routine for daily use
 
 - Keep a folder: `difficult_messages/`.
 - Save before/after versions.
-- Track response quality for 2 weeks.
+- Track response quality for two weeks.
 
-You will learn your own trigger phrases,
-and gradually need less assistance.
+You will spot your trigger phrases,
+and need less assistance over time.
 
 ## Where this is surprisingly valuable
 
-- customer support escalation replies,
+- support escalation replies,
 - payment reminders,
 - performance feedback,
-- “no” to scope creep,
+- saying “no” to scope creep,
 - relationship boundary messages.
 
-In all of these, clarity is kindness.
+In each case, clarity is kindness.
 Vagueness is expensive.
 
 ## The core idea
@@ -100,6 +116,5 @@ Vagueness is expensive.
 Use AI as a **Message Doctor** for emotionally loaded communication.
 
 Not to sound clever.
-To reduce avoidable damage.
-
-I’m curious how many conflicts in your week are really just unedited sentences.
+To reduce avoidable damage,
+and protect outcomes that matter.

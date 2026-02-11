@@ -9,21 +9,21 @@ Everything else is support.
 
 ## The motion-first template
 
-Structure your prompt as:
+Structure the prompt as:
 
 1. scene and subject,
 2. action over time,
 3. camera movement,
 4. mood and lighting,
 5. duration and pacing,
-6. quality and negatives.
+6. quality constraints and negatives.
 
 If action is vague,
 video becomes animated wallpaper.
 
 ## Write with timeline verbs
 
-Use verbs tied to sequence:
+Use sequence verbs:
 
 - enters,
 - pauses,
@@ -35,8 +35,8 @@ Example:
 “Close shot of barista pouring latte art,
 camera slowly dollies in,
 steam rises then catches warm side light,
-barista looks up and smiles at second 4,
-background crowd remains soft bokeh,
+barista looks up and smiles at second four,
+background crowd stays soft bokeh,
 6 seconds, cinematic realism.”
 
 Now the model has choreography.
@@ -51,13 +51,13 @@ Add one clear camera directive, not five:
 - aerial reveal,
 - lateral tracking shot.
 
-Conflicting camera instructions create jitter and incoherence.
+Conflicting camera instructions produce jitter and incoherence.
 
 ## Continuity safeguards
 
 To reduce flicker and identity drift:
 
-- keep wardrobe/props explicit,
+- keep wardrobe and props explicit,
 - limit scene transitions,
 - maintain one lighting setup,
 - avoid unnecessary object count.
@@ -65,7 +65,7 @@ To reduce flicker and identity drift:
 Complexity is seductive.
 Consistency pays.
 
-## Style and tempo control
+## Tempo and pacing control
 
 Specify tempo words:
 
@@ -75,11 +75,11 @@ Specify tempo words:
 - staccato cuts,
 - smooth cinematic flow.
 
-Then pair with shot length and frame rate guidance when supported.
+Pair tempo with shot length and frame-rate guidance when supported.
 
 ## Negative prompt essentials
 
-For video, high-value negatives include:
+High-value negatives for video:
 
 - warped limbs,
 - face morphing,
@@ -87,14 +87,24 @@ For video, high-value negatives include:
 - random text overlays,
 - abrupt exposure shifts.
 
-Keep your negative block tight and relevant.
+Keep the negative block short and relevant.
+
+## Story arc in six seconds
+
+Even short clips need narrative shape:
+
+- setup (first second),
+- change (middle),
+- payoff (final beat).
+
+Without arc, clips look expensive and forgettable.
 
 ## Production loop for usable clips
 
 - Generate 6–10 micro-variants.
-- Select top 2 by motion coherence.
+- Select top two by motion coherence.
 - Upscale or extend only finalists.
-- Edit with captions/music externally.
+- Edit captions, sound, and timing externally.
 
 Generation is not the final product.
 Packaging is where value appears.

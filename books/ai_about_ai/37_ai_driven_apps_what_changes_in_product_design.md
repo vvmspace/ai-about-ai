@@ -1,116 +1,128 @@
 # AI-Driven Apps: What Changes in Product Design
 
-Most products add AI as a feature.
+Most products bolt AI on as a feature.
 Strong products become AI-native in behaviour.
 
-That shift is subtle.
-And commercially decisive.
+The difference looks subtle.
+Commercially, it is decisive.
 
-## From static flows to probabilistic flows
+## From deterministic flows to probabilistic flows
 
-Classic apps assume deterministic paths:
-click button -> get expected result.
+Classic apps assume stable paths:
+click button, get expected result.
 
-AI-driven apps are different:
-input quality varies,
-output quality varies,
-user intent is partially hidden.
+AI-driven apps behave differently:
+
+- input quality varies,
+- output quality varies,
+- user intent is often partial.
 
 So product design must include:
 
 - confidence-aware UI,
-- verification steps,
-- graceful recovery when output is weak.
+- verification checkpoints,
+- graceful recovery for weak output.
 
-If you design AI like a normal API,
-your support queue will explain the mistake.
+Design AI like a normal API,
+and support tickets will design it for you.
 
-## The new product loop
+## The operating loop is different
 
-AI-driven apps live on this loop:
+AI-native products live on this loop:
 
-1. user intent capture,
+1. intent capture,
 2. generation,
 3. lightweight critique,
 4. user correction,
 5. memory update.
 
-The app improves through interaction,
-not only through release cycles.
+Improvement comes through interaction,
+not only release cycles.
 
-## Interfaces need “uncertainty ergonomics”
+## Uncertainty ergonomics is non-negotiable
 
-Let’s be clear:
-certainty theatre kills trust.
+Users can tolerate imperfection.
+They do not tolerate opaque certainty.
 
-Your interface should expose:
+Expose:
 
 - confidence hints,
 - source visibility,
-- “why this output” short rationale,
+- short “why this output” rationale,
 - one-click correction path.
 
-Users forgive imperfection.
-They do not forgive opaque confidence.
+If uncertainty is hidden,
+trust erodes faster than metrics reveal.
 
-## Value moves to orchestration
+## Value moves from model to orchestration
 
-In many categories, raw model capability is commoditising.
-Sustainable differentiation comes from:
+Raw model capability is commoditising in many markets.
+Durable differentiation now comes from:
 
 - context quality,
 - workflow fit,
-- tool integrations,
+- integrations,
 - feedback loops,
-- domain-specific guardrails.
+- domain guardrails.
 
-In other words:
-your moat is not the model.
+The moat is rarely the model.
 It is the system around it.
 
 ## Common failure pattern
 
 Teams ship “chat inside app” and call it transformation.
 
-Symptoms:
+Symptoms appear quickly:
 
-- low week-2 retention,
-- inconsistent output quality,
-- no clear user habit formed.
+- low week-two retention,
+- unstable output quality,
+- no durable user habit.
 
-Reason:
-no task-specific scaffolding.
-No outcome architecture.
+Root cause:
+no task scaffolding,
+no outcome architecture.
 
 ## Practical build sequence
 
-For a new AI-driven feature:
+For one new AI feature:
 
 - define one high-frequency user pain,
-- narrow to one repeatable output format,
-- add one correction action users can do in under 10 seconds,
-- track acceptance rate and rewrite rate.
+- constrain to one repeatable output schema,
+- add one correction action under 10 seconds,
+- track acceptance and rewrite rates.
 
-Do this before building broad capability.
+Repeat this loop before expanding scope.
+Breadth too early destroys learning speed.
+
+## UX contract for trust
+
+Every AI surface should answer three questions instantly:
+
+- What did the system do?
+- Why did it do it?
+- What can I change now?
+
+If a user cannot answer these,
+you do not have product clarity.
+You have interface theatre.
 
 ## Metrics that actually matter
 
-Do not obsess over session length.
-Track:
+Track weekly:
 
-- output acceptance rate,
-- correction-to-success ratio,
-- time-to-useful-result,
-- repeat usage in 7 days.
+- time to first useful output,
+- acceptance rate without edits,
+- rewrite rate,
+- recovery rate after weak output,
+- return rate after correction flow.
 
-These are leading signals of product usefulness.
+If correction usage rises while churn falls,
+your design is improving.
 
 ## The core idea
 
-AI-driven apps are not “apps with AI tabs.”
-They are adaptive systems with human correction built in.
+AI product design is control design under uncertainty.
 
-Design for that reality,
-and usage compounds.
-Ignore it,
-and novelty decays on schedule.
+Status: value must appear fast.
+Boundary: user control stays explicit.
+Consequence: retention compounds over time.

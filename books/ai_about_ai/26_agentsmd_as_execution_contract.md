@@ -1,70 +1,69 @@
 # AGENTS.md in Agentic Repos: Scope, Precedence, and Control
 
-Most teams discover `AGENTS.md` in the worst possible way:
-after an agent confidently edits the wrong thing.
+Most teams discover `AGENTS.md` at exactly the wrong moment:
+after an agent has edited the wrong file with total confidence.
 
-I’m curious how many “model mistakes” are actually instruction mistakes.
+Am I missing something, or do we still call this a “model error”
+when it was clearly an instruction error?
 
-Let’s be clear:
-`AGENTS.md` is not team documentation.
+For the avoidance of doubt:
+`AGENTS.md` is not decorative documentation.
 It is runtime control.
 
 ## What this file is (and is not)
 
-In agentic coding workflows, `AGENTS.md` defines local operating rules for an AI agent.
+In agentic workflows, `AGENTS.md` defines local operating rules for an AI agent.
 
-Think of it as:
+Treat it as:
 
 - a scoped instruction layer,
-- loaded during task execution,
+- loaded during execution,
 - designed to constrain behaviour in that subtree.
 
-It is **not** a wiki note.
-It is executable governance in plain text.
+It is not a wiki page.
+It is governance in plain text.
 
 ## The key mechanic: directory scope
 
 The file governs the directory where it lives,
-and everything beneath it.
+and every directory beneath it.
 
-This means you can design policy layers:
+That gives you policy layers:
 
-- repo root: universal defaults,
-- subsystem folder: domain-specific constraints,
+- repository root: universal defaults,
+- subsystem folder: domain constraints,
 - feature folder: narrow exceptions.
 
-Short version:
-location is policy.
+Location is policy.
+Simple as that.
 
 ## Precedence rules that actually matter
 
-A robust stack usually behaves like this:
+A reliable instruction stack usually works like this:
 
-1. system/developer/user instructions,
+1. system / developer / user instructions,
 2. nearest applicable `AGENTS.md`,
 3. broader parent `AGENTS.md` files,
 4. agent defaults.
 
-More deeply nested files override broader ones when they conflict.
+Nested files override broader files when they conflict.
+If that boundary is vague, output becomes non-reproducible.
 
-That’s not optional bookkeeping.
-That is the difference between reproducible output and chaos.
-
-## What to put inside (minimum viable contract)
+## What to put inside: minimum viable contract
 
 A high-signal `AGENTS.md` should define:
 
-- **mission**: what success looks like here,
+- **mission**: what success means in this subtree,
 - **boundaries**: what must never happen,
-- **workflow**: preferred order of work,
-- **validation**: exact checks/commands,
+- **workflow**: preferred sequence of work,
+- **validation**: exact checks and commands,
 - **delivery rules**: commit/PR/report format,
 - **escalation triggers**: when to stop and surface risk.
 
 No prose theatre.
-Only behaviour-changing instructions.
+Only behaviour-changing lines.
 
-## Bad vs good instruction style
+## Weak vs strong instruction style
 
 Weak:
 “Please keep code clean and well-tested.”
@@ -73,54 +72,55 @@ Strong:
 
 - run `pnpm test --filter api` after edits in `services/api/`,
 - do not edit generated files under `src/gen/`,
-- if schema changes, run migration check and include output in PR.
+- if schema changes, run migration checks and include output in PR.
 
-Specificity gives the agent less room to hallucinate process.
+Specificity narrows improvisation.
+That is precisely the point.
 
 ## Real failure pattern: instruction shadowing
 
-A common incident:
+Typical incident:
 
 - root file says “run full test suite,”
 - nested file says “run package-local tests only,”
-- no explicit override language.
+- override intent is never stated.
 
-Result: inconsistent behaviour across tasks,
-and endless “but it passed for me” conversations.
+Result: inconsistent execution,
+then long debates about why “it passed on my run.”
 
-Fix:
-state override intent explicitly.
+Fix: declare override intent explicitly.
+No subtlety required.
 
 ## Design pattern: status -> boundary -> consequence
 
-Use crisp control lines:
+Use control lines with sharp edges:
 
 - Status: `docs/public/` is customer-facing.
 - Boundary: no unverifiable claims.
 - Consequence: remove claim or block commit.
 
-Calm language.
-Hard edge.
-Clear outcome.
+Calm tone.
+Firm limits.
+Predictable outcomes.
 
 ## AGENTS.md as incident memory
 
 When a failure happens, update instructions,
-not just code.
+not only code.
 
-If incidents do not produce instruction diffs,
-your system does not learn.
-It merely forgets politely.
+If incidents never produce instruction diffs,
+your system has not learned.
+It has merely forgotten politely.
 
 ## 20-minute hardening pass
 
 For one active repository:
 
-1. map current instruction layers,
-2. remove contradictory commands,
-3. add explicit override notes for nested scopes,
-4. replace vague quality lines with exact checks,
-5. add one clear escalation trigger.
+1. map instruction layers,
+2. remove contradictions,
+3. add explicit override notes,
+4. replace vague quality language with executable checks,
+5. add one escalation trigger with clear threshold.
 
 Then run three tasks and compare rework.
 
@@ -128,7 +128,7 @@ Then run three tasks and compare rework.
 
 `AGENTS.md` is a control surface for agent execution.
 
-Here’s what’s going to happen when you treat it seriously:
+Treat it seriously, and this is what happens next:
 more predictable runs,
 cleaner handoffs,
 and fewer expensive surprises disguised as intelligence limits.

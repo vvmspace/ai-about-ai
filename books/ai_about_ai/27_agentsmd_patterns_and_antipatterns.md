@@ -3,18 +3,18 @@
 You do not need a perfect instruction system.
 You need one that survives deadlines and new contributors.
 
-This chapter is about practical patterns for `AGENTS.md` in active repos.
+This chapter covers practical `AGENTS.md` patterns for active repositories.
 
 ## Pattern 1: layered files, limited depth
 
-Use at most three layers in most projects:
+In most projects, three layers are enough:
 
 - root defaults,
 - domain overrides,
 - local feature exceptions.
 
-Too flat: no local precision.
-Too deep: nobody can reason about precedence.
+Too flat gives poor local precision.
+Too deep destroys precedence clarity.
 
 ## Pattern 2: command-level checks
 
@@ -24,13 +24,13 @@ Prefer:
 
 - exact command,
 - expected pass signal,
-- where it applies.
+- explicit scope.
 
 Example:
 
 - in `frontend/`: run `pnpm lint && pnpm test`,
 - in `infra/`: run `terraform validate`,
-- in `docs/`: run link check script.
+- in `docs/`: run link-check script.
 
 This turns quality from intention into execution.
 
@@ -39,26 +39,26 @@ This turns quality from intention into execution.
 Agents are fast.
 They are also literal.
 
-Declare protected areas:
+Declare protected areas clearly:
 
 - generated code,
 - migration history,
 - vendor snapshots,
 - legal text blocks.
 
-If files are fragile, say so directly.
+If a file is fragile, say so directly.
 
 ## Pattern 4: fallback rules under tool failure
 
-Tooling fails.
-That’s normal.
+Tools fail.
+That is normal.
 Silence is not.
 
 Define fallback behaviour:
 
 - if e2e is unavailable, run unit + integration,
-- mark result as conditional,
-- include warning in final report.
+- mark the result as conditional,
+- include the warning in the final report.
 
 Controlled degradation beats fake green builds.
 
@@ -79,23 +79,23 @@ Clear output contracts reduce review friction.
 
 ## Anti-pattern 1: policy novel mode
 
-Long files with motivational language are ignored.
+Long motivational instruction files are ignored.
 
-Rule:
+Rule of thumb:
 if a line cannot be tested or observed,
 it probably does not belong.
 
 ## Anti-pattern 2: contradictory instructions
 
 “Move fast” plus “always run full monorepo checks” for every tiny edit
-is not rigor.
+is not rigour.
 It is latency theatre.
 
 Match checks to risk and scope.
 
 ## Anti-pattern 3: hidden precedence
 
-If nested overrides exist but are undocumented,
+If nested overrides exist but remain undocumented,
 agents and humans will apply rules inconsistently.
 
 State overrides plainly:
@@ -108,8 +108,8 @@ A defect occurs.
 A retro happens.
 `AGENTS.md` remains unchanged.
 
-That’s not continuous improvement.
-That is managed amnesia.
+That does not work.
+It is managed amnesia.
 
 ## Quick audit checklist
 
@@ -121,7 +121,7 @@ For each `AGENTS.md` layer, ask:
 - Are overrides documented?
 - Are escalation triggers present?
 
-If two or more answers are “no,”
+If two or more answers are “no”,
 expect inconsistent agent behaviour.
 
 ## Minimal template you can reuse
@@ -132,12 +132,13 @@ expect inconsistent agent behaviour.
 - **When unsure**: escalation conditions.
 - **Deliver as**: final output format.
 
-One page. High signal.
+One page.
+High signal.
 No decorative language.
 
 ## The core idea
 
-In agentic repos, `AGENTS.md` quality determines execution quality.
+In agentic repositories, `AGENTS.md` quality determines execution quality.
 
 Not model branding.
 Not louder prompts.
