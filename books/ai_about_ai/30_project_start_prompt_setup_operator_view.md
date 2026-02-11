@@ -1,96 +1,120 @@
 # Project-Start Prompt Setup (Operator View)
 
-Day one of a project is not for inspiration.
-It is for reducing future chaos.
+Most projects do not fail in month six.
+They fail in week one,
+when everyone had believed they were solving the same problem.
 
-Prompt setup at launch is operational architecture.
-Do it once, correctly,
-and you buy back weeks.
+A solid **project-start prompt setup** is not decoration.
+It is operating discipline.
+If you shape it properly on day one,
+you remove half the avoidable friction before it appears.
 
-## The operator’s objective
+## The operator's brief
 
-An operator cares about three things:
+From an operator’s perspective, prompt setup has one job:
+turn ambiguity into a manageable system.
 
-- predictable output,
-- controllable risk,
-- measurable cost.
+Three outcomes matter:
 
-Prompt setup should be judged on these,
-not on how clever it sounds.
+- predictable output quality,
+- controllable operational risk,
+- measurable cost per useful result.
 
-## Start packet: the non-negotiable five
+If a setup is “creative” but not measurable,
+it is theatre.
 
-Before any generation sprint, build a start packet:
+## Build a start packet before first generation
 
-1. **Mission brief** — outcome, user, deadline.
-2. **Constraints ledger** — legal, technical, brand, policy.
-3. **Reference canon** — source hierarchy and trust levels.
-4. **Output schemas** — what “done” physically looks like.
-5. **Evaluation rubric** — pass/fail dimensions.
+Before any sprint, write and freeze a compact start packet.
 
-Missing packet = drifting scope by lunch.
+1. **Mission brief** — exact outcome, user segment, and delivery window.
+2. **Constraints ledger** — legal, technical, policy, brand limits.
+3. **Reference canon** — source hierarchy, trust levels, and stale-source rules.
+4. **Output schema** — what “done” looks like in practical terms.
+5. **Evaluation rubric** — pass/fail signals with clear thresholds.
 
-## Environment assumptions block
+No packet, no sprint.
+For the avoidance of doubt,
+that boundary prevents expensive improvisation.
 
-Force explicit assumptions early:
+## Declare environment reality early
 
-- stack and versions,
-- deployment context,
+Many teams had lost days because no one wrote the operating assumptions.
+Do it up front.
+
+State explicitly:
+
+- stack and version constraints,
+- deployment environment,
 - budget envelope,
-- available tools,
-- excluded dependencies.
+- allowed tools and APIs,
+- excluded dependencies,
+- security and data handling limits.
 
-I’m curious how many project delays are simply unstated environment reality.
+If assumptions remain implicit,
+incident tickets will clarify them later — at a higher price.
 
-## Prompt architecture for launch week
+## Use a three-layer prompt architecture
 
-Use a three-layer stack:
+Keep structure simple and enforceable.
 
-- **System layer**: role, boundaries, tone constraints.
-- **Task layer**: current objective and acceptance criteria.
-- **State layer**: known decisions and open questions.
+- **System layer**: role, tone boundaries, hard safety rules.
+- **Task layer**: immediate objective and acceptance criteria.
+- **State layer**: prior decisions, unresolved questions, and context deltas.
 
-Lock system layer.
-Version task and state layers daily.
+Lock the system layer.
+Version task and state daily.
+Archive changes so regressions can be explained,
+not guessed.
 
-## Gate prompts, not only outputs
+## Review prompts, not just outputs
 
-Most teams review outputs.
-Smarter teams also review prompts.
+Most teams inspect outputs.
+High-performing teams inspect the prompt assets that produced them.
 
-Add two checks:
+Add two preflight checks:
 
-- ambiguity score (how many interpretations remain),
-- dependency score (what external facts can break this).
+- **ambiguity score** — how many plausible interpretations remain,
+- **dependency score** — how many fragile external facts can break the answer.
 
 If either score is high,
-revise the prompt before scaling execution.
+refine prompt design before scaling workload.
+That seems boring.
+It is also how reliable teams stay reliable.
 
 ## Incident-resistant defaults
 
-Set calm defaults from day one:
+Calm defaults reduce downstream clean-up:
 
-- ask for citations on factual claims,
-- surface uncertainty explicitly,
-- decline unsupported legal/medical/financial certainty,
-- escalate when constraints conflict.
+- require citations for factual claims,
+- force explicit uncertainty markers,
+- refuse unsupported legal/medical/financial certainty,
+- escalate when constraints collide,
+- log assumption changes with timestamps.
 
-This prevents “confident nonsense” from becoming process debt.
+These defaults convert “confident nonsense”
+into visible, manageable risk.
 
-## Launch checklist (15 minutes)
+## A practical 15-minute launch check
 
-- Mission and constraints present.
-- Schema and rubric linked.
-- Source hierarchy defined.
-- Escalation triggers clear.
-- First dry run scored by rubric.
+Run this sequence before first delivery:
 
-Then proceed.
+- Mission, user, and deadline are written.
+- Constraints ledger is complete and current.
+- Output schema and rubric are linked to the task.
+- Source hierarchy is explicit.
+- Escalation triggers are visible.
+- One dry run is scored by rubric.
 
-## The core idea
+Then ship.
+Not earlier.
 
-Project-start prompt setup is not writing prompts.
-It is setting control surfaces.
+## Operational takeaway
 
-Get control surfaces right,
-and delivery stops feeling lucky.
+At project start,
+prompt setup is **control-surface engineering** for an AI workflow.
+
+Do it once with discipline,
+and execution becomes calmer,
+faster,
+and much less dependent on luck.

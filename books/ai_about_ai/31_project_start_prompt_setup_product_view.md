@@ -1,95 +1,116 @@
 # Project-Start Prompt Setup (Product View)
 
-Same project.
-Different angle.
+Same kickoff.
+Different accountability.
 
-The operator asks, “Can we control execution?”
-The product lead asks, “Will users care?”
+Operators ask,
+“Can this system run safely and repeatably?”
+Product leaders ask,
+“Will users feel real value quickly enough to come back?”
 
-You need both.
+You need both answers before scaling.
 
-## Start with user tension, not feature list
+## Begin with user tension, not feature enthusiasm
 
-Before prompt design,
-name one painful user tension in a single sentence.
+At kickoff, define one concrete user tension in a single sentence.
 
 Example:
-“Users lose trust because recommendations are fast but unexplained.”
+“Users receive fast recommendations, but they cannot trust them because reasoning is opaque.”
 
-That sentence should shape every prompt decision afterwards.
+That sentence becomes your product compass.
+If it is vague,
+your prompt strategy will drift into output volume,
+not user impact.
 
-## Product narrative block
+## Write the product narrative block
 
-At kickoff, define:
+Before prompt iteration starts,
+lock four product signals:
 
-- target user segment,
-- desired user moment (“aha” event),
-- unacceptable user risk,
-- retention signal in week one.
+- primary user segment,
+- desired “aha” moment,
+- unacceptable user harm,
+- week-one retention indicator.
 
 Without this block,
-you optimise local tasks and miss product value.
+teams optimise local tasks and miss the product outcome.
 
-## Prompt setup as UX scaffolding
+## Treat prompt setup as UX scaffolding
 
-Prompts should guide experience quality:
+In AI-first products,
+prompts are part of interface behaviour.
+They shape tone, clarity, and user confidence.
+
+Prioritise this order:
 
 - clarity before cleverness,
 - transparency before persuasion,
-- useful next step before perfect answer.
+- useful next step before “perfect” answer,
+- confidence boundaries before over-claiming.
 
-If output cannot help the user act,
-it is not product quality.
+If the user cannot act after reading the output,
+that output is not product quality.
 
-## Two-lens acceptance criteria
+## Use two-lens acceptance criteria
 
-Each prompt should pass:
+Every launch prompt should pass two lenses:
 
-1. **Execution lens** — accurate, safe, consistent.
-2. **Value lens** — relevant, actionable, confidence-building.
+1. **Execution lens** — accuracy, consistency, and safety.
+2. **Value lens** — relevance, actionability, and trust lift.
 
-Teams often pass lens one and fail lens two.
-Then they wonder why engagement is flat.
+Teams often pass lens one and miss lens two.
+Then they wonder why engagement looks polite,
+but flat.
 
-## Voice constraints at launch
+## Define voice constraints as product decisions
 
-Tone is a product component.
-Set it early.
+Tone is not cosmetic.
+It is a retention mechanic.
 
-For most professional tools:
+For most professional AI products,
+set voice constraints early:
 
 - concise,
 - calm,
-- explicit about uncertainty,
+- direct about uncertainty,
+- respectful under user frustration,
 - never patronising.
 
-A sharp answer in the wrong tone still loses trust.
+A technically correct answer in the wrong voice
+still damages trust.
 
-## The “first 50 sessions” protocol
+## Run a "first 50 sessions" learning loop
 
-For early usage,
-log three signals per session:
+Early signal beats internal opinion.
+For the first 50 user sessions,
+log three behavioural indicators:
 
-- was the answer used,
-- did user ask clarifying follow-up,
-- did user return within 24 hours.
+- Was the answer used?
+- Did the user request clarification?
+- Did the user return within 24 hours?
 
-Adjust prompts weekly from these signals,
-not from internal taste debates.
+Review weekly.
+Patch prompts from behaviour,
+not from meeting-room preference.
 
-## Practical workshop (90 minutes)
+## 90-minute kickoff workshop you can repeat
 
-- 20 min: define user tension + aha event.
-- 20 min: write initial prompt architecture.
-- 20 min: create two-lens rubric.
-- 20 min: simulate five user sessions.
-- 10 min: patch prompts and ship.
+Use one structured block:
 
-Fast, focused, evidence-first.
+- 20 min: define user tension and aha moment.
+- 20 min: draft initial prompt architecture.
+- 20 min: write two-lens rubric.
+- 20 min: simulate five realistic sessions.
+- 10 min: patch prompts and publish v1.
 
-## The core idea
+Fast, measurable, and hard to misinterpret.
 
-Prompt setup at project start is product strategy in disguise.
+## Product takeaway
+
+At project start,
+**prompt setup for product teams** is early strategy execution,
+not merely prompt wording.
 
 If you treat it as a technical afterthought,
-users will feel it before analytics confirms it.
+users will detect it
+well before dashboards do.

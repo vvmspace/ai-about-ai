@@ -1,55 +1,59 @@
 # Prompt Hacks for Image Generation
 
-Let’s remove the mystique.
-Great image prompts are not poetry.
-They are controlled specification.
+Here is the uncomfortable truth.
+Most poor AI images were not model failures.
+They were vague briefs dressed up as prompts.
 
-You are directing a shoot,
-not whispering to a crystal ball.
+If you want consistent results,
+stop writing incantations.
+Start writing art direction.
 
-## The reliable prompt frame
+## Use a reliable prompt frame
 
-Use this order:
+A practical structure for **AI image generation prompts**:
 
 1. subject,
 2. scene,
 3. composition,
 4. lighting,
-5. style reference,
+5. style cluster,
 6. camera/render details,
-7. negatives.
+7. negative constraints.
 
-Short blocks. Clear nouns. No rambling.
+Keep each block short.
+Concrete nouns outperform abstract adjectives.
 
-## Quality jumps from concrete constraints
+## Constraint quality decides output quality
 
-Weak: “A cool cyberpunk portrait.”
+Weak prompt:
+“Make a cool cyberpunk portrait.”
 
-Stronger:
-“Waist-up portrait of a female mechanic in rain-soaked neon alley,
+Stronger prompt:
+“Waist-up portrait of a female mechanic in a rain-soaked neon alley,
 35mm lens, shallow depth of field,
-rim light magenta + cyan bounce,
+magenta rim light with cyan bounce,
 high-detail skin texture,
 editorial fashion composition,
 no text, no watermark, no extra fingers.”
 
 Specificity reduces lottery behaviour.
 
-## Control style without copying artists
+## Control style without copying living artists
 
-Prefer descriptive style clusters:
+Use descriptive style clusters:
 
-- “brutalist poster design,”
-- “Scandinavian product photography,”
-- “late-90s anime cel shading.”
+- brutalist poster design,
+- Scandinavian product photography,
+- late-90s anime cel shading,
+- documentary street portrait.
 
-Avoid direct living-artist mimic prompts where policy is uncertain.
-That’s not a legal strategy.
-That’s a headache subscription.
+Avoid prompts that imitate living artists directly when policy is unclear.
+I’d advise against building a workflow on legal ambiguity.
 
-## Composition cheat codes
+## Composition terms are low-effort leverage
 
-If outputs feel generic, specify framing explicitly:
+If outputs feel generic,
+set framing explicitly:
 
 - rule of thirds,
 - centred symmetry,
@@ -57,28 +61,29 @@ If outputs feel generic, specify framing explicitly:
 - top-down flat lay,
 - macro close-up.
 
-Composition terms are low effort, high impact.
+Small composition clauses often create immediate differentiation.
 
-## Lighting is your force multiplier
+## Lighting is the force multiplier
 
-Most amateur prompts ignore light.
-Professionals start there.
+Many beginners had focused on subject and forgotten light.
+The result was technically correct,
+but emotionally flat.
 
-Try these:
+Try one clear lighting intent:
 
 - soft window light,
 - hard noon shadows,
 - cinematic volumetric haze,
 - golden-hour backlight,
-- practical neon key + ambient spill.
+- neon key with ambient spill.
 
-One lighting clause can transform the entire result.
+One lighting line can change everything.
 
-## Negative prompts that actually help
+## Write tactical negative prompts
 
-Keep negatives tactical, not endless.
+Negative prompts work best when compact and purposeful.
 
-Good categories:
+Focus on:
 
 - anatomical artefacts,
 - text/watermarks,
@@ -86,35 +91,39 @@ Good categories:
 - unwanted objects,
 - over-stylisation.
 
-Too many negatives can flatten creativity.
-Use restraint.
+An endless negative list can sterilise useful variation.
+Use precision, not panic.
 
-## Iteration loop: 3-pass method
+## Run a three-pass iteration loop
 
-- Pass 1: broad concept exploration (5 variants).
+A dependable production cycle:
+
+- Pass 1: concept exploration (5 variants).
 - Pass 2: lock composition and lighting.
-- Pass 3: texture/detail polish + cleanup.
+- Pass 3: refine texture/detail and clean artefacts.
 
-Do not perfect on pass one.
-That is expensive optimism.
+Do not chase perfection on pass one.
+That is expensive optimism,
+not a process.
 
-## Fast commercial use-cases
+## Monetise with outcome-focused packaging
 
-You can monetise quickly with:
+You can ship commercially valuable assets quickly:
 
-- social post packs,
+- social content packs,
 - ad concept boards,
-- ebook/lead-magnet covers,
+- ebook and lead-magnet covers,
 - product mockup scenes.
 
-Delivery speed wins more contracts than artistic monologues.
+Clients pay for speed + relevance,
+not your internal prompt poetry.
 
-## The core idea
+## Creative-commercial takeaway
 
-Image prompting is applied art direction.
+Great **image prompting** is practical direction under constraints.
 
-Be precise.
-Be iterative.
-Be commercially useful.
-
-That combination beats “genius prompts” every week.
+Be concrete.
+Iterate deliberately.
+Deliver assets that help someone publish,
+sell,
+or test an idea this week.
