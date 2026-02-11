@@ -9,6 +9,8 @@ A long-form field book for operating with AI in 2026.
 - **Agents** (`11–15`): single vs multi-agent reality, tool permissions, memory/state, human-in-the-loop controls.
 - **Knowledge Systems** (`16–20`): PKG thinking, practical RAG, document architecture, meeting-to-memory pipelines, searchability.
 - **Career Strategy** (`21–25`): AI-native skills, leverage portfolio, brand, trust/ethics, three-year trajectory.
+- **Operational Playbooks** (`26–31`): AGENTS.md as execution law, interaction protocols, agent organisations, and project-start prompt setup from operator and product angles.
+- **Creator Monetisation** (`32–34`): image/video prompting tricks and the fastest route to first revenue.
 
 ## Table of contents
 
@@ -38,6 +40,15 @@ A long-form field book for operating with AI in 2026.
 - [23 — Personal Brand with AI](./23_career_strategy_personal_brand_with_ai.md)
 - [24 — Ethics and Trust](./24_career_strategy_ethics_and_trust.md)
 - [25 — The Next Three Years](./25_career_strategy_the_next_three_years.md)
+- [26 — AGENTS.md as an Execution Contract](./26_agentsmd_as_execution_contract.md)
+- [27 — AGENTS.md Patterns and Anti-Patterns](./27_agentsmd_patterns_and_antipatterns.md)
+- [28 — Agent-to-Agent Interaction Protocols](./28_agent_to_agent_interaction_protocols.md)
+- [29 — Agent Societies: Roles, Incentives, and Control](./29_agent_societies_roles_incentives_and_control.md)
+- [30 — Project-Start Prompt Setup (Operator View)](./30_project_start_prompt_setup_operator_view.md)
+- [31 — Project-Start Prompt Setup (Product View)](./31_project_start_prompt_setup_product_view.md)
+- [32 — Prompt Hacks for Image Generation](./32_prompt_hacks_for_image_generation.md)
+- [33 — Prompt Hacks for Video Generation](./33_prompt_hacks_for_video_generation.md)
+- [34 — Fastest Path to Your First $100 with AI](./34_fastest_path_to_first_100_usd_with_ai.md)
 
 ## Related editions
 
