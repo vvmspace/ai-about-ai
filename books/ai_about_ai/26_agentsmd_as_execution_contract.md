@@ -22,6 +22,9 @@ Think of it as:
 It is **not** a wiki note.
 It is executable governance in plain text.
 
+This sits in the heart of **AI agent governance**:
+clear instructions, repeatable outcomes, and fewer production incidents.
+
 ## The key mechanic: directory scope
 
 The file governs the directory where it lives,
@@ -35,6 +38,9 @@ This means you can design policy layers:
 
 Short version:
 location is policy.
+
+If scope is ambiguous, execution becomes political.
+People debate intent instead of reading the rule.
 
 ## Precedence rules that actually matter
 
@@ -50,6 +56,9 @@ More deeply nested files override broader ones when they conflict.
 That’s not optional bookkeeping.
 That is the difference between reproducible output and chaos.
 
+When teams skip this order, they often diagnose the wrong thing.
+They blame the model, when the failure had begun in governance design.
+
 ## What to put inside (minimum viable contract)
 
 A high-signal `AGENTS.md` should define:
@@ -63,6 +72,9 @@ A high-signal `AGENTS.md` should define:
 
 No prose theatre.
 Only behaviour-changing instructions.
+
+If a line cannot change an agent decision,
+it should probably be removed.
 
 ## Bad vs good instruction style
 
@@ -91,6 +103,9 @@ and endless “but it passed for me” conversations.
 Fix:
 state override intent explicitly.
 
+For the avoidance of doubt, phrase it as a replacement, not a suggestion:
+“Rules in this folder replace root test requirements for docs-only edits.”
+
 ## Design pattern: status -> boundary -> consequence
 
 Use crisp control lines:
@@ -112,6 +127,8 @@ If incidents do not produce instruction diffs,
 your system does not learn.
 It merely forgets politely.
 
+This is the practical route from “postmortem culture” to *operational memory*.
+
 ## 20-minute hardening pass
 
 For one active repository:
@@ -124,11 +141,13 @@ For one active repository:
 
 Then run three tasks and compare rework.
 
-## The core idea
+Most teams are surprised by how quickly rework drops once boundary text is precise.
 
 `AGENTS.md` is a control surface for agent execution.
 
-Here’s what’s going to happen when you treat it seriously:
-more predictable runs,
+Treat it seriously,
+and you get more predictable runs,
 cleaner handoffs,
 and fewer expensive surprises disguised as intelligence limits.
+
+If you want to continue this arc, read the tactical follow-up on patterns and anti-patterns in [Chapter 27](./27_agentsmd_patterns_and_antipatterns.md).

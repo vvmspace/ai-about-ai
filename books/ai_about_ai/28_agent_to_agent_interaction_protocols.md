@@ -19,6 +19,8 @@ Every inter-agent interaction needs a handshake:
 
 No handshake, no handoff.
 
+In practical terms, this is where *multi-agent systems* either scale or quietly fail.
+
 ## Message design rules
 
 Keep messages dual-format:
@@ -28,6 +30,9 @@ Keep messages dual-format:
 
 The summary keeps operators fast.
 The structured block keeps pipelines reliable.
+
+If you only write for humans, automation breaks.
+If you only write for machines, oversight slows to a crawl.
 
 ## Clarification budget
 
@@ -84,6 +89,9 @@ Track these metrics:
 If those are invisible,
 optimisation is theatre.
 
+This metric stack also improves operating decisions,
+because teams can tune protocols with evidence rather than opinion.
+
 ## Practical protocol card
 
 For your next workflow, define:
@@ -100,7 +108,18 @@ You will usually discover this uncomfortable truth:
 the bottleneck was never “intelligence.”
 It was interface hygiene.
 
-## The core idea
+## Operator checklist (fast version)
+
+Before enabling autonomous loops, verify:
+
+- schema fields are mandatory where needed,
+- confidence labels map to explicit thresholds,
+- escalation owners are named,
+- retries have a hard cap,
+- logs preserve decision traces.
+
+If one item is missing,
+be prepared for ambiguous failures.
 
 Agent collaboration quality is protocol quality.
 
@@ -109,3 +128,5 @@ Not model branding.
 
 Protocol first.
 Performance follows.
+
+For organisational design on top of these protocols, continue to [Chapter 29](./29_agent_societies_roles_incentives_and_control.md).
