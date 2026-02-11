@@ -13,7 +13,8 @@ A useful life-oriented MCP should have:
 - high-frequency use,
 - low setup friction,
 - clear privacy boundaries,
-- measurable time saved.
+- measurable time saved,
+- obvious failure fallback.
 
 If it fails any of these,
 it becomes another abandoned tool.
@@ -88,6 +89,18 @@ What it should do:
 Quick win:
 better continuity with lower cognitive load.
 
+## Deployment order for real life
+
+Start with one domain that hurts weekly.
+Do not integrate all five at once.
+
+Install,
+run for two weeks,
+measure hours recovered,
+then expand.
+
+Consistency beats feature count.
+
 ## Privacy baseline (non-negotiable)
 
 For personal-life MCPs:
@@ -95,13 +108,17 @@ For personal-life MCPs:
 - minimise retained data,
 - separate sensitive categories,
 - provide delete/export controls,
-- keep visible access logs.
+- keep visible access logs,
+- support temporary-session mode where possible.
 
 Convenience without privacy control is a bad trade.
 
-## The core idea
+For implementation guidance, use [Build Your Own MCP Server (Without Overengineering)](./40_build_your_own_mcp_server.md).
+For technical stack options at work, compare with [Top MCP Servers for Development Work](./42_top_mcp_servers_for_developers.md).
 
-Best “life MCPs” remove recurring coordination pain,
+## Everyday automation that actually sticks
+
+The best **MCP servers for everyday life** remove recurring coordination pain,
 not add novelty.
 
 Choose practical domains.

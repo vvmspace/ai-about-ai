@@ -15,7 +15,8 @@ Symptoms:
 - variable quality,
 - repeated prompt crafting,
 - brittle handoffs,
-- slow onboarding.
+- slow onboarding,
+- hidden operator knowledge.
 
 Skills convert best practice into reusable operations.
 
@@ -28,7 +29,8 @@ A useful skill defines:
 - required inputs,
 - tool calls and sequence,
 - output schema,
-- fallback path.
+- fallback path,
+- permission boundaries.
 
 If one is missing,
 execution drift appears.
@@ -41,7 +43,8 @@ Treat skills as product assets:
 2. extract winning workflow,
 3. package into skill format,
 4. validate on live tasks,
-5. version and improve.
+5. version and improve,
+6. deprecate weak variants.
 
 No lifecycle, no reliability.
 
@@ -54,7 +57,8 @@ Better:
 
 - one job,
 - one clear entry point,
-- one reliable output.
+- one reliable output,
+- one accountable owner.
 
 Specialisation increases trust.
 
@@ -68,7 +72,8 @@ Keep an index with:
 - use-case sentence,
 - required permissions,
 - examples,
-- known limits.
+- known limits,
+- deprecation status.
 
 Discovery is part of performance.
 
@@ -80,7 +85,8 @@ Track:
 - success rate,
 - average completion time,
 - escalation rate,
-- incidents per skill version.
+- incidents per skill version,
+- rollback frequency.
 
 If reuse is low,
 either discoverability or fit is broken.
@@ -91,13 +97,27 @@ either discoverability or fit is broken.
 - Skills with no output contract.
 - Skills that call too many tools by default.
 - Skills never updated after failures.
+- Skills with permissions broader than their task.
 
 That is not a library.
 That is a museum.
 
-## The core idea
+## Practical build order
 
-Skills are the missing layer between raw model ability and dependable execution.
+Start with three high-friction tasks.
+Ship one skill per task.
+Measure outcomes for two weeks.
+Then decide what deserves expansion.
+
+You do not need fifty skills.
+You need ten that are trusted.
+
+For protocol-level context, read [Build Your Own MCP Server (Without Overengineering)](./40_build_your_own_mcp_server.md).
+For app behaviour design, connect this chapter with [User Engagement Mechanics in AI-Driven Apps](./38_user_engagement_mechanics_in_ai_driven_apps.md).
+
+## Capability system that scales
+
+**Reusable AI skills** are the operational layer between model talent and dependable execution.
 
 Build them narrowly.
 Version them deliberately.

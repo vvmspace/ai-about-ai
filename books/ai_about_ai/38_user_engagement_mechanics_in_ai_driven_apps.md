@@ -1,11 +1,12 @@
 # User Engagement Mechanics in AI-Driven Apps
 
 Engagement in AI apps is not magic.
-It is mechanism design.
+It is product mechanics, measured weekly.
 
-The goal is simple:
+The target is blunt:
 first value fast,
-repeat value predictably.
+repeat value predictably,
+and reduce recovery time when sessions fail.
 
 ## Mechanic 1: time-to-first-win under 60 seconds
 
@@ -56,7 +57,8 @@ Rules:
 
 - show what is remembered,
 - let users delete memory quickly,
-- separate temporary context from persistent profile.
+- separate temporary context from persistent profile,
+- expose memory scope in plain language.
 
 Transparent memory creates comfort.
 Hidden memory creates churn.
@@ -85,16 +87,29 @@ with one-click execution.
 Blank canvas is elegant for designers.
 It is abandonment for most users.
 
-## Mechanic 7: confidence and fallback routing
+## Mechanic 7: confidence routing and graceful fallback
 
 If model confidence is low,
 route to:
 
 - clarifying question,
 - alternate workflow,
-- human escalation path.
+- human escalation path,
+- or a safe default action.
 
 Dead-end output is retention poison.
+
+## Mechanic 8: visible progress and closure
+
+Long AI tasks without feedback feel broken.
+
+Show:
+
+- what step is running,
+- what input is missing,
+- what “done” will look like.
+
+A visible finish line reduces drop-off.
 
 ## Engagement scorecard (weekly)
 
@@ -104,14 +119,19 @@ Track per cohort:
 - week-1 repeat rate,
 - average edits before acceptance,
 - memory opt-in rate,
-- failed session recovery rate.
+- failed session recovery rate,
+- task completion rate.
 
 If these improve, your mechanics are working.
 
-## The core idea
+For design foundations, pair this with [AI-Driven Apps: What Changes in Product Design](./37_ai_driven_apps_what_changes_in_product_design.md).
+For advanced motivation loops, continue with [Dopamine Loop Variations for AI-Driven Apps](./43_dopamine_loop_variations_for_ai_driven_apps.md).
 
-Engagement in AI-driven apps is engineered through feedback-rich control.
+## Retention outcome to optimise
 
-Status -> value fast.
-Boundary -> user control stays explicit.
-Consequence -> retention compounds.
+**AI-driven app engagement** improves when value is immediate,
+control is explicit,
+and failure paths are recoverable.
+
+Build for repeated wins, not novelty spikes.
+That is how retention compounds.
