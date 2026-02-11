@@ -23,6 +23,9 @@ Each role must own a failure mode.
 If no failure mode is owned,
 failures float.
 
+A role without accountability is decoration.
+It looks sophisticated and fixes nothing.
+
 ## Incentive design for agents
 
 Agents optimise what you reward.
@@ -41,6 +44,8 @@ Use blended scorecards:
 - policy compliance.
 
 Balanced incentives produce stable systems.
+
+This is the practical backbone of **agent governance** in production.
 
 ## Separation of powers
 
@@ -125,9 +130,21 @@ Calm authority beats reactive micromanagement.
 Week-end question:
 which defects disappeared because control became explicit?
 
-## The core idea
+## Practical application in a small team
+
+If you only have two operators and limited compute,
+start simple:
+
+- one builder agent,
+- one critic agent,
+- one human approval gate for high-risk outputs.
+
+Then add role granularity only after you can measure failure classes.
+That seems slower, but it usually ships faster.
 
 A multi-agent stack is an operating model.
 
 Design it like an organisation,
 or it will behave like one by accident.
+
+Then move to [Chapter 30](./30_project_start_prompt_setup_operator_view.md) to set project-start control surfaces that keep this organisation aligned from day one.

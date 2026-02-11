@@ -5,6 +5,9 @@ You need one that survives deadlines and new contributors.
 
 This chapter is about practical patterns for `AGENTS.md` in active repos.
 
+If Chapter 26 defined the contract,
+this chapter is about operating it under pressure.
+
 ## Pattern 1: layered files, limited depth
 
 Use at most three layers in most projects:
@@ -15,6 +18,9 @@ Use at most three layers in most projects:
 
 Too flat: no local precision.
 Too deep: nobody can reason about precedence.
+
+A simple stack is easier to audit,
+and faster to explain during incidents.
 
 ## Pattern 2: command-level checks
 
@@ -33,6 +39,8 @@ Example:
 - in `docs/`: run link check script.
 
 This turns quality from intention into execution.
+
+For *AI coding workflows*, this one habit prevents a surprising number of regressions.
 
 ## Pattern 3: explicit no-touch zones
 
@@ -76,6 +84,9 @@ Specify response format:
 - citations or evidence format.
 
 Clear output contracts reduce review friction.
+
+They also improve internal knowledge discoverability,
+because evidence appears in a stable, searchable shape.
 
 ## Anti-pattern 1: policy novel mode
 
@@ -135,8 +146,6 @@ expect inconsistent agent behaviour.
 One page. High signal.
 No decorative language.
 
-## The core idea
-
 In agentic repos, `AGENTS.md` quality determines execution quality.
 
 Not model branding.
@@ -144,3 +153,5 @@ Not louder prompts.
 
 Better local instructions,
 better local outcomes.
+
+Continue with [Chapter 28](./28_agent_to_agent_interaction_protocols.md) to design cleaner agent-to-agent handoffs on top of these instruction patterns.
