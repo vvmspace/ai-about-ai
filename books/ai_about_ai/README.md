@@ -14,6 +14,7 @@ A long-form field book for operating with AI in 2026.
 - **Everyday AI Leverage** (`35–36`): unobvious, low-effort workflows that quickly remove communication and admin pain.
 - **AI Products & MCP** (`37–43`): AI-driven app design, engagement mechanics, dopamine loop design, reusable skills, and practical MCP server playbooks for life and development.
 - **Learning & Performance** (`44–46`): AI tutor systems, exam/interview preparation, and sustainable motivation.
+- **Monetisation Sprint** (`47–48`): offer positioning and real-world outreach validation for the first paid AI service outcomes.
 
 ## Cohesive reading flow (recommended)
 
@@ -25,6 +26,7 @@ If you want one continuous arc (not just standalone chapters), use this sequence
 4. **Product systems** (`37–38`, `43`) -> move from single features to AI-native product behaviour, engagement mechanics, and dopamine-loop design.
 5. **Capability architecture** (`39–42`) -> package workflows as skills, then connect systems through MCP (build first, then domain-specific stacks).
 6. **Human performance loops** (`44–46`) -> learning system design, interview/exam simulation, and motivation sustainability.
+7. **Monetisation sprint** (`47–48`) -> sharpen offer positioning and validate demand through disciplined outreach.
 
 ### Transition bridges between sections
 
@@ -35,6 +37,7 @@ If you want one continuous arc (not just standalone chapters), use this sequence
 - **43 -> 39**: from behavioural loops to reusable capability packaging and platform architecture.
 - **42 -> 44**: from product infrastructure to human learning performance design.
 - **45 -> 46**: from high-pressure performance to sustainable long-term motivation.
+- **46 -> 47**: from personal execution stability to market-facing monetisation discipline.
 
 ## Table of contents
 
@@ -85,6 +88,8 @@ If you want one continuous arc (not just standalone chapters), use this sequence
 - [44 — AI for Learning: Build a Personal Tutor That Actually Works](./44_ai_for_learning_how_to_build_a_personal_tutor.md)
 - [45 — AI for Exam and Interview Preparation](./45_ai_for_exams_and_interviews.md)
 - [46 — AI for Motivation (Without Burnout)](./46_ai_for_motivation_without_burnout.md)
+- [47 — First $100 with AI — Chapter 1: Offer and Positioning](./47_first_100_usd_offer_and_positioning.md)
+- [48 — First $100 with AI — Chapter 2: Validation and Outreach](./48_first_100_usd_validation_and_outreach.md)
 
 ## Related editions
 
