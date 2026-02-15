@@ -23,13 +23,13 @@ I write it as my own technical autobiography under pressure: what I already do w
 6. **[05. System Architecture in Plain Terms: Time, Cost, Risk](./05_system_architecture_in_plain_terms_time_cost_risk.md)**
    I translate complex system design into language both engineering leads and product stakeholders trust. I explain where I choose microservices, where I keep a modular monolith, and how I make consistency and latency trade-offs explicit.
 
-7. **06. AI Agents in Daily Development: My Real Workflow**
+7. **[06. AI Agents in Daily Development: My Real Workflow](./06_ai_agents_in_daily_development_my_real_workflow.md)**
    I show exactly how I use Cursor, Windsurf, Codex, and model APIs to design, write, refactor, and test code faster. I also show boundaries: context windows, memory hygiene, verification loops, and the decisions I never delegate.
 
-8. **07. Prompt Engineering for Engineers: Patterns That Cut Rework**
+8. **[07. Prompt Engineering for Engineers: Patterns That Cut Rework](./07_prompt_engineering_for_engineers_patterns_that_cut_rework.md)**
    I collect practical prompt templates for bug triage, feature scaffolding, and code review. I explain why prompt structure changes output quality, defect rate, and review speed in measurable ways.
 
-9. **08. CI/CD and Docker Discipline: How I Keep Releases Boring**
+9. **[08. CI/CD and Docker Discipline: How I Keep Releases Boring](./08_cicd_and_docker_discipline_how_i_keep_releases_boring.md)**
    I prepare stories on pipelines, rollback paths, environment parity, and production safety checks. The chapter gives me calm, specific language for reliability questions that often decide senior-level interviews.
 
 10. **09. Databases Under Load: PostgreSQL, MongoDB, and Query Thinking**
