@@ -14,13 +14,13 @@ I write it as my own technical autobiography under pressure: what I already do w
 3. **[02. React State Management Reset: From Weak Spot to Competitive Edge](./02_react_state_management_reset_from_weak_spot_to_competitive_edge.md)**
    I face my weakest area directly: state management in React under real product pressure. I rebuild the fundamentals—local vs global state, server state, derived state, and side effects—then practise interview answers around Redux Toolkit, Zustand, React Query, and when not to use each, with practical code-level examples and trade-off stories.
 
-4. **03. Next.js Frontend Scenarios: Hydration, Caching, and UI Stability**
+4. **[03. Next.js Frontend Scenarios: Hydration, Caching, and UI Stability](./03_nextjs_frontend_scenarios_hydration_caching_ui_stability.md)**
    I prepare for likely frontend follow-ups: SSR/ISR decisions, hydration mismatches, rendering performance, and data-fetching trade-offs. I answer in a simple pattern—problem, decision, trade-off, result—so my thinking stays crisp.
 
-5. **04. Node.js and NestJS: How I Structure Backends That Survive Change**
+5. **[04. Node.js and NestJS: How I Structure Backends That Survive Change](./04_nodejs_nestjs_how_i_structure_backends_that_survive_change.md)**
    I organise my backend experience into reusable stories about module boundaries, validation, error handling, and observability. I include direct, interview-safe explanations for REST vs GraphQL, plus how I debug production issues without drama.
 
-6. **05. System Architecture in Plain Terms: Time, Cost, Risk**
+6. **[05. System Architecture in Plain Terms: Time, Cost, Risk](./05_system_architecture_in_plain_terms_time_cost_risk.md)**
    I translate complex system design into language both engineering leads and product stakeholders trust. I explain where I choose microservices, where I keep a modular monolith, and how I make consistency and latency trade-offs explicit.
 
 7. **06. AI Agents in Daily Development: My Real Workflow**
