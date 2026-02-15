@@ -32,13 +32,13 @@ I write it as my own technical autobiography under pressure: what I already do w
 9. **[08. CI/CD and Docker Discipline: How I Keep Releases Boring](./08_cicd_and_docker_discipline_how_i_keep_releases_boring.md)**
    I prepare stories on pipelines, rollback paths, environment parity, and production safety checks. The chapter gives me calm, specific language for reliability questions that often decide senior-level interviews.
 
-10. **09. Databases Under Load: PostgreSQL, MongoDB, and Query Thinking**
+10. **[09. Databases Under Load: PostgreSQL, MongoDB, and Query Thinking](./09_databases_under_load_postgresql_mongodb_query_thinking.md)**
     I revisit schema choices, indexing strategy, query plans, and read/write trade-offs from systems I had operated at scale. I tie each technical decision to business impact, so answers land with both depth and relevance.
 
-11. **10. LLM API Integration and RAG: From Prototype to Production**
+11. **[10. LLM API Integration and RAG: From Prototype to Production](./10_llm_api_integration_and_rag_from_prototype_to_production.md)**
     I prepare for modern AI-first expectations: model choice, vector retrieval, evaluation loops, and guardrails. I describe how I moved from experiments to stable product features with predictable cost and quality.
 
-12. **11. Gap-Closure Sprint: My 30-Day Plan After the Offer**
+12. **[11. Gap-Closure Sprint: My 30-Day Plan After the Offer](./11_gap_closure_sprint_my_30_day_plan_after_the_offer.md)**
     I turn uncertainty into a plan: what I had lacked, what I prioritise first, and how I report progress by week. This makes “I don’t know yet” sound like ownership rather than weakness.
 
 13. **12. Mock Interview Gauntlet: 50 Questions with Tight Answers**
