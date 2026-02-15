@@ -41,5 +41,5 @@ I write it as my own technical autobiography under pressure: what I already do w
 12. **[11. Gap-Closure Sprint: My 30-Day Plan After the Offer](./11_gap_closure_sprint_my_30_day_plan_after_the_offer.md)**
     I turn uncertainty into a plan: what I had lacked, what I prioritise first, and how I report progress by week. This makes “I don’t know yet” sound like ownership rather than weakness.
 
-13. **12. Mock Interview Gauntlet: 50 Questions with Tight Answers**
+13. **[12. Mock Interview Gauntlet: 50 Questions with Tight Answers](./12_mock_interview_gauntlet_50_questions_with_tight_answers.md)**
     I finish with rapid drills across React state management, Node.js architecture, AI-agent workflows, and leadership behaviour. By the end I can feel the match increase, because my answers now sound like delivery evidence, not hope.
