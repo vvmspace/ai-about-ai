@@ -5,14 +5,14 @@ I write it as my own technical autobiography under pressure: what I already do w
 
 ## Contents
 
-1. **00. The Night Before: I Stop Performing and Start Positioning**
+1. **[00. The Night Before: I Stop Performing and Start Positioning](./00_the_night_before_stop_performing_start_positioning.md)**
    I begin with the exact moment I stop trying to impress and start trying to match the role with evidence. I set one hard rule for myself: every claim must map to a shipped outcome, not a clever phrase.
 
-2. **01. My 90-Second Story: Senior Engineer, Clear Business Impact**
+2. **[01. My 90-Second Story: Senior Engineer, Clear Business Impact](./01_my_90_second_story_senior_engineer_clear_business_impact.md)**
    I compress 17+ years into one sharp narrative that covers architecture, delivery speed, and leadership under constraints. The result is a confident answer to “Tell me about yourself” that sounds grounded, not rehearsed.
 
-3. **02. React State Management Reset: From Weak Spot to Competitive Edge**
-   I face my weakest area directly: state management in React under real product pressure. I rebuild the fundamentals—local vs global state, server state, derived state, and side effects—then practise interview answers around Redux Toolkit, Zustand, React Query, and when not to use each.
+3. **[02. React State Management Reset: From Weak Spot to Competitive Edge](./02_react_state_management_reset_from_weak_spot_to_competitive_edge.md)**
+   I face my weakest area directly: state management in React under real product pressure. I rebuild the fundamentals—local vs global state, server state, derived state, and side effects—then practise interview answers around Redux Toolkit, Zustand, React Query, and when not to use each, with practical code-level examples and trade-off stories.
 
 4. **03. Next.js Frontend Scenarios: Hydration, Caching, and UI Stability**
    I prepare for likely frontend follow-ups: SSR/ISR decisions, hydration mismatches, rendering performance, and data-fetching trade-offs. I answer in a simple pattern—problem, decision, trade-off, result—so my thinking stays crisp.
