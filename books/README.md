@@ -9,6 +9,7 @@ A compact map of this repository’s book universe.
 - [`ai_about_ai_short`](./ai_about_ai_short/README.md) — short English edition (3–5x shorter chapters).
 - [`ai_about_ai_short_ru`](./ai_about_ai_short_ru/README.md) — short Russian edition (3–5x shorter chapters).
 - [`ai_interview_prep`](./ai_interview_prep/README.md) — interview-prep edition (first-person, rapid readiness for AI-first full-stack roles).
+- [`ai_interview_prep_ru`](./ai_interview_prep_ru/README.md) — interview-prep Russian edition (translated chapters with English interview quote support).
 
 ## How the books connect
 
