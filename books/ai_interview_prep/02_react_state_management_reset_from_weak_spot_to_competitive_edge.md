@@ -179,4 +179,7 @@ I no longer defend a toolkit identity.
 I defend data ownership, failure behaviour, and maintainability under real constraints.
 That is usually what interviewers are really measuring.
 
-For adjacent framing, I connect this chapter with [evaluation loops in AI-assisted engineering](../ai_about_ai/05_prompt_engineering_evaluation_loops.md) and [debugging with models](../ai_about_ai/08_vibe_coding_debugging_with_models.md), because state bugs and prompt bugs often share one root cause: unclear boundaries.
+
+For adjacent framing, I keep one principle visible: quality comes from short evaluation loops with explicit checks, not from one clever first attempt.
+And when failures appear, I debug with models by narrowing scope, testing assumptions, and isolating one variable at a time—the same discipline we use for state regressions.
+If you want deeper background, see [evaluation loops in AI-assisted engineering](../ai_about_ai/05_prompt_engineering_evaluation_loops.md) and [debugging with models](../ai_about_ai/08_vibe_coding_debugging_with_models.md).
