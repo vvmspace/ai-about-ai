@@ -135,4 +135,7 @@ I track latency and cost per successful answer, and I keep refusal behaviour exp
 
 That usually signals real delivery experience.
 
-For related framing, I connect this chapter with [personal knowledge graph](../ai_about_ai/16_knowledge_systems_personal_knowledge_graph.md) and [meeting to memory](../ai_about_ai/19_knowledge_systems_meeting_to_memory.md), because durable AI value depends on high-quality memory and traceable retrieval.
+
+For related framing, I state the practical rule directly: strong AI features need a maintained knowledge graph mindset, where sources, relationships, and version history stay explicit as systems evolve.
+And meeting-to-memory discipline matters because raw conversation is not usable memory until it is distilled, tagged, and made retrievable with clear ownership.
+If useful, I connect this chapter with [personal knowledge graph](../ai_about_ai/16_knowledge_systems_personal_knowledge_graph.md) and [meeting to memory](../ai_about_ai/19_knowledge_systems_meeting_to_memory.md), because durable AI value depends on high-quality memory and traceable retrieval.

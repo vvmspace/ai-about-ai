@@ -132,4 +132,7 @@ My objective after an offer is not to look flawless.
 It is to become useful fast without creating hidden risk.
 That means honest baselines, tight loops, and evidence of improvement in production behaviour.
 
-For adjacent reading, this chapter connects naturally to [AI-native skills](../ai_about_ai/21_career_strategy_ai_native_skills.md) and [portfolio of leverage](../ai_about_ai/22_career_strategy_portfolio_of_leverage.md), because career growth compounds when skill development is tied to shipped outcomes.
+
+For adjacent reading, I keep one principle explicit: AI-native skills only compound when they are practiced in real delivery loops, measured, and reviewed against business outcomes.
+And a portfolio of leverage is not a list of tools—it is repeated evidence that your decisions improve speed, quality, and risk posture across projects.
+If you want broader context, this chapter connects naturally to [AI-native skills](../ai_about_ai/21_career_strategy_ai_native_skills.md) and [portfolio of leverage](../ai_about_ai/22_career_strategy_portfolio_of_leverage.md), because career growth compounds when skill development is tied to shipped outcomes.
