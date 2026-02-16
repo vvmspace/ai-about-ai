@@ -168,4 +168,7 @@ I keep architecture and production-risk judgement with the engineering team.”
 That answer tends to land.
 It sounds practical because it is.
 
-For related depth, I connect this with [multi-agent workflows](../ai_about_ai/12_agents_multi_agent_workflows.md) and [agents as execution contracts](../ai_about_ai/26_agentsmd_as_execution_contract.md), because reliability in AI-assisted engineering depends on explicit boundaries and verification discipline.
+
+For related depth, I state the key point plainly: multi-agent workflows are useful because architecture, implementation, and review demand different reasoning modes and should not be collapsed into one undifferentiated thread.
+And agent instructions work only when treated as execution contracts—scope, constraints, and acceptance criteria must be explicit before generation starts.
+If you want fuller framing, I connect this with [multi-agent workflows](../ai_about_ai/12_agents_multi_agent_workflows.md) and [agents as execution contracts](../ai_about_ai/26_agentsmd_as_execution_contract.md), because reliability in AI-assisted engineering depends on explicit boundaries and verification discipline.

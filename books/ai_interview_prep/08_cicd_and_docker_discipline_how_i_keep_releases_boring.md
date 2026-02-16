@@ -127,4 +127,7 @@ It is fast, reversible, observable deployment.”
 
 That usually sounds senior because it is operationally grounded.
 
-For adjacent reading, I bridge this to [ship small daily](../ai_about_ai/10_vibe_coding_ship_small_daily.md) and [document design for clarity](../ai_about_ai/18_knowledge_systems_document_design.md), because release quality improves when changes are small and operational assumptions are documented clearly.
+
+For adjacent reading, I keep two ideas explicit: release reliability improves when teams ship in small, reversible batches instead of large risky drops.
+And operational documents must be designed for clarity, so runbooks, rollback steps, and ownership are immediately usable under pressure.
+If useful, I bridge this to [ship small daily](../ai_about_ai/10_vibe_coding_ship_small_daily.md) and [document design for clarity](../ai_about_ai/18_knowledge_systems_document_design.md), because release quality improves when changes are small and operational assumptions are documented clearly.

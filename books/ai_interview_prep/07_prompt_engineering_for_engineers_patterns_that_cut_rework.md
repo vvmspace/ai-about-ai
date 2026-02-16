@@ -151,4 +151,7 @@ It is structured communication.”
 
 That usually resonates with engineering leads.
 
-For adjacent context, I connect this chapter to [instruction stacks](../ai_about_ai/03_prompt_engineering_instruction_stacks.md) and [evaluation loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md), because strong prompts only matter when paired with consistent verification.
+
+For adjacent context, I make the principle explicit first: instruction stacks keep complex tasks coherent by separating intent, constraints, and output format so the model does not improvise critical assumptions.
+And rework only drops when prompts are paired with evaluation loops—clear checks, fast feedback, and correction before merge.
+If you want deeper background, I connect this chapter to [instruction stacks](../ai_about_ai/03_prompt_engineering_instruction_stacks.md) and [evaluation loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md), because strong prompts only matter when paired with consistent verification.
