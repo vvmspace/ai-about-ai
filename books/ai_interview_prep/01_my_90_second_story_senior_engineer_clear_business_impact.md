@@ -47,4 +47,7 @@ I can lead implementation, reduce uncertainty, and keep teams moving without dra
 That is usually enough for a strong first pass.
 Then I move to evidence.
 
-If the conversation turns to AI-native engineering depth, I can reference [agents as execution contracts](../ai_about_ai/26_agentsmd_as_execution_contract.md) and [agent tools, permissions, and safety](../ai_about_ai/13_agents_tools_permissions_safety.md) as language anchors for how I operate in practice.
+
+If the conversation turns to AI-native engineering depth, I make the core principles explicit first: I treat agent instructions as execution contracts, which means scope, constraints, and acceptance criteria are written before work starts.
+And I design tool access and permission boundaries up front, because fast systems without safety controls create expensive incidents.
+If needed, I can reference the long-form framing in [agents as execution contracts](../ai_about_ai/26_agentsmd_as_execution_contract.md) and [agent tools, permissions, and safety](../ai_about_ai/13_agents_tools_permissions_safety.md).

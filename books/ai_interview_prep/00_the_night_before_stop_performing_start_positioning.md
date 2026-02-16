@@ -97,4 +97,6 @@ By midnight, I am no longer trying to look impressive.
 I am positioning myself as low-risk, high-leverage, and straightforward to work with.
 That tends to travel well.
 
-If you want a deeper framework for framing prompts and constraints, review [why prompts are products](../ai_about_ai/01_prompt_engineering_why_prompts_are_products.md) and [context as operating currency](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md).
+One practical reminder before we close: treat each prompt like a production artifact with an owner, a purpose, and a quality bar.
+And treat context as a finite budget—if irrelevant detail enters, signal quality drops and decisions degrade.
+If you want the long-form versions of those two ideas, review [why prompts are products](../ai_about_ai/01_prompt_engineering_why_prompts_are_products.md) and [context as operating currency](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md).

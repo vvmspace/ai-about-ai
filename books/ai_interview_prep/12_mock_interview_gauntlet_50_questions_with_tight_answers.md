@@ -275,4 +275,7 @@ By the end, I don’t sound memorized.
 I sound operational.
 That is the target.
 
-For adjacent depth, this final chapter connects to [evaluation loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md) and [the next three years](../ai_about_ai/25_career_strategy_the_next_three_years.md), because interview performance improves when practice is measured and strategy is long-term.
+
+For adjacent depth, I make one rule explicit: interview performance improves through tight evaluation loops—short attempts, clear scoring, immediate correction, and repeat until answers are reliable under pressure.
+And long-term career direction matters even in interview prep, because today’s answer quality should align with the capability trajectory you intend to build over the next few years.
+If useful, this final chapter connects to [evaluation loops](../ai_about_ai/05_prompt_engineering_evaluation_loops.md) and [the next three years](../ai_about_ai/25_career_strategy_the_next_three_years.md), because interview performance improves when practice is measured and strategy is long-term.

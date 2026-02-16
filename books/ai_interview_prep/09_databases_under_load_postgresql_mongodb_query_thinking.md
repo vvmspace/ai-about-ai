@@ -159,4 +159,7 @@ Cost.
 Risk.
 Same framework.
 
-For adjacent context, this chapter pairs with [searchability and clarity](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md) and [RAG without fantasy](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md), because query design and retrieval quality both fail when access paths are vague.
+
+For adjacent context, I make the core point explicit first: search and retrieval quality depend on clean structure, stable naming, and predictable access paths, not just bigger indexes or faster hardware.
+And RAG systems fail for the same reason many database systems fail—vague query intent, weak data hygiene, and unmeasured retrieval behaviour.
+If you want deeper background, this chapter pairs with [searchability and clarity](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md) and [RAG without fantasy](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md), because query design and retrieval quality both fail when access paths are vague.
