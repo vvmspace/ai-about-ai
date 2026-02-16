@@ -135,4 +135,7 @@ Example:
 That language signals ownership.
 Not cargo-cult architecture.
 
-For related reading, I often bridge to [single-agent myth](../ai_about_ai/11_agents_single_agent_myth.md) and [tools, permissions, safety](../ai_about_ai/13_agents_tools_permissions_safety.md), because backend stability and AI-assisted development both depend on explicit boundaries.
+
+For related framing, I make the core point directly: one agent rarely covers architecture, implementation, and verification with consistent quality at production pace.
+And backend systems stay reliable only when tool access, permission boundaries, and safety checks are designed as first-class constraints rather than afterthoughts.
+If useful, I bridge to [single-agent myth](../ai_about_ai/11_agents_single_agent_myth.md) and [tools, permissions, safety](../ai_about_ai/13_agents_tools_permissions_safety.md), because backend stability and AI-assisted development both depend on explicit boundaries.

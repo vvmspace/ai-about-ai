@@ -144,4 +144,7 @@ Clear.
 Defensible.
 Operational.
 
-For adjacent framing, this chapter pairs naturally with [RAG without fantasy](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md) and [searchability and clarity](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md), because architecture quality is mostly a function of explicit constraints and traceable decisions.
+
+For adjacent framing, I state the practical rule first: RAG architecture only works when we admit retrieval limits, data quality constraints, and failure paths instead of pretending the model will fill missing structure.
+And architectural decisions remain maintainable only when documents are searchable, naming is clear, and trade-offs are traceable over time.
+If you want the long-form background, this chapter pairs naturally with [RAG without fantasy](../ai_about_ai/17_knowledge_systems_rag_without_fantasy.md) and [searchability and clarity](../ai_about_ai/20_knowledge_systems_searchability_and_clarity.md), because architecture quality is mostly a function of explicit constraints and traceable decisions.

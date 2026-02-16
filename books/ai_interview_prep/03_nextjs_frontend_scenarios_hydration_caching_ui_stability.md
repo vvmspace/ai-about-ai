@@ -147,4 +147,7 @@ Calm.
 Specific.
 Operational.
 
-For adjacent depth, I connect this chapter to [context as operating currency](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md) and [ship small daily](../ai_about_ai/10_vibe_coding_ship_small_daily.md), because frontend reliability improves when decision context and delivery cadence are both explicit.
+
+For adjacent depth, I keep two principles explicit: context quality determines frontend decisions, so rendering mode and cache policy must match real user constraints, not framework fashion.
+And steady delivery cadence matters—small, frequent releases expose hydration and stability regressions early, before they become expensive incidents.
+If you want the longer framing, see [context as operating currency](../ai_about_ai/02_prompt_engineering_context_is_the_new_currency.md) and [ship small daily](../ai_about_ai/10_vibe_coding_ship_small_daily.md), because frontend reliability improves when decision context and delivery cadence are both explicit.
