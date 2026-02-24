@@ -25,25 +25,25 @@
    Половина ошибок на интервью — в условиях left/right.
 10. **[09. Linked List Cycle: медленный и быстрый указатели](./09_linked_list_cycle_floyd_two_pointers_ru.md)**  
     Floyd-подход как универсальный паттерн обнаружения цикла.
-11. **[10. Group Anagrams: каноническая форма ключа](./10_group_anagrams_canonical_key_ru.md)**  
+11. **10. Group Anagrams: каноническая форма ключа**  
     Как строить стабильные ключи для группировки в реальных сервисах.
-12. **[11. Climbing Stairs: минимальная динамика](./11_climbing_stairs_minimal_dp_ru.md)**  
+12. **11. Climbing Stairs: минимальная динамика**  
     Вход в DP через простую рекуррентную модель.
-13. **[12. Reverse Linked List: разворот под контролем инварианта](./12_reverse_linked_list_pointer_control_ru.md)**  
+13. **12. Reverse Linked List: разворот под контролем инварианта**  
     Проверка аккуратности мутаций структуры.
-14. **[13. Top K Frequent Elements: куча и bucket-подход](./13_top_k_frequent_heap_bucket_ru.md)**  
+14. **13. Top K Frequent Elements: куча и bucket-подход**  
     Trade-off между асимптотикой и константами.
-15. **[14. Number of Islands: DFS/BFS на сетке](./14_number_of_islands_grid_traversal_ru.md)**  
+15. **14. Number of Islands: DFS/BFS на сетке**  
     Как правильно моделировать обход двумерного мира.
-16. **[15. Invert Binary Tree: рекурсия без страха](./15_invert_binary_tree_recursive_swap_ru.md)**  
+16. **15. Invert Binary Tree: рекурсия без страха**  
     Базовая задача на понимание обхода дерева.
-17. **[16. Lowest Common Ancestor of BST: сила упорядоченности](./16_lowest_common_ancestor_bst_order_property_ru.md)**  
+17. **16. Lowest Common Ancestor of BST: сила упорядоченности**  
     Используем свойства BST вместо полного обхода.
-18. **[17. Implement Queue using Stacks: симуляция структуры](./17_implement_queue_using_stacks_amortized_ru.md)**  
+18. **17. Implement Queue using Stacks: симуляция структуры**  
     Проверка глубины понимания абстракций.
-19. **[18. Kth Smallest Element in a BST: inorder как отсортированный поток](./18_kth_smallest_bst_inorder_stream_ru.md)**  
+19. **18. Kth Smallest Element in a BST: inorder как отсортированный поток**  
     Связка теории дерева и практики ранней остановки.
-20. **[19. Ransom Note: частотные словари на практике](./19_ransom_note_frequency_budget_ru.md)**  
+20. **19. Ransom Note: частотные словари на практике**  
     Простой кейс на контроль ресурсов и читаемость.
 21. **20. 3Sum: сортировка + два указателя**  
     Первая серьёзная задача на устранение дублей.
