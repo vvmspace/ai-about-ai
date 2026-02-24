@@ -25,37 +25,37 @@
    Половина ошибок на интервью — в условиях left/right.
 10. **[09. Linked List Cycle: медленный и быстрый указатели](./09_linked_list_cycle_floyd_two_pointers_ru.md)**  
     Floyd-подход как универсальный паттерн обнаружения цикла.
-11. **10. Group Anagrams: каноническая форма ключа**  
+11. **[10. Group Anagrams: канонический ключ для группировки](./10_group_anagrams_canonical_key_ru.md)**  
     Как строить стабильные ключи для группировки в реальных сервисах.
-12. **11. Climbing Stairs: минимальная динамика**  
+12. **[11. Climbing Stairs: минимальная динамика без тумана](./11_climbing_stairs_minimal_dp_ru.md)**  
     Вход в DP через простую рекуррентную модель.
-13. **12. Reverse Linked List: разворот под контролем инварианта**  
+13. **[12. Reverse Linked List: разворот структуры под контролем инварианта](./12_reverse_linked_list_invariant_control_ru.md)**  
     Проверка аккуратности мутаций структуры.
-14. **13. Top K Frequent Elements: куча и bucket-подход**  
+14. **[13. Top K Frequent Elements: куча против bucket-подхода](./13_top_k_frequent_elements_heap_bucket_ru.md)**  
     Trade-off между асимптотикой и константами.
-15. **14. Number of Islands: DFS/BFS на сетке**  
+15. **[14. Number of Islands: DFS/BFS на сетке без хаоса](./14_number_of_islands_dfs_bfs_grid_ru.md)**  
     Как правильно моделировать обход двумерного мира.
-16. **15. Invert Binary Tree: рекурсия без страха**  
+16. **[15. Invert Binary Tree: рекурсия без лишней драмы](./15_invert_binary_tree_recursion_confidence_ru.md)**  
     Базовая задача на понимание обхода дерева.
-17. **16. Lowest Common Ancestor of BST: сила упорядоченности**  
+17. **[16. Lowest Common Ancestor of BST: использовать порядок, а не силу](./16_lca_bst_order_property_ru.md)**  
     Используем свойства BST вместо полного обхода.
-18. **17. Implement Queue using Stacks: симуляция структуры**  
+18. **[17. Implement Queue using Stacks: амортизированная стоимость](./17_queue_using_stacks_amortized_cost_ru.md)**  
     Проверка глубины понимания абстракций.
-19. **18. Kth Smallest Element in a BST: inorder как отсортированный поток**  
+19. **[18. Kth Smallest Element in a BST: inorder как отсортированный поток](./18_kth_smallest_bst_inorder_stream_ru.md)**  
     Связка теории дерева и практики ранней остановки.
-20. **19. Ransom Note: частотные словари на практике**  
+20. **[19. Ransom Note: частотный бюджет без паники](./19_ransom_note_frequency_budget_ru.md)**  
     Простой кейс на контроль ресурсов и читаемость.
-21. **20. 3Sum: сортировка + два указателя**  
+21. **[20. 3Sum: сортировка, два указателя и контроль дублей](./20_3sum_two_pointers_dedup_ru.md)**  
     Первая серьёзная задача на устранение дублей.
-22. **21. Longest Substring Without Repeating Characters: скользящее окно**  
+22. **[21. Longest Substring Without Repeating Characters: скользящее окно под контролем](./21_longest_substring_sliding_window_ru.md)**  
     Один из главных паттернов строковых задач.
-23. **22. Container With Most Water: два указателя и доказательство шага**  
+23. **[22. Container With Most Water: два указателя и строгая логика шага](./22_container_with_most_water_two_pointers_ru.md)**  
     Почему сдвиг меньшей стены — не эвристика, а логика.
-24. **23. Search in Rotated Sorted Array: бинарный поиск в «сломленном» массиве**  
+24. **[23. Search in Rotated Sorted Array: бинарный поиск в сломанном порядке](./23_search_rotated_sorted_array_binary_logic_ru.md)**  
     Интервью-проверка на спокойствие в нестандартных условиях.
-25. **24. Trapping Rain Water: префикс/два указателя/стек**  
+25. **[24. Trapping Rain Water: одна задача, три инженерные модели](./24_trapping_rain_water_three_models_ru.md)**  
     Одна задача — три валидные стратегии.
-26. **25. Merge Intervals: сортировка интервалов как база backend-задач**  
+26. **[25. Merge Intervals: сортировка интервалов как рабочий рефлекс backend](./25_merge_intervals_sort_and_sweep_ru.md)**  
     Типовая операция для расписаний, биллинга и аналитики.
 27. **26. Insert Interval: аккуратная вставка слиянием**  
     Вариант «merge intervals» с дополнительными условиями.
