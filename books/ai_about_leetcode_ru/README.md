@@ -7,13 +7,13 @@
 
 1. **[00. Two Sum: задача, на которой видно всё](./00_two_sum_the_most_famous_start_ru.md)**  
    Учимся мгновенно выбирать между brute force и hash map и объяснять это языком бизнеса.
-2. **01. Valid Parentheses: стек без магии**  
+2. **[01. Valid Parentheses: стек без магии](./01_valid_parentheses_stack_sanity_ru.md)**  
    Почему правильная модель состояния важнее «запоминания решения».
-3. **02. Merge Two Sorted Lists: линейное слияние как базовый рефлекс**  
+3. **[02. Merge Two Sorted Lists: линейное слияние как базовый рефлекс](./02_merge_two_sorted_lists_linear_merge_ru.md)**  
    Одна из самых частых проверок на аккуратность указателей и краевых случаев.
-4. **03. Best Time to Buy and Sell Stock: одно прохождение, один минимум**  
+4. **[03. Best Time to Buy and Sell Stock: одно прохождение, один минимум](./03_best_time_to_buy_and_sell_stock_one_pass_ru.md)**  
    Простой проход показывает, умеете ли вы держать инвариант.
-5. **04. Contains Duplicate: хеш-таблица как фильтр шума**  
+5. **[04. Contains Duplicate: хеш-таблица как фильтр шума](./04_contains_duplicate_hashset_signal_ru.md)**  
    Короткая задача на скорость мышления и оценку сложности.
 6. **05. Maximum Subarray: когда локальный выбор работает глобально**  
    Классика Kadane и практика объяснения динамики без формул ради формул.
