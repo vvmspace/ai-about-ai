@@ -15,15 +15,15 @@
    Простой проход показывает, умеете ли вы держать инвариант.
 5. **[04. Contains Duplicate: хеш-таблица как фильтр шума](./04_contains_duplicate_hashset_signal_ru.md)**  
    Короткая задача на скорость мышления и оценку сложности.
-6. **05. Maximum Subarray: когда локальный выбор работает глобально**  
+6. **[05. Maximum Subarray: когда локальный выбор работает глобально](./05_maximum_subarray_kadane_signal_ru.md)**  
    Классика Kadane и практика объяснения динамики без формул ради формул.
-7. **06. Product of Array Except Self: префиксы и постфиксы без деления**  
+7. **[06. Product of Array Except Self: префиксы и постфиксы без деления](./06_product_of_array_except_self_prefix_postfix_ru.md)**  
    Тест на понимание памяти и аккуратность проходов.
-8. **07. Valid Anagram: частоты против сортировки**  
+8. **[07. Valid Anagram: частоты против сортировки](./07_valid_anagram_frequency_models_ru.md)**  
    Выбор оптимального подхода под ограничения входа.
-9. **08. Binary Search: дисциплина границ**  
+9. **[08. Binary Search: дисциплина границ](./08_binary_search_boundary_discipline_ru.md)**  
    Половина ошибок на интервью — в условиях left/right.
-10. **09. Linked List Cycle: медленный и быстрый указатели**  
+10. **[09. Linked List Cycle: медленный и быстрый указатели](./09_linked_list_cycle_floyd_two_pointers_ru.md)**  
     Floyd-подход как универсальный паттерн обнаружения цикла.
 11. **10. Group Anagrams: каноническая форма ключа**  
     Как строить стабильные ключи для группировки в реальных сервисах.
