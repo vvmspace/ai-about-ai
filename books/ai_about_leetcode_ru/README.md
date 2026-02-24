@@ -1,6 +1,6 @@
 # AI about LeetCode RU — Оглавление
 
-Практическая книга из 50 глав по самым популярным задачам LeetCode: от базовых паттернов до уверенного интервью-мышления.
+Практическая книга из 51 главы по самым популярным задачам LeetCode: от базовых паттернов до уверенного интервью-мышления.
 Каждая глава даёт теорию, рабочую эвристику, короткий пример ответа на интервью и прикладной мостик к реальным задачам в продакшене.
 
 ## Главы
@@ -81,30 +81,32 @@
     Строгая работа с одиночными и парными переходами по символам.
 38. **[37. Unique Paths: одна сетка, две строгие модели решения](./37_unique_paths_combinatorics_and_dynamic_programming_ru.md)**  
     Сравнение комбинаторики и динамического программирования на одном примере.
-39. **38. Jump Game: жадность и достижимость**  
+39. **[38. Jump Game: жадность и достижимость](./38_jump_game_greedy_reachability_ru.md)**  
     Маленькая задача с сильным собеседовательным сигналом.
-40. **39. Gas Station: круговой маршрут и баланс**  
+40. **[39. Gas Station: круговой маршрут и баланс](./39_gas_station_circular_balance_ru.md)**  
     Хороший пример доказуемой жадной стратегии.
-41. **40. Maximum Product Subarray: максимум и минимум одновременно**  
+41. **[40. Maximum Product Subarray: максимум и минимум одновременно](./40_maximum_product_subarray_max_min_tracking_ru.md)**  
     Наглядный кейс на инварианты при отрицательных числах.
-42. **41. Find Minimum in Rotated Sorted Array: ещё один поворот бинарного поиска**  
+42. **[41. Find Minimum in Rotated Sorted Array: ещё один поворот бинарного поиска](./41_find_minimum_in_rotated_sorted_array_binary_pivot_ru.md)**  
     Тренируем мышление по монотонности.
-43. **42. Rotting Oranges: поиск в ширину по слоям времени**  
+43. **[42. Rotting Oranges: поиск в ширину по слоям времени](./42_rotting_oranges_bfs_time_layers_ru.md)**  
     Модель «распространения сигнала» в сетях и очередях.
-44. **43. K Closest Points to Origin: quickselect против heap**  
+44. **[43. K Closest Points to Origin: quickselect против heap](./43_k_closest_points_heap_vs_quickselect_ru.md)**  
     Как выбирать алгоритм под размер данных.
-45. **44. Serialize and Deserialize Binary Tree: контракт формата данных**  
+45. **[44. Serialize and Deserialize Binary Tree: контракт формата данных](./44_serialize_deserialize_binary_tree_format_contract_ru.md)**  
     Это уже про инженерный дизайн, а не только алгоритмы.
-46. **45. Least Recently Used Cache: hash map + двусвязный список**  
+46. **[45. Least Recently Used Cache: hash map + двусвязный список](./45_lru_cache_hashmap_doubly_linked_list_ru.md)**  
     Самая знаменитая системная мини-задача на интервью.
-47. **46. Median of Two Sorted Arrays: сложность как цель**  
+47. **[46. Median of Two Sorted Arrays: сложность как цель](./46_median_of_two_sorted_arrays_partition_binary_search_ru.md)**  
     Плотная задача на бинарный поиск по разбиению.
-48. **47. Regular Expression Matching: тяжёлый кейс динамического программирования**  
+48. **[47. Regular Expression Matching: тяжёлый кейс динамического программирования](./47_regular_expression_matching_dynamic_programming_grid_ru.md)**  
     Тренировка устойчивости и точности формализации.
-49. **48. Word Ladder: кратчайший путь в неявном графе**  
+49. **[48. Word Ladder: кратчайший путь в неявном графе](./48_word_ladder_bfs_pattern_index_ru.md)**  
     Поиск в ширину и генерация соседей для строковых состояний.
-50. **49. Alien Dictionary: топологическая сортировка «чужого» алфавита**  
+50. **[49. Alien Dictionary: топологическая сортировка «чужого» алфавита](./49_alien_dictionary_topological_order_ru.md)**  
     Финал с полноценной графовой моделью порядка.
+51. **[50. Edit Distance: цена преобразования строки](./50_edit_distance_dynamic_programming_operations_ru.md)**  
+    Завершающая глава про стоимость операций и строгую динамическую модель.
 
 ## Источник задач
 
