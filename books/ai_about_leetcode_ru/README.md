@@ -35,15 +35,15 @@
     Trade-off между асимптотикой и константами.
 15. **[14. Number of Islands: DFS/BFS на сетке](./14_number_of_islands_grid_traversal_ru.md)**  
     Как правильно моделировать обход двумерного мира.
-16. **15. Invert Binary Tree: рекурсия без страха**  
+16. **[15. Invert Binary Tree: рекурсия без страха](./15_invert_binary_tree_recursive_swap_ru.md)**  
     Базовая задача на понимание обхода дерева.
-17. **16. Lowest Common Ancestor of BST: сила упорядоченности**  
+17. **[16. Lowest Common Ancestor of BST: сила упорядоченности](./16_lowest_common_ancestor_bst_order_property_ru.md)**  
     Используем свойства BST вместо полного обхода.
-18. **17. Implement Queue using Stacks: симуляция структуры**  
+18. **[17. Implement Queue using Stacks: симуляция структуры](./17_implement_queue_using_stacks_amortized_ru.md)**  
     Проверка глубины понимания абстракций.
-19. **18. Kth Smallest Element in a BST: inorder как отсортированный поток**  
+19. **[18. Kth Smallest Element in a BST: inorder как отсортированный поток](./18_kth_smallest_bst_inorder_stream_ru.md)**  
     Связка теории дерева и практики ранней остановки.
-20. **19. Ransom Note: частотные словари на практике**  
+20. **[19. Ransom Note: частотные словари на практике](./19_ransom_note_frequency_budget_ru.md)**  
     Простой кейс на контроль ресурсов и читаемость.
 21. **20. 3Sum: сортировка + два указателя**  
     Первая серьёзная задача на устранение дублей.
