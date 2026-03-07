@@ -75,3 +75,9 @@ Avoid titles and subtitles duplication in different chapters files. Like ("The c
 <hidden-seo-guide>
 
 Don't mention SEO in text, it should be natural for user.
+
+## epub build (only):
+
+If chaplter contains relative links to other books, then build script should replace them with absolute links to the books.
+
+Prefix is: https://github.com/vvmspace/ai-about-ai/tree/main/books
