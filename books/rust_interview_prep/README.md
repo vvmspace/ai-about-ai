@@ -50,3 +50,17 @@ A short, high-impact prep book for a performance-critical full-stack interview (
 
 - [34. Architecture Interview: Drawing Under Pressure](./34_architecture_interview_drawing_under_pressure.md)
 - [35. Trading Pipeline End-to-End](./35_trading_pipeline_end_to_end.md)
+- [36. SQL Beyond CRUD](./36_sql_beyond_crud.md)
+- [37. Next.js for Backend Engineers](./37_nextjs_for_backend_engineers.md)
+- [38. API Contracts Between Rust and Frontend](./38_api_contracts_between_rust_and_frontend.md)
+- [39. Testing Strategy Across the Stack](./39_testing_strategy_across_the_stack.md)
+- [40. Debugging Stories They Actually Remember](./40_debugging_stories_they_actually_remember.md)
+
+### Act V — Interview Performance and Offer Decision
+
+- [41. Behavioral Questions as Signal Engineering](./41_behavioral_questions_as_signal_engineering.md)
+- [42. The Rust Live-Coding Round](./42_the_rust_live_coding_round.md)
+- [43. The Questions I Ask Them](./43_the_questions_i_ask_them.md)
+- [44. Negotiation With Composure](./44_negotiation_with_composure.md)
+- [45. After the Handshake](./45_after_the_handshake.md)
+
