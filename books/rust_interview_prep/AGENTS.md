@@ -2,13 +2,15 @@
 
 Use this file as the local instruction set for creating a short interview-preparation book for an upcoming technical interview.
 
+
+
 ## Goal
 Create a **short prep book** for a candidate who has less than 2 days before a technical interview.
 
 Source materials are mandatory:
 1. Job description (target role and expectations)
 2. Style guide (tone and linguistic constraints)
-3. CV sent by the candidate
+3. CV sent by the candidate (CV.md) - after reading this book, the candidate also should be able to answer any question about his CV.
 
 ---
 
