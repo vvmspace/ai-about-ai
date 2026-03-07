@@ -1,44 +1,70 @@
 # Unsafe Rust: Respect the Blast Radius
 
-The fastest way to lose credibility in a Rust interview is to sound excited about `unsafe` for the wrong reasons.
-`unsafe` is not a badge.
-It is a liability boundary.
+I had learned long ago that panic wastes the very resource I need most: clean judgment.
+In this chapter, I treat unsafe Rust with tight blast-radius discipline as a practical operation, not a motivational slogan.
+The interviewer is not searching for drama.
+They are searching for signals of control, range, and decision quality.
+Once I accepted that, my preparation became sharper and far less noisy.
 
-Safe Rust gives strong guarantees by default.
-`unsafe` says, “I will uphold these invariants manually.”
-If I cannot state the invariants clearly, I do not proceed.
+I start with a quick scene from real interview pressure.
+A question lands, time compresses, and several valid options appear at once.
+This is the decisive moment.
+If I ramble, I look uncertain.
+If I overclaim, I look reckless.
+If I structure my reasoning, I look employable.
+That distinction matters more than reciting textbook definitions.
 
-That posture usually reassures senior interviewers.
-They are evaluating judgment, not bravado.
+My method is simple enough to execute while tired.
+First, I name the operating context in one sentence.
+Second, I state the boundary conditions and constraints.
+Third, I present the trade-off and the decision path.
+Fourth, I mention how I would measure success in production.
+This rhythm makes complex topics legible under observation.
 
-I keep `unsafe` discussion grounded in legitimate cases:
-- FFI boundaries with C libraries;
-- carefully audited performance primitives;
-- low-level data structures where safe abstractions are not yet available;
-- interaction with hardware or runtime internals.
+For this topic, I prepare concrete artifacts, not abstract confidence.
+I keep short examples I can explain without opening an editor.
+I keep one failure story with a clear correction loop.
+I keep one performance story with baseline, intervention, and result.
+I keep one collaboration story where communication changed the outcome.
+Interviewers remember clarity attached to consequences.
 
-Even then, I narrow scope aggressively.
-Small `unsafe` blocks.
-Documented invariants.
-Safe wrapper APIs around the dangerous core.
-This is what happens next whenever `unsafe` enters the design.
+When the discussion becomes technical, I resist the urge to impress with jargon.
+I prefer explicit assumptions.
+I prefer naming what I know, what I suspect, and what I would test next.
+That is how senior engineers sound in difficult rooms.
+Precision is persuasive.
+Calm sequencing is even more persuasive.
 
-If asked for process, I describe one.
-- prove need with profiling or capability gap;
-- minimise unsafe surface area;
-- add focused tests and property checks around invariants;
-- require peer review from engineers fluent in low-level semantics.
+I also rehearse the failure envelope.
+What breaks first when load rises?
+What signals degradation before outage?
+Which knobs are safe to turn during market hours?
+Where does determinism collapse into luck?
+Questions like these separate builders from framework tourists.
 
-A concise interview line:
-“`unsafe` is acceptable when risk is bounded, invariants are explicit, and the performance gain is measurable.”
+On the full-stack side, I keep the same discipline.
+Backend latency and frontend correctness are not separate universes in trading workflows.
+If data freshness is unstable, the UI can become confidently wrong.
+If interaction design hides uncertainty, traders make expensive decisions faster.
+So I speak about contracts, timing guarantees, and observable states across the boundary.
+That usually earns immediate attention.
 
-I also state what I will not do.
-I will not reach for `unsafe` to bypass borrow-checker discomfort in routine application code.
-That doesn’t work for me.
+My rehearsal loop is short and ruthless.
+I answer out loud.
+I time each answer.
+I cut anything decorative.
+I keep evidence, mechanism, and impact.
+If a point cannot survive cross-examination, it leaves the script.
 
-For continuity with prior chapters, [Error Handling: No Drama, Just Control](./15_rust_error_handling_no_drama_just_control.md) carries the same philosophy: explicit boundaries, explicit policy, explicit consequences.
+By the final pass, the chapter objective is straightforward.
+I can discuss unsafe Rust with tight blast-radius discipline with composure, technical depth, and operational realism.
+I can acknowledge uncertainty without surrendering authority.
+I can show ownership without sounding theatrical.
+And I can connect implementation detail to business risk in plain language.
 
-In well-run teams, `unsafe` is treated like production incident access.
-Limited, logged, justified, and reviewed.
-Respect the blast radius, and it can be a precise tool.
-Ignore it, and the language cannot save you.
+That is the standard I carry into the interview room.
+Not perfection.
+Control.
+When control is visible, trust follows.
+And in production-critical teams, trust is the only currency that compounds.
+Quite manageable, provided I stay precise under pressure.

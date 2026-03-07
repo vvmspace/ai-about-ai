@@ -1,65 +1,70 @@
 # The CV Is Already Testimony
 
-Most candidates treat the CV as a ticket to the interview.
-I treat it as sworn testimony.
-Once submitted, every line is admissible evidence.
+I had learned long ago that panic wastes the very resource I need most: clean judgment.
+In this chapter, I treat treating the CV as evidence, not autobiography as a practical operation, not a motivational slogan.
+The interviewer is not searching for drama.
+They are searching for signals of control, range, and decision quality.
+Once I accepted that, my preparation became sharper and far less noisy.
 
-If I claim “high-performance systems”, they can ask for bottlenecks, profiling method, rollback strategy, and exact trade-offs.
-If I mention Rust, they can ask where ownership constraints had improved reliability and where they had slowed delivery.
-Quite right, frankly.
+I start with a quick scene from real interview pressure.
+A question lands, time compresses, and several valid options appear at once.
+This is the decisive moment.
+If I ramble, I look uncertain.
+If I overclaim, I look reckless.
+If I structure my reasoning, I look employable.
+That distinction matters more than reciting textbook definitions.
 
-So I perform what I call forensic rehearsal.
-For each role on my CV, I prepare one compact story in this structure:
-- the problem pressure;
-- the technical move I made;
-- the measurable result;
-- the lesson I now carry.
+My method is simple enough to execute while tired.
+First, I name the operating context in one sentence.
+Second, I state the boundary conditions and constraints.
+Third, I present the trade-off and the decision path.
+Fourth, I mention how I would measure success in production.
+This rhythm makes complex topics legible under observation.
 
-Take a full-stack project with heavy user interaction.
-The weak version of the story is: “I built features and improved performance.”
-The strong version is precise: where latency had appeared, how instrumentation exposed it, which change reduced it, and what trade-off I accepted.
+For this topic, I prepare concrete artifacts, not abstract confidence.
+I keep short examples I can explain without opening an editor.
+I keep one failure story with a clear correction loop.
+I keep one performance story with baseline, intervention, and result.
+I keep one collaboration story where communication changed the outcome.
+Interviewers remember clarity attached to consequences.
 
-Interviewers are not only measuring competence.
-They are checking narrative integrity.
-If the timeline drifts or metrics sound decorative, trust declines quietly.
+When the discussion becomes technical, I resist the urge to impress with jargon.
+I prefer explicit assumptions.
+I prefer naming what I know, what I suspect, and what I would test next.
+That is how senior engineers sound in difficult rooms.
+Precision is persuasive.
+Calm sequencing is even more persuasive.
 
-That is why I align chronology carefully.
-When two events matter, I mark sequence cleanly.
-For example: by the time we launched the optimisation, the previous queue model had already caused burst-time instability.
-Simple, factual, coherent.
+I also rehearse the failure envelope.
+What breaks first when load rises?
+What signals degradation before outage?
+Which knobs are safe to turn during market hours?
+Where does determinism collapse into luck?
+Questions like these separate builders from framework tourists.
 
-I also prepare CV defence for leadership claims.
-“Acting CTO” or “Lead Developer” invites governance questions:
-- how I prioritised technical debt against delivery;
-- how I handled incidents;
-- how I set engineering standards under time pressure.
+On the full-stack side, I keep the same discipline.
+Backend latency and frontend correctness are not separate universes in trading workflows.
+If data freshness is unstable, the UI can become confidently wrong.
+If interaction design hides uncertainty, traders make expensive decisions faster.
+So I speak about contracts, timing guarantees, and observable states across the boundary.
+That usually earns immediate attention.
 
-If I cannot answer these with specifics, the title becomes noise.
-If I can, the title becomes proof of operational maturity.
+My rehearsal loop is short and ruthless.
+I answer out loud.
+I time each answer.
+I cut anything decorative.
+I keep evidence, mechanism, and impact.
+If a point cannot survive cross-examination, it leaves the script.
 
-A useful trick is the mirror question.
-For each CV bullet, I ask:
-“What would make me doubt this if I were the interviewer?”
-Then I pre-empt that doubt with details.
+By the final pass, the chapter objective is straightforward.
+I can discuss treating the CV as evidence, not autobiography with composure, technical depth, and operational realism.
+I can acknowledge uncertainty without surrendering authority.
+I can show ownership without sounding theatrical.
+And I can connect implementation detail to business risk in plain language.
 
-For Rust-specific credibility, I keep three stories ready:
-1. a concurrency decision that reduced risk;
-2. a memory/allocation decision tied to latency behaviour;
-3. a production issue where observability changed the outcome.
-
-For frontend credibility, I keep two:
-1. preserving UI stability under high-frequency updates;
-2. designing user-facing behaviour for degraded backend conditions.
-
-This matters because the role spans both sides.
-They need someone who can connect engine-room constraints to trader-facing experience.
-My CV should tell that same story without contradiction.
-
-Finally, I prepare “clean admissions.”
-If a technology appears in my stack but depth is moderate, I say so directly and pivot to what I did concretely.
-Controlled honesty signals judgement.
-Bluff signals future incident reports.
-
-By the time I finish this exercise, the CV no longer feels like a list.
-It feels like a prepared case.
-And in interview rooms, prepared cases travel well.
+That is the standard I carry into the interview room.
+Not perfection.
+Control.
+When control is visible, trust follows.
+And in production-critical teams, trust is the only currency that compounds.
+Quite manageable, provided I stay precise under pressure.

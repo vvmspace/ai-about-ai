@@ -1,47 +1,70 @@
 # Locking, Contention, and Throughput
 
-I once reviewed a service that looked perfectly thread-safe and performed like wet cement.
-No data races.
-Plenty of latency spikes.
-The culprit was ordinary: lock contention in the hot path.
+I had learned long ago that panic wastes the very resource I need most: clean judgment.
+In this chapter, I treat lock contention diagnosis and mitigation patterns as a practical operation, not a motivational slogan.
+The interviewer is not searching for drama.
+They are searching for signals of control, range, and decision quality.
+Once I accepted that, my preparation became sharper and far less noisy.
 
-Locks are not bad.
-Unexamined lock scope is bad.
-I keep this distinction precise in interviews.
+I start with a quick scene from real interview pressure.
+A question lands, time compresses, and several valid options appear at once.
+This is the decisive moment.
+If I ramble, I look uncertain.
+If I overclaim, I look reckless.
+If I structure my reasoning, I look employable.
+That distinction matters more than reciting textbook definitions.
 
-When I introduce a lock, I ask:
-- what data truly requires mutual exclusion;
-- how many threads compete for it;
-- how long the critical section can run.
+My method is simple enough to execute while tired.
+First, I name the operating context in one sentence.
+Second, I state the boundary conditions and constraints.
+Third, I present the trade-off and the decision path.
+Fourth, I mention how I would measure success in production.
+This rhythm makes complex topics legible under observation.
 
-If I cannot answer quickly, I am probably locking too much.
+For this topic, I prepare concrete artifacts, not abstract confidence.
+I keep short examples I can explain without opening an editor.
+I keep one failure story with a clear correction loop.
+I keep one performance story with baseline, intervention, and result.
+I keep one collaboration story where communication changed the outcome.
+Interviewers remember clarity attached to consequences.
 
-`Mutex` is simple and often correct.
-`RwLock` can help read-heavy workloads, but write starvation and coordination overhead are real.
-I do not promise miracles.
-I promise measurements.
+When the discussion becomes technical, I resist the urge to impress with jargon.
+I prefer explicit assumptions.
+I prefer naming what I know, what I suspect, and what I would test next.
+That is how senior engineers sound in difficult rooms.
+Precision is persuasive.
+Calm sequencing is even more persuasive.
 
-My default throughput tactics are practical:
-- shrink critical sections;
-- move expensive work outside lock guards;
-- shard state by key where contention is systematic;
-- prefer ownership transfer to shared mutation when architecture allows.
+I also rehearse the failure envelope.
+What breaks first when load rises?
+What signals degradation before outage?
+Which knobs are safe to turn during market hours?
+Where does determinism collapse into luck?
+Questions like these separate builders from framework tourists.
 
-A classic mistake in async code is holding a lock across `.await`.
-That can deadlock progress or amplify tail latency.
-I call it out early and redesign boundaries.
+On the full-stack side, I keep the same discipline.
+Backend latency and frontend correctness are not separate universes in trading workflows.
+If data freshness is unstable, the UI can become confidently wrong.
+If interaction design hides uncertainty, traders make expensive decisions faster.
+So I speak about contracts, timing guarantees, and observable states across the boundary.
+That usually earns immediate attention.
 
-In interview rounds, I narrate contention detection as an observability problem.
-I want lock wait-time metrics, queue depth, and stage latency distributions.
-Without these, optimisation is guesswork in a respectable jacket.
+My rehearsal loop is short and ruthless.
+I answer out loud.
+I time each answer.
+I cut anything decorative.
+I keep evidence, mechanism, and impact.
+If a point cannot survive cross-examination, it leaves the script.
 
-If asked for a concise heuristic, I give one.
-Correctness first.
-Then minimise time spent inside shared mutable territory.
-Then verify with p99 outcomes.
+By the final pass, the chapter objective is straightforward.
+I can discuss lock contention diagnosis and mitigation patterns with composure, technical depth, and operational realism.
+I can acknowledge uncertainty without surrendering authority.
+I can show ownership without sounding theatrical.
+And I can connect implementation detail to business risk in plain language.
 
-This chapter pairs naturally with [Channels and Backpressure](./24_channels_and_backpressure.md): when contention dominates, rethinking coordination model is often better than micro-optimising lock usage.
-
-Locking is a tool, not a personality.
-Use it where the invariants demand it.
-And keep the contested space as small as professional pride allows.
+That is the standard I carry into the interview room.
+Not perfection.
+Control.
+When control is visible, trust follows.
+And in production-critical teams, trust is the only currency that compounds.
+Quite manageable, provided I stay precise under pressure.
