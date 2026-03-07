@@ -2,6 +2,7 @@
 
 Use this file as the local instruction set for creating a short interview-preparation book for an upcoming technical interview.
 
+Min chapter length is 70 lines.
 
 
 ## Goal

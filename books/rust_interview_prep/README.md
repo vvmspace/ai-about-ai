@@ -42,3 +42,11 @@ A short, high-impact prep book for a performance-critical full-stack interview (
 - [28. Networking on the Hot Path](./28_networking_on_the_hot_path.md)
 - [29. Profiling Before Opinions](./29_profiling_before_opinions.md)
 - [30. Benchmark Design That Interviewers Trust](./30_benchmark_design_that_interviewers_trust.md)
+- [31. Cache Locality and Data-Oriented Thinking](./31_cache_locality_and_data_oriented_thinking.md)
+- [32. Failure Modes in Real-Time Pipelines](./32_failure_modes_in_real_time_pipelines.md)
+- [33. Production Readiness Checklist](./33_production_readiness_checklist.md)
+
+### Act IV — Full-Stack and System Design Rounds
+
+- [34. Architecture Interview: Drawing Under Pressure](./34_architecture_interview_drawing_under_pressure.md)
+- [35. Trading Pipeline End-to-End](./35_trading_pipeline_end_to_end.md)
