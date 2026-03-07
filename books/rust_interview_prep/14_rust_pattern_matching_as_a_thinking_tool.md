@@ -1,70 +1,56 @@
 # Pattern Matching as a Thinking Tool
 
-I had learned long ago that panic wastes the very resource I need most: clean judgment.
-In this chapter, I treat pattern matching for safer branching and clearer intent as a practical operation, not a motivational slogan.
-The interviewer is not searching for drama.
-They are searching for signals of control, range, and decision quality.
-Once I accepted that, my preparation became sharper and far less noisy.
+The first time I used `match` properly in Rust, I noticed something inconvenient.
+It exposed every branch I had hoped to ignore.
+Annoying for my ego.
+Excellent for production quality.
 
-I start with a quick scene from real interview pressure.
-A question lands, time compresses, and several valid options appear at once.
-This is the decisive moment.
-If I ramble, I look uncertain.
-If I overclaim, I look reckless.
-If I structure my reasoning, I look employable.
-That distinction matters more than reciting textbook definitions.
+Pattern matching is not just syntax.
+It is a way to force complete reasoning.
+In interview settings, complete reasoning is a rare and very visible signal.
 
-My method is simple enough to execute while tired.
-First, I name the operating context in one sentence.
-Second, I state the boundary conditions and constraints.
-Third, I present the trade-off and the decision path.
-Fourth, I mention how I would measure success in production.
-This rhythm makes complex topics legible under observation.
+When I handle state machines, protocol messages, or error variants, I default to `match`.
+Why?
+Because exhaustiveness checks turn forgotten paths into compile errors.
+I prefer that conversation with a compiler over a pager at 3 a.m.
 
-For this topic, I prepare concrete artifacts, not abstract confidence.
-I keep short examples I can explain without opening an editor.
-I keep one failure story with a clear correction loop.
-I keep one performance story with baseline, intervention, and result.
-I keep one collaboration story where communication changed the outcome.
-Interviewers remember clarity attached to consequences.
+A common interview fragment:
 
-When the discussion becomes technical, I resist the urge to impress with jargon.
-I prefer explicit assumptions.
-I prefer naming what I know, what I suspect, and what I would test next.
-That is how senior engineers sound in difficult rooms.
-Precision is persuasive.
-Calm sequencing is even more persuasive.
+```rust
+match state {
+    OrderState::New => validate_and_route(),
+    OrderState::RiskRejected { reason } => log_rejection(reason),
+    OrderState::Routed { venue } => await_execution(venue),
+    OrderState::Filled { qty, px } => persist_fill(qty, px),
+    OrderState::Cancelled => finalize_cancel(),
+}
+```
 
-I also rehearse the failure envelope.
-What breaks first when load rises?
-What signals degradation before outage?
-Which knobs are safe to turn during market hours?
-Where does determinism collapse into luck?
-Questions like these separate builders from framework tourists.
+No implicit fall-through.
+No vague “should never happen.”
+Every case gets a decision.
 
-On the full-stack side, I keep the same discipline.
-Backend latency and frontend correctness are not separate universes in trading workflows.
-If data freshness is unstable, the UI can become confidently wrong.
-If interaction design hides uncertainty, traders make expensive decisions faster.
-So I speak about contracts, timing guarantees, and observable states across the boundary.
-That usually earns immediate attention.
+I also use pattern matching for error control:
+- recoverable errors get bounded retries;
+- policy errors stop early;
+- unknown errors are surfaced with context.
 
-My rehearsal loop is short and ruthless.
-I answer out loud.
-I time each answer.
-I cut anything decorative.
-I keep evidence, mechanism, and impact.
-If a point cannot survive cross-examination, it leaves the script.
+Interviewers often ask whether `if let` is enough.
+Sometimes, yes.
+For single-happy-path extraction, `if let` is tidy.
+For full branch accountability, `match` is safer and clearer.
 
-By the final pass, the chapter objective is straightforward.
-I can discuss pattern matching for safer branching and clearer intent with composure, technical depth, and operational realism.
-I can acknowledge uncertainty without surrendering authority.
-I can show ownership without sounding theatrical.
-And I can connect implementation detail to business risk in plain language.
+My rule is this:
+Use the construct that makes unhandled reality impossible to hide.
+That tends to be `match`.
 
-That is the standard I carry into the interview room.
-Not perfection.
-Control.
-When control is visible, trust follows.
-And in production-critical teams, trust is the only currency that compounds.
-Quite manageable, provided I stay precise under pressure.
+When pressure rises, pattern matching helps me think aloud.
+I can narrate each branch with consequence.
+“If this is `RiskRejected`, we skip routing and emit structured telemetry for Trading visibility.”
+
+That style reads as operational maturity.
+Because it is.
+
+Pattern matching is less about elegance than honesty.
+It forces the code to admit the world has multiple outcomes.
+And interviews, like production, reward engineers who prepare for all of them.

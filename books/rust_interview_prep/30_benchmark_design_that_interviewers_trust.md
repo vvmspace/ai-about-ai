@@ -1,70 +1,47 @@
 # Benchmark Design That Interviewers Trust
 
-I had learned long ago that panic wastes the very resource I need most: clean judgment.
-In this chapter, I treat benchmark design that survives interviewer scrutiny as a practical operation, not a motivational slogan.
-The interviewer is not searching for drama.
-They are searching for signals of control, range, and decision quality.
-Once I accepted that, my preparation became sharper and far less noisy.
+Anyone can produce a fast benchmark number.
+Producing a trustworthy one is a different profession.
+Interviewers in performance-critical roles know the difference instantly.
 
-I start with a quick scene from real interview pressure.
-A question lands, time compresses, and several valid options appear at once.
-This is the decisive moment.
-If I ramble, I look uncertain.
-If I overclaim, I look reckless.
-If I structure my reasoning, I look employable.
-That distinction matters more than reciting textbook definitions.
+When I discuss benchmarking, I focus on credibility.
+A result is only useful if workload, environment, and interpretation are explicit.
+Otherwise we are comparing theatre props.
 
-My method is simple enough to execute while tired.
-First, I name the operating context in one sentence.
-Second, I state the boundary conditions and constraints.
-Third, I present the trade-off and the decision path.
-Fourth, I mention how I would measure success in production.
-This rhythm makes complex topics legible under observation.
+My benchmark checklist is practical:
+- define the question (what decision will this benchmark inform?);
+- use representative input distributions;
+- include warmup and sufficient sample size;
+- control noisy variables where possible;
+- report percentile latency, not just average;
+- compare against a clear baseline.
 
-For this topic, I prepare concrete artifacts, not abstract confidence.
-I keep short examples I can explain without opening an editor.
-I keep one failure story with a clear correction loop.
-I keep one performance story with baseline, intervention, and result.
-I keep one collaboration story where communication changed the outcome.
-Interviewers remember clarity attached to consequences.
+Average latency can flatter broken systems.
+Tail latency tells the operational truth.
+For trading paths, p95 and p99 are often the lines that matter.
 
-When the discussion becomes technical, I resist the urge to impress with jargon.
-I prefer explicit assumptions.
-I prefer naming what I know, what I suspect, and what I would test next.
-That is how senior engineers sound in difficult rooms.
-Precision is persuasive.
-Calm sequencing is even more persuasive.
+I also separate benchmark types in interviews.
+Microbenchmarks test local mechanics.
+Scenario benchmarks test integrated behaviour.
+Load tests reveal failure policy and saturation shape.
+Each answers a different question.
 
-I also rehearse the failure envelope.
-What breaks first when load rises?
-What signals degradation before outage?
-Which knobs are safe to turn during market hours?
-Where does determinism collapse into luck?
-Questions like these separate builders from framework tourists.
+A common anti-pattern is benchmark-driven overfitting.
+Code gets brilliant at one synthetic case and fragile everywhere else.
+I’d advise against it.
+Benchmarks should constrain decisions, not replace judgement.
 
-On the full-stack side, I keep the same discipline.
-Backend latency and frontend correctness are not separate universes in trading workflows.
-If data freshness is unstable, the UI can become confidently wrong.
-If interaction design hides uncertainty, traders make expensive decisions faster.
-So I speak about contracts, timing guarantees, and observable states across the boundary.
-That usually earns immediate attention.
+When panelists ask, “How would you prove this optimisation helps?” I answer with structure:
+- establish baseline;
+- apply minimal change;
+- rerun same workload;
+- compare percentile improvements and variance;
+- verify no regressions in correctness or resource profile.
 
-My rehearsal loop is short and ruthless.
-I answer out loud.
-I time each answer.
-I cut anything decorative.
-I keep evidence, mechanism, and impact.
-If a point cannot survive cross-examination, it leaves the script.
+This chapter follows directly from [Profiling Before Opinions](./29_profiling_before_opinions.md).
+Profiling finds candidates.
+Benchmark design validates outcomes.
 
-By the final pass, the chapter objective is straightforward.
-I can discuss benchmark design that survives interviewer scrutiny with composure, technical depth, and operational realism.
-I can acknowledge uncertainty without surrendering authority.
-I can show ownership without sounding theatrical.
-And I can connect implementation detail to business risk in plain language.
-
-That is the standard I carry into the interview room.
-Not perfection.
-Control.
-When control is visible, trust follows.
-And in production-critical teams, trust is the only currency that compounds.
-Quite manageable, provided I stay precise under pressure.
+Trustworthy benchmarks do not just show speed.
+They show that speed survives scrutiny.
+And scrutiny is exactly what interview rooms simulate.

@@ -1,70 +1,66 @@
 # Two-Day War Plan
 
-I had learned long ago that panic wastes the very resource I need most: clean judgment.
-In this chapter, I treat a two-day execution plan with strict prioritization as a practical operation, not a motivational slogan.
-The interviewer is not searching for drama.
-They are searching for signals of control, range, and decision quality.
-Once I accepted that, my preparation became sharper and far less noisy.
+With less than two days, preparation is no longer a study programme.
+It is an operation with timing, scope, and acceptable risk.
+I plan it the way I would plan a production migration: clear objectives, bounded tasks, and checkpoints.
 
-I start with a quick scene from real interview pressure.
-A question lands, time compresses, and several valid options appear at once.
-This is the decisive moment.
-If I ramble, I look uncertain.
-If I overclaim, I look reckless.
-If I structure my reasoning, I look employable.
-That distinction matters more than reciting textbook definitions.
+I use six blocks across two days.
+No block exceeds three hours without a break, because cognitive quality collapses before ambition does.
 
-My method is simple enough to execute while tired.
-First, I name the operating context in one sentence.
-Second, I state the boundary conditions and constraints.
-Third, I present the trade-off and the decision path.
-Fourth, I mention how I would measure success in production.
-This rhythm makes complex topics legible under observation.
+## Day 1 — Build Technical Control
 
-For this topic, I prepare concrete artifacts, not abstract confidence.
-I keep short examples I can explain without opening an editor.
-I keep one failure story with a clear correction loop.
-I keep one performance story with baseline, intervention, and result.
-I keep one collaboration story where communication changed the outcome.
-Interviewers remember clarity attached to consequences.
+### Block 1 (2h): Rust Core Refresh
+I review ownership, borrowing, `Result`/`Option`, pattern matching, traits, and collections.
+Not by passive reading.
+I write short snippets and explain each decision aloud.
+Goal: remove hesitation in fundamentals.
 
-When the discussion becomes technical, I resist the urge to impress with jargon.
-I prefer explicit assumptions.
-I prefer naming what I know, what I suspect, and what I would test next.
-That is how senior engineers sound in difficult rooms.
-Precision is persuasive.
-Calm sequencing is even more persuasive.
+### Block 2 (2.5h): Async and Concurrency Reality
+I focus on Tokio mental model, channels, task cancellation, lock scope, and backpressure.
+I compare two small designs: shared state with locks vs message-passing pipeline.
+Goal: answer architecture questions with trade-off language, not slogans.
 
-I also rehearse the failure envelope.
-What breaks first when load rises?
-What signals degradation before outage?
-Which knobs are safe to turn during market hours?
-Where does determinism collapse into luck?
-Questions like these separate builders from framework tourists.
+### Block 3 (2h): Performance and Observability
+I rehearse profiling logic: establish baseline, locate hotspot, change one variable, re-measure.
+I prepare crisp definitions for throughput, latency, p99, jitter, and contention.
+Goal: sound like someone who measures before he optimises.
 
-On the full-stack side, I keep the same discipline.
-Backend latency and frontend correctness are not separate universes in trading workflows.
-If data freshness is unstable, the UI can become confidently wrong.
-If interaction design hides uncertainty, traders make expensive decisions faster.
-So I speak about contracts, timing guarantees, and observable states across the boundary.
-That usually earns immediate attention.
+## Day 2 — Convert Knowledge Into Interview Output
 
-My rehearsal loop is short and ruthless.
-I answer out loud.
-I time each answer.
-I cut anything decorative.
-I keep evidence, mechanism, and impact.
-If a point cannot survive cross-examination, it leaves the script.
+### Block 4 (2h): CV Cross-Examination
+I run through every major CV bullet.
+For each, I speak one 90-second answer with metric, technical detail, and lesson.
+Goal: eliminate vague narratives.
 
-By the final pass, the chapter objective is straightforward.
-I can discuss a two-day execution plan with strict prioritization with composure, technical depth, and operational realism.
-I can acknowledge uncertainty without surrendering authority.
-I can show ownership without sounding theatrical.
-And I can connect implementation detail to business risk in plain language.
+### Block 5 (2h): Full-Stack Scenarios
+I practise questions that bridge backend and trading UI:
+- market data bursts and UI consistency;
+- degraded backend modes and frontend fallbacks;
+- API design choices affecting user trust.
+Goal: prove cross-stack ownership.
 
-That is the standard I carry into the interview room.
-Not perfection.
-Control.
-When control is visible, trust follows.
-And in production-critical teams, trust is the only currency that compounds.
-Quite manageable, provided I stay precise under pressure.
+### Block 6 (2h): Mock Interview and Recovery Drills
+I simulate pressure: rapid technical questions, one system design prompt, one behavioural round.
+I deliberately include questions I may not answer perfectly.
+Goal: maintain composure and structured reasoning under uncertainty.
+
+Between blocks, I keep short resets:
+- 10 minutes walk;
+- zero doom-scrolling;
+- quick note of what improved and what remains risky.
+
+I also keep a “last-mile” sheet for interview day:
+- 12 Rust truths I can explain cleanly;
+- 5 CV stories with metrics;
+- 6 questions to ask interviewer about latency budget, incident ownership, and success criteria;
+- 3 phrases for honest uncertainty.
+
+Example phrase: “I haven’t used that exact approach in production, so I’d validate it in stages: correctness, load profile, then latency impact.”
+
+The plan looks strict because it is.
+Pressure rewards structure.
+
+By the final evening, I do not aim to feel invincible.
+I aim to feel prepared, bounded, and dangerous in the right places.
+That is more than enough.
+In interview operations, elegant discipline beats heroic improvisation.

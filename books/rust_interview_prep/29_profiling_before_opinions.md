@@ -1,70 +1,42 @@
 # Profiling Before Opinions
 
-I had learned long ago that panic wastes the very resource I need most: clean judgment.
-In this chapter, I treat profiling methodology before optimization claims as a practical operation, not a motivational slogan.
-The interviewer is not searching for drama.
-They are searching for signals of control, range, and decision quality.
-Once I accepted that, my preparation became sharper and far less noisy.
+The most expensive sentence in performance work is, “I think the bottleneck is…”
+Sometimes it is correct.
+Often it is merely confident.
 
-I start with a quick scene from real interview pressure.
-A question lands, time compresses, and several valid options appear at once.
-This is the decisive moment.
-If I ramble, I look uncertain.
-If I overclaim, I look reckless.
-If I structure my reasoning, I look employable.
-That distinction matters more than reciting textbook definitions.
+In interviews, I state my rule early.
+No optimisation without evidence.
+No architectural rewrite without baseline metrics.
+Opinion may start the search.
+Measurement ends the argument.
 
-My method is simple enough to execute while tired.
-First, I name the operating context in one sentence.
-Second, I state the boundary conditions and constraints.
-Third, I present the trade-off and the decision path.
-Fourth, I mention how I would measure success in production.
-This rhythm makes complex topics legible under observation.
+My profiling loop is disciplined:
+- define workload and success metric;
+- capture baseline (throughput, p95/p99, CPU, allocation rate);
+- isolate hotspot with profiler traces;
+- change one variable at a time;
+- rerun under comparable load;
+- keep or revert based on data.
 
-For this topic, I prepare concrete artifacts, not abstract confidence.
-I keep short examples I can explain without opening an editor.
-I keep one failure story with a clear correction loop.
-I keep one performance story with baseline, intervention, and result.
-I keep one collaboration story where communication changed the outcome.
-Interviewers remember clarity attached to consequences.
+This sounds obvious.
+Under deadline pressure, teams skip half of it.
+Then they optimise symptoms.
 
-When the discussion becomes technical, I resist the urge to impress with jargon.
-I prefer explicit assumptions.
-I prefer naming what I know, what I suspect, and what I would test next.
-That is how senior engineers sound in difficult rooms.
-Precision is persuasive.
-Calm sequencing is even more persuasive.
+I also separate micro and macro evidence.
+A microbenchmark can validate a local improvement.
+Only end-to-end measurement proves user-visible impact.
+Interviewers usually appreciate that distinction.
 
-I also rehearse the failure envelope.
-What breaks first when load rises?
-What signals degradation before outage?
-Which knobs are safe to turn during market hours?
-Where does determinism collapse into luck?
-Questions like these separate builders from framework tourists.
+When asked about tools, I avoid fan club behaviour.
+Flamegraphs, tracing spans, allocator stats, and runtime metrics are all useful.
+Tool choice is secondary to method quality.
 
-On the full-stack side, I keep the same discipline.
-Backend latency and frontend correctness are not separate universes in trading workflows.
-If data freshness is unstable, the UI can become confidently wrong.
-If interaction design hides uncertainty, traders make expensive decisions faster.
-So I speak about contracts, timing guarantees, and observable states across the boundary.
-That usually earns immediate attention.
+A small interview phrase that works well:
+“I’d like to see where wall time accumulates before selecting an optimisation strategy.”
+It signals patience and control.
 
-My rehearsal loop is short and ruthless.
-I answer out loud.
-I time each answer.
-I cut anything decorative.
-I keep evidence, mechanism, and impact.
-If a point cannot survive cross-examination, it leaves the script.
+This chapter naturally extends [Networking on the Hot Path](./28_networking_on_the_hot_path.md): once network, parsing, and queueing are separated in traces, tuning decisions become far less theatrical.
 
-By the final pass, the chapter objective is straightforward.
-I can discuss profiling methodology before optimization claims with composure, technical depth, and operational realism.
-I can acknowledge uncertainty without surrendering authority.
-I can show ownership without sounding theatrical.
-And I can connect implementation detail to business risk in plain language.
-
-That is the standard I carry into the interview room.
-Not perfection.
-Control.
-When control is visible, trust follows.
-And in production-critical teams, trust is the only currency that compounds.
-Quite manageable, provided I stay precise under pressure.
+If you optimise before profiling, you may improve code and worsen the system.
+If you profile first, you may fix less code and improve the business metric.
+I prefer the second arrangement.

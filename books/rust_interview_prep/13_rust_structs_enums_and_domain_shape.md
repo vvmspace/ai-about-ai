@@ -1,70 +1,59 @@
 # Structs, Enums, and Domain Shape
 
-I had learned long ago that panic wastes the very resource I need most: clean judgment.
-In this chapter, I treat structs and enums for domain modeling in trading systems as a practical operation, not a motivational slogan.
-The interviewer is not searching for drama.
-They are searching for signals of control, range, and decision quality.
-Once I accepted that, my preparation became sharper and far less noisy.
+I have seen fast systems fail because their data model had lied.
+Not maliciously.
+Just vaguely.
+Vagueness is expensive in production.
 
-I start with a quick scene from real interview pressure.
-A question lands, time compresses, and several valid options appear at once.
-This is the decisive moment.
-If I ramble, I look uncertain.
-If I overclaim, I look reckless.
-If I structure my reasoning, I look employable.
-That distinction matters more than reciting textbook definitions.
+Rust gives us a better bargain.
+`struct` for stable data shape.
+`enum` for explicit state variation.
+Together, they make illegal states harder to represent.
+That is exactly what you want on an order path.
 
-My method is simple enough to execute while tired.
-First, I name the operating context in one sentence.
-Second, I state the boundary conditions and constraints.
-Third, I present the trade-off and the decision path.
-Fourth, I mention how I would measure success in production.
-This rhythm makes complex topics legible under observation.
+In interviews, I start with domain truth before syntax.
+“What states can an order actually be in, and which transitions are forbidden?”
+Once that is clear, the types almost write themselves.
 
-For this topic, I prepare concrete artifacts, not abstract confidence.
-I keep short examples I can explain without opening an editor.
-I keep one failure story with a clear correction loop.
-I keep one performance story with baseline, intervention, and result.
-I keep one collaboration story where communication changed the outcome.
-Interviewers remember clarity attached to consequences.
+A minimal sketch:
 
-When the discussion becomes technical, I resist the urge to impress with jargon.
-I prefer explicit assumptions.
-I prefer naming what I know, what I suspect, and what I would test next.
-That is how senior engineers sound in difficult rooms.
-Precision is persuasive.
-Calm sequencing is even more persuasive.
+```rust
+enum OrderState {
+    New,
+    RiskRejected { reason: String },
+    Routed { venue: String },
+    Filled { qty: u64, px: i64 },
+    Cancelled,
+}
 
-I also rehearse the failure envelope.
-What breaks first when load rises?
-What signals degradation before outage?
-Which knobs are safe to turn during market hours?
-Where does determinism collapse into luck?
-Questions like these separate builders from framework tourists.
+struct Order {
+    id: u64,
+    symbol: String,
+    state: OrderState,
+}
+```
 
-On the full-stack side, I keep the same discipline.
-Backend latency and frontend correctness are not separate universes in trading workflows.
-If data freshness is unstable, the UI can become confidently wrong.
-If interaction design hides uncertainty, traders make expensive decisions faster.
-So I speak about contracts, timing guarantees, and observable states across the boundary.
-That usually earns immediate attention.
+Now behaviour is explicit.
+A `Filled` order carries execution data.
+A `New` order does not pretend to have it.
+That single decision removes entire classes of defensive `if` statements.
 
-My rehearsal loop is short and ruthless.
-I answer out loud.
-I time each answer.
-I cut anything decorative.
-I keep evidence, mechanism, and impact.
-If a point cannot survive cross-examination, it leaves the script.
+Candidates sometimes default to one giant struct with many optional fields.
+I’m not convinced.
+It compresses complexity into runtime uncertainty.
+Enums move that uncertainty into compile-time checks.
 
-By the final pass, the chapter objective is straightforward.
-I can discuss structs and enums for domain modeling in trading systems with composure, technical depth, and operational realism.
-I can acknowledge uncertainty without surrendering authority.
-I can show ownership without sounding theatrical.
-And I can connect implementation detail to business risk in plain language.
+I also use newtypes for critical identifiers.
+`OrderId(u64)` and `VenueId(u16)` may look ceremonial.
+Until someone swaps parameters in a hotfix.
+Then they look prudent.
 
-That is the standard I carry into the interview room.
-Not perfection.
-Control.
-When control is visible, trust follows.
-And in production-critical teams, trust is the only currency that compounds.
-Quite manageable, provided I stay precise under pressure.
+When interviewers ask about trade-offs, I keep it honest.
+Richer type models cost a little upfront design time.
+They repay it during maintenance, incident response, and onboarding.
+On high-stakes systems, that is a very favourable exchange rate.
+
+For the avoidance of doubt, domain modelling is not decoration.
+It is latency and reliability work in disguise.
+If your types encode reality, your runtime spends less time negotiating ambiguity.
+And ambiguity is where expensive bugs breed.
