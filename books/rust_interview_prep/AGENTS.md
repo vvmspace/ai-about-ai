@@ -11,6 +11,7 @@ Source materials are mandatory:
 1. Job description (target role and expectations)
 2. Style guide (tone and linguistic constraints)
 3. CV sent by the candidate (CV.md) - after reading this book, the candidate also should be able to answer any question about his CV.
+4. Chapters guide (CHAPTERS_GUIDE.md)
 
 ---
 
