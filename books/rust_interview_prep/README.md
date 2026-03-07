@@ -55,3 +55,12 @@ A short, high-impact prep book for a performance-critical full-stack interview (
 - [38. API Contracts Between Rust and Frontend](./38_api_contracts_between_rust_and_frontend.md)
 - [39. Testing Strategy Across the Stack](./39_testing_strategy_across_the_stack.md)
 - [40. Debugging Stories They Actually Remember](./40_debugging_stories_they_actually_remember.md)
+
+### Act V — Interview Performance and Offer Decision
+
+- [41. Behavioral Questions as Signal Engineering](./41_behavioral_questions_as_signal_engineering.md)
+- [42. The Rust Live-Coding Round](./42_the_rust_live_coding_round.md)
+- [43. The Questions I Ask Them](./43_the_questions_i_ask_them.md)
+- [44. Negotiation With Composure](./44_negotiation_with_composure.md)
+- [45. After the Handshake](./45_after_the_handshake.md)
+
